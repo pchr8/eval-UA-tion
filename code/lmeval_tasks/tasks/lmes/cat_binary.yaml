@@ -1,0 +1,37 @@
+task: lmes_catsbin
+dataset_path: "shamotskyi/lmes_catsbin"
+group:
+- lmes
+- eval-UA-tion
+- exact
+- final
+#dataset_name: "DoAllWordsBelongToCatTask"
+output_type: generate_until
+generation_kwargs:
+    until:
+        # - "\n\n"
+        # - ":"
+        - "\n"
+        - "</s>"
+num_fewshot: 3
+#  max_length: 40
+training_split: null
+validation_split: null
+test_split: train
+fewshot_split: fewshot
+doc_to_text: "Питання: {{question}}\nВідповідь:"
+# doc_to_target: "{{correctAnswer}}"
+doc_to_target: !function utils.parse_binary
+# doc_to_choice: "{{['так', 'ні']}}"
+# doc_to_choice: "{{[additionalMetadata_option_0, additionalMetadata_option_1]}}"
+# should_decontaminate: true
+# doc_to_decontamination_query: question_stem
+
+metric_list:
+  - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+    ignore_case: true
+    ignore_punctuation: true
+metadata:
+  version: 1.0

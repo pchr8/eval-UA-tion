@@ -1,0 +1,39 @@
+task: lmes_catsmc
+group: 
+- lmes
+- eval-UA-tion
+- final
+- exact
+dataset_path: "shamotskyi/lmes_catsmc"
+# dataset_name: "WhichWordWrongCatTask"
+output_type: generate_until
+generation_kwargs:
+    until:
+        - "\n\n"
+        # - ":"
+        - "\n"
+        # - ")"
+        - "</s>"
+training_split: null
+validation_split: null
+test_split: train
+fewshot_split: fewshot
+# doc_to_text: "{{question}} Відповідь: "
+doc_to_text: "Питання: {{question}}\nВідповідь:"
+doc_to_target: "{{correctAnswer}}"
+# doc_to_choice: "{{additionalMetadata_all_options}}"
+# doc_to_choice: "{{['yes', 'no']}}"
+# should_decontaminate: true
+# doc_to_decontamination_query: question_stem
+
+metric_list:
+  - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+    ignore_case: true
+    ignore_punctuation: true
+    regexes_to_ignore:
+        - "\\s+"
+num_fewshot: 3
+metadata:
+  version: 1.0

@@ -1,0 +1,31 @@
+task: lmes_wordalpha
+group: 
+- lmes 
+- eval-UA-tion
+- exact
+- final
+dataset_path: "shamotskyi/lmes_wordalpha"
+output_type: generate_until
+num_fewshot: 3
+#  max_length: 40
+training_split: null
+validation_split: null
+test_split: train
+fewshot_split: fewshot
+doc_to_text: "Питання: {{question}}\nВідповідь:"
+doc_to_target: "{{correctAnswer}}"
+# doc_to_target: "{{additionalMetadata_label}}"
+# doc_to_choice: "{{[additionalMetadata_option_0, additionalMetadata_option_1]}}"
+metric_list:
+  - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+    ignore_case: true
+    ignore_punctuation: true
+    # Sometimes in some of the fewshot patterns a space is needed, sometimes isn't
+    # so we don't penalize models that predict the correct word but prepended by a space
+    regexes_to_ignore:
+        - "\\s+"
+num_fewshot: 3
+metadata:
+  version: 1.0

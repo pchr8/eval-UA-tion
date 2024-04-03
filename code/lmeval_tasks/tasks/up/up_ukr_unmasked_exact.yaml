@@ -1,0 +1,35 @@
+task: up_unmasked
+dataset_path: "anilev6/UkrPravdaTrainingDataset5000"
+group: 
+- up 
+- eval-UA-tion
+- exact
+- final
+output_type: generate_until
+generation_kwargs:
+    until:
+        - "\n\n"
+        # - ":"
+        - "\n"
+        - ")"
+        - "</s>"
+num_fewshot: 3
+#  max_length: 40
+training_split: null
+validation_split: null
+test_split: train
+#fewshot_split: test
+# doc_to_text: "{{ukr_text}}\nПИТАННЯ: Який заголовок найбільше підходить до статті?\nВІДПОВІДЬ: "
+doc_to_text: !function utils.doc_to_text_unmasked
+doc_to_target: !function utils.doc_to_target_unmasked
+# doc_to_target: "{{ukr_title}}"
+# doc_to_choice: "{{similar_titles}}"
+
+metric_list:
+  - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+    ignore_case: true
+    ignore_punctuation: true
+metadata:
+  version: 1.0
