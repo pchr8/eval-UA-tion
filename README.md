@@ -28,3 +28,18 @@ It was initially my Master's Thesis (see [/other/MA](/other/MA)) and was accepte
 - [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for the code, [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) for the Thesis and presentation unless stated otherwise. 
 - The presentation uses the MIT-licensed animation from the README of the excellent [anilev6/HumanResponseBot: a special research project](https://github.com/anilev6/HumanResponseBot).
 
+
+## Thanks and acknowledgements
+These awesome people helped proofread the stories, annotate the datasets and establish human baselines (in alphabetical order):
+- Serhii Hamotskyi
+- Oleksii K.
+- Viacheslav Kravchenko
+- Daria Kravets
+- Anna-Izabella Levbarg
+- Lina Mykhailenko
+- Mariia Tkachenko
+- @arturius453
+
+
+Anna-Izabella Levbarg wrote the [anilev6/HumanResponseBot](https://github.com/anilev6/HumanResponseBot) Telegram bot used for all human baselines. 
+
