@@ -14,6 +14,7 @@ from rich import inspect, print
 
 # This is the CSV for the https://huggingface.co/datasets/shamotskyi/ukr_pravda_2y dataset
 UP_CSV_PATH = "/tmp/full_crawls/dataset_up_since_2022_2023-12-13_nocommit.csv"
+# UP_CSV_PATH = "/home/sh/uuni/master/data/up_crawls/full_crawls/dataset_up_since_2022_2023-12-13_nocommit.csv"
 
 NUM_ROWS = 5000
 NUM_ROWS = None
@@ -31,8 +32,8 @@ NUM_OPTS = 10
 DATASET_SIZE = 5000
 
 # DATASET_SIZE = 20
-# NUM_DOCS_TO_SAMPLE = 100
-# NUM_ROWS = 10
+# NUM_DOCS_TO_SAMPLE = 15000
+# NUM_ROWS = 10000
 
 
 OUTPUT_DS_PATH = (
