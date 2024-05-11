@@ -1,0 +1,154 @@
+\chapter{Related work}\label{related-work}
+This chapter describes a number of initiatives dedicated to the creation 
+of Ukrainian corpora and datasets and looks at some of them (both translations of classic large, well-known datasets such as UA-SQuAD and novel ones, such as the Ukrainian Independent Examination test) in more detail.
+
+In the last \autoref{sec:related-why-eval-ua-tion},  motivates the usefulness of an additional set of labeled datasets in the role of a benchmark.
+
+\section{State of the research \&
+literature}\label{sec:state-of-the-research--literature}
+The interest in Ukrainian NLP research increased in recent years, for reasons likely connected with the ones described in Section \ref{the-contemporary-ukrainian-linguistic-landscape}: not only have more people switched to using (and therefore requiring better support for) Ukrainian full-time, 
+but it's reasonable to assume that the same effect applies to researchers as well.
+
+\subsection{UNLP}
+\label{sec:unlp}
+The first Ukrainian Natural Language Processing Workshop (UNLP) was held in 2021 in Kherson (Ukraine) in a hybrid format, 
+the second — UNLP 2023\footnote{\href{https://2023.unlp.org.ua/}{https://2023.unlp.org.ua}} — 
+was held mostly online and was co-located with EACL 2023, and according to the organizers\footnote{\href{https://unlp.org.ua/history/}{https://unlp.org.ua/history/}} the UNLP workshop at EACL hosted around 100 attendees and featured the first shared task in Ukrainian Grammar Error Correction\footnote{\href{https://github.com/osyvokon/unlp-2023-shared-task}{https://github.com/osyvokon/unlp-2023-shared-task}} which attracted 15 teams.
+
+UNLP 2024 will be held online in conjunction with LREC-COLING 2024 and features a shared task as well — one that ``aims to challenge and assess LLMs’ capabilities to understand and generate Ukrainian, paving the way for LLM development in Slavic languages'',\footnote{\href{https://github.com/unlp-workshop/unlp-2024-shared-task}{https://github.com/unlp-workshop/unlp-2024-shared-task}} in the context of which open LLMs fine-tuned for the Ukrainian language have been trained (the results were posted on Twitter;%
+\footnote{ 
+\href{https://twitter.com/UNLP_workshop/status/1764650679283417575}{https://twitter.com/UNLP\_workshop/status/1764650679283417575}} the winning model by the Sherlock team achieved impressive scores on the Eval-UA-tion datasets in \autoref{ch:experiments}).
+
+% A paper describing the Eval-UA-tion benchmark has been accepted for publication in UNLP-2024, underscoring the relevance of novel labeled datasets to the field.
+% Grammarly, a Ukraine-founded company, has offices in Kyiv, and 
+
+\subsection{Lists and resources}
+As in many topics, a number of curated lists exist on Github, most notably:
+\begin{enumerate}
+    \tightlist
+    \item The List of Ukrainian Language Tools by the Language Technology Research Group at the University of Helsinki.\footnote{\href{https://github.com/Helsinki-NLP/UkrainianLT}{https://github.com/Helsinki-NLP/UkrainianLT}}
+    \item Oleksiy Syvokon's \textit{awesome-ukrainian-nlp} list.\footnote{\href{https://github.com/osyvokon/awesome-ukrainian-nlp}{https://github.com/osyvokon/awesome-ukrainian-nlp}}
+\end{enumerate}
+
+The latter contains extensive lists of dictionaries, corpora, tools, and pretrained models (in addition to the labeled datasets) that are good starting points for work in the area. 
+
+\section{Datasets and benchmarks}\label{datasets}\label{sec:related-ukr-datasets}
+A number of efforts are underway to create Ukrainian-language datasets and benchmarks. 
+This section lists some of the existing Ukrainian-language datasets (as well as multilingual datasets that include significant Ukrainian portions) and is not meant to be conclusive. No formal filtering/inclusion criteria have been applied, but the intent is to include a) notable/large/important datasets, b) datasets conceivably usable as benchmark datasets (chiefly — labeled ones), and c) datasets similar to the ones described in this Thesis.
+
+\begin{description}
+    \item[UA-datasets~\cite{ua_datasets_2021}] is a collection\footnote{\href{https://fido-ai.github.io/ua-datasets/}{https://fido-ai.github.io/ua-datasets/}} of Ukrainian language datasets that aims to build a benchmark for NLP in Ukrainian. It currently comprises three datasets: 
+    \begin{enumerate}
+        \tightlist
+        \item UA-SQuAD: Ukrainian version of the Stanford Question Answering Dataset~\cite{rajpurkar_know_2018} (including context, questions and answers), as of 25.03.2024 in progress with 13,859 samples translated and 2,927 remaining.
+        \item UA News:\footnote{\href{https://fido-ai.github.io/ua-datasets/examples/ua\_news/}{https://fido-ai.github.io/ua-datasets/examples/ua\_news/}} a collection of ``more than 150 thousand news articles, gathered from more than 20 news resources''. The samples are classified into 5 categories: politics, sports, news, business, and technology. 
+        \item Mova Institute POS: Part of Speech tagging dataset with 8,016 sentences, 111,739/\allowbreak141,286 words/tokens, based on data from the Mova Institute.\footnote{\href{https://mova.institute/}{https://mova.institute/}}
+    \end{enumerate}
+    All three datasets are considerably larger than the ones included in Eval-UA-tion, and have been a direct inspiration for the benchmark itself. 
+    The \textit{UA News} dataset can be seen as an overlap with the \textit{UP-Titles} dataset, but it's unlikely to have an overlap in the articles and in the task setting (which in the case of UP-Titles is about matching similar titles, not categories).
+    \item[UNLP-2024 shared task] The shared task contains train and test datasets for both tasks, exam questions (3,063/751 train/test multiple-choice question/answer pairs) and open questions text generation tasks (20/100 train/test instruction prompts, to be evaluated by humans). The datasets are available 
+    on GitHub.\footnote{\href{https://github.com/unlp-workshop/unlp-2024-shared-task}{https://github.com/unlp-workshop/unlp-2024-shared-task}}
+    \item[WSC-UA~\cite{kuchmiichuk-2023-silver}] contains manual translations of 263 Winograd schemas from the WSC~\cite{winograd} dataset.
+    \item[osyvokon/zno] 
+    (alternatively \textit{ZNO dataset}\footnote{\href{https://huggingface.co/datasets/osyvokon/zno}{https://huggingface.co/datasets/osyvokon/zno}})
+    contains machine-readable question-answer pairs from the 2006-2019 (train) and 2020-2023 (test) Ukrainian \textit{External Independent Testing} (the examination for admission to universities in Ukraine, also known as \textit{ZNO}) on the topics of Ukrainian history, language and literature. 
+    \item[Djinni Dataset (Ukrainian CVs part)~\cite{djinni}] illustrates a typical pattern for the creation of monolingual datasets: filtering a larger multilingual one. The dataset contains anonymized Ukrainian CVs and job postings from the Djinni recruitment platform.
+\end{description}
+
+The Kruk GitHub repository%
+\footnote{\href{https://github.com/robinhad/kruk/}{https://github.com/robinhad/kruk/}} collects datasets, training scripts and examples for Ukrainian instruction-tuned language models and datasets.
+Loosely related to the topic of manual correction of LLM-generated stories is the topic of grammaticality in general. UA-GEC~\citep{Syvokon2022} is a large grammatical error correction corpus separately annotating  fluency, grammar, punctuation and spelling errors. 
+% Otherwise, The HuggingFace Hub has an extensive list of datasets and models that can be filtered by language, leading to many multilingual resources but Ukrainian datasets as well.
+
+% \subsection{Resources}
+% This subsection describes resources potentially helpful for building datasets, considered but not used in this Thesis unless otherwise stated.
+
+% \begin{enumerate}
+%     \item \href{https://data.gov.ua/}{https://data.gov.ua/} is the Open Data Portal Ukraine, containing a large amount of datasets generated by the various levels of Ukraine's government. As of this writing contained 33,804 datasets. The website states that according to Ukrainian Law this data is freely available and usable, including commercially, as long as their source is clearly stated.\footnote{As sample, the dataset linked at \href{https://opendata.gov.ua/dataset/petitions/resource/670993f4-127e-47bf-b58a-dad1a358dbee}{https://opendata.gov.ua/dataset/petitions/resource/670993f4-127e-47bf-b58a-dad1a358dbee} has petitions with a title, a category (transport, health, ecology, ...), and the result. I considered creating a classification dataset out of it.} \end{enumerate}
+%     \item A variety of dictionaries are digitized, including 
+% The words were taken from the David Klinger Ukrainian dictionary\footnote{https://github.com/dmklinger/ukrainian} which in turn uses DBnary \citep{serasset_dbnary_2015} and WikiDictionary. 
+
+\section{Multilanguage datasets that include Ukrainian portions}
+\label{sec:multilingual}
+Multilanguage datasets are one possible source of Ukrainian labeled data, but they come with their
+own potential issues. 
+
+\subsection{Issues related to crawled multilingual datasets}
+The quality of multilingual datasets, especially wrt. under-resourced languages, has
+been found to have many systematic issues~\cite{10.1162/tacl_a_00447}.
+This is caused by the fact that the translations inside crawled datasets are rarely manually checked, 
+since doing this can be problematic for massive multilingual datasets with hundreds of languages. 
+However, other—more easily solvable—issues were also found, such as clearly unusable malformatted data that requires no language knowledge to identify or language labeling using non-standard language codes.\footnote{
+Language codes are an issue; in the case of Ukrainian, the commonly used ISO 639-1 language code is \textit{uk}, which can cause confusion with the country United Kingdom — whose \textit{country code} is traditionally \textit{UK} (and Ukraine's is UA). 
+For this reason, the Ukrainska Pravda multilingual dataset described in \autoref{app:pravda} uses the more unambiguous ISO 639-3 language codes, e.g. \textit{ukr} for Ukrainian.
+}
+
+For Ukrainian, according to the tests done by the authors, the multilingual C4 (\textbf{mC4}) dataset used for training the mT5 LM was the highest-quality one, with 95.48\% being translated correctly (and 81.41\% being natural, useful sentences, as opposed to boilerplate or single short words). 
+\textbf{CCAligned} had the lowest-quality Ukrainian data, with 42\% of tested sentences being useful and 35\% (!) being incorrect translations. 
+(CCAligned generally presented severe problems: 44 of the 65 languages tested contained less than 50\% of correct sentences,  and across the entire dataset 31\% was nonlinguistic content — in other words, wasn't language at all.)
+
+Automated language identification is often used to generate such datasets, and in the case of Ukrainian and Russian, especially for short sentences, mislabeling is possible. 
+The text preprocessing in the Ukrainian GRAC corpus~\cite{9648705} deals with this issue extensively.
+
+% (e.g. the multilingual translation dataset FLORES+~\cite{nllb-22} with more than 200 languages) it's unlikely that native speakers are available.
+
+\begin{description}
+\item[Belebele~\cite{bandarkar_belebele_2023}] is a parallel reading comprehension dataset in 122 languages, based on the FLORES-200~\cite{nllb-22} dataset. It contains 900 instances in Ukrainian.
+\item[Polyglot-or-Not/Fact-Completion~\cite{schott_polyglot_2023}] is a dataset used for measuring encyclopedic knowledge of LMs in 20 languages\footnote{Interestingly, one of the findings was that Llama-33B performed worse for languages using the Cyrillic script compared to languages using the Latin script.} based on WikiData. The splits were generated using machine translation. It contains \~7.92k rows in its Ukrainian split.
+\item[OPUS-100~\cite{zhang_improving_2020}] \enquote{is an English-centric multilingual corpus covering 100 languages}, including 1M English-Ukrainan language pairs. 
+\end{description}
+A cursory manual check found no obvious issues in the Ukrainian data of Belebele and Polyglot-Or-Not. But in OPUS-100, after \textbf{manually looking at the first 100 pairs, Russian was found in 36 of them}.
+
+The OPUS parallel corpora website allows searching for parallel corpora based on the two target languages\footnote{\href{https://opus.nlpl.eu/}{https://opus.nlpl.eu/}} and previewing these datasets.
+
+\section{Corpora}
+\label{sec:corpora}
+\begin{description}
+\item[Brown-UK] is an open, balanced corpus of modern Ukrainian language with about \~1M
+tokens.\footnote{\href{https://github.com/brown-uk/corpus}{https://github.com/brown-uk/corpus}} 
+It's being annotated for NER as part of the 
+NER-UK dataset.\footnote{\href{https://github.com/lang-uk/ner-uk}{https://github.com/lang-uk/ner-uk}}
+\item[CC-100] The CC-100~\cite{conneau-etal-2020-unsupervised} dataset contains monolingual data for 100+ languages, and includes a 14G Ukrainian part. It's based on data ultimately coming from 2018 CommonCrawl.
+\item[GRAC~\cite{shvedova2017grac}] The General Regionally Annotated Corpus of Ukrainian (GRAC)\footnote{\href{https://uacorpus.org/Kyiv/en}{https://uacorpus.org}} is \enquote{a large representative collection of texts in Ukrainian accompanied by a program that enables customization of subcorpora, searching words, grammatical forms and their combinations as well as post-processing of the query results}. It contains over 130 thousand texts by about 30 thousand authors, spanning 
+the years 1816-2022.
+\end{description}
+
+The NGO \textbf{Mova Institute}\footnote{\href{https://mova.institute/}{https://mova.institute/}} curates a number of projects, most prominently \textit{Золотий морфосинтаксовий стандарт} (\enquote{Gold Morphosyntactic Standard}), a corpus spanning over 140k tokens with 120k of them having 
+morphosyntactic annotations. 
+It's the base of the Ukrainian Universal Dependencies (UD) corpus, which provides an English-language README about the project.%
+\footnote{\href{https://github.com/UniversalDependencies/UD_Ukrainian-IU}{https://github.com/UniversalDependencies/UD\_Ukrainian-IU}}
+The Institute hosts other projects as well, including parallel corpora, an online corpus viewer, as well as a free API that does morphological analyses (shown in \autoref{sec:theory-disamb-example}).
+
+GRAC hosts a list of other Slavic and Ukrainian-language corpora\footnote{\href{https://uacorpus.org/Kyiv/en/other-ukrainian-and-slavic-corpora}{https://uacorpus.org/Kyiv/en/other-ukrainian-and-slavic-corpora}} (in English).
+
+% \section{Libraries}
+% \subsection{pymorphy}\label{sec:pymorphy}
+% \begin{description}
+% \item[Pymorphy2~\cite{Korobov}] is a Python\enquote{morphological analyzer and generator for the Russian and Ukrainian languages}. It's available on GitHub\footnote{\href{https://github.com/pymorphy2/pymorphy2}{https://github.com/pymorphy2/pymorphy2}}.
+% Morphological analysis refers to the analysis of the structure of words, from which information can be derived (e.g. is it a noun or a verb? Is it singular or plural?). Morphological generation refers to the process of building a word based on its morphological representation (in this Thesis a similar process is often under the umbrella of \textit{inflection}).
+% Pymorphy2 added Ukrainian support more recently than Russian, and it's not able to do probability estimations for different morphology analyses that need to be disambiguated, for reasons related to Ukrainian corpus/dictionary availability.
+% \item[Pymorphy3] Pymorphy3%
+% \footnote{\href{https://github.com/no-plagiarism/pymorphy3}{https://github.com/no-plagiarism/pymorphy3}} is a fork of pymorphy2 that uses more recent and extensive Ukrainian dictionaries%
+% \footnote{\href{https://github.com/no-plagiarism/pymorphy3-dicts}{https://github.com/no-plagiarism/pymorphy3-dicts}}. 
+% Both libraries use for the generation of Ukrainian dictionaries use LanguageTool\footnote{A grammar checker: \href{https://languagetool.org/}{https://languagetool.org/}} data that is then converted to the OpenCorpora\footnote{\href{https://opencorpora.org/}{https://opencorpora.org/}} format used natively in pymorphy2, with the conversion involving mapping between the tagsets.
+
+% \end{description}
+
+
+\section{The context for Eval-UA-tion}
+\label{sec:related-why-eval-ua-tion}
+Multilingual datasets are one source of data for the creation of Ukrainian datasets — but this approach is fraught with difficulties. Taking the Ukrainian subset of a multilingual collection of CVs is a valid approach (to the extent that the language of the CVs is ascertained — CVs for Ukrainian companies can be written in Ukrainian, Russian, and English), but e.g. taking the subset labeled as Ukrainian from a large crawled multilingual dataset brings with itself certain risks related to the quality of the original datasets (which may contain not contain high-quality language or language at all) and the quality of its labeling and language detection approaches. 
+
+Some of these issues relate more to corpora than to labeled datasets (which is the focus of this Thesis), but it's relevant insofar as this source material is used for building such labeled datasets.
+For example, using an ML model to do sentiment analysis on English sentences from the OPUS-100 dataset, finding the `corresponding' Ukrainian-language ones, and building a Ukrainian-language sentiment detection dataset from it might lead to a dataset with 30\% training instances containing Russian sentences.
+Automatically translating the English sentences to Ukrainian ones is a better approach, but automatic translation isn't flawless either.
+
+The Eval-UA-tion benchmark contains \textit{novel} datasets that aren't automated translations, aren't based on language detection data, aren't based on Ukrainian subsets of scraped datasets (the UP-Titles tasks were scraped using a custom scraper written for a single, very structured website, with language written by proficient language users as opposed to user-generated comments). 
+With the exception of UP-Titles, dataset contamination has been minimized as well.
+
+Looking back at the topic of language independence and representation 
+(\autoref{ukrainian-as-a-mid-resource-language}), with Ukrainian having benefitted from pretraining but \enquote{let down by the lack of labeled datasets}, it's clear that a set of novel high-quality labeled datasets would add value to the existing ongoing efforts regardless of how it's used.
+
+Eval-UA-tion doesn't compete with the larger fine-tuning datasets, where even imperfect linguistic material can add value, but as a smaller curated dataset it aims to provide a fair benchmark for the models that were trained on potentially messy data.
+
+

@@ -1,0 +1,90 @@
+\chapter{Conclusions and future work}\label{conclusion}
+In this Thesis the Eval-UA-tion benchmark is introduced. It's one of the first
+% \footnote{second, counting the UA-datasets benchmark (\autoref{sec:related-ukr-datasets}}
+benchmarks specifically designed for evaluating Ukrainian language models. 
+This benchmark addresses the increasing need for NLP resources for the Ukrainian language, especially ones aimed at assessing and improving language models aimed at supporting the Ukrainian digital ecosystem.
+
+Eval-UA-tion includes three tasks: UA-CBT, a fill-in-the-blanks test based on children's stories; LMentry-static-UA (LMES), which challenges models on linguistic tasks that are easy for humans; and UP-Titles, involving the matching of articles to their correct titles. 
+
+The experimental results presented in this Thesis clearly show that while language models such as GPT-4 can handle Ukrainian with a reasonable degree of fluency, there's much room for improvement with smaller LLMs; and during the creation of these benchmarks, it became clear that even state-of-the-art models such as GPT-4 and Gemini Pro are unable to write longer coherent texts in grammatically correct Ukrainian. 
+On the other hand, the experiments confirm the assumption that fine-tuning models on Ukrainian-language datasets improves their scores on Ukrainian tasks — 
+and that even small 7B models with effective fine-tuning are able to compete (and in certain cases surpass) the much larger GPT-3 and GPT-4 models. %it's assumed that larger LMs fine-tuned on Ukrainian would perform at least just as well. 
+
+These findings affirm that the last two research objectives formulated at the beginning of this Thesis (\autoref{sec:research-objectives}) have been successfully met, confirming the value in targeted dataset development and model training for language-specific applications. The first two research objectives — evaluating the existing resources and comparing Ukrainian-language LLM effectiveness to human performance — have been met as well.
+
+During the creation of these datasets, gaps in the existing tools were clearly seen — some of them could be filled by writing new Python packages and making them open source; this was possible only because of great work done by others, released under open licenses.
+Similarly, the Eval-UA-tion datasets would have been impossible without the human annotators, who manually solved many incredibly tedious tasks involving counting letters or fixing grammar errors in endless stories about turtles — the dedication shown by everyone was truly inspiring.
+
+After publishing the \textit{ukr\_pravda\_2y} (\autoref{app:pravda}) dataset on the HuggingFace Hub, at least one person used it to build a Ukrainian text summarization dataset and train a model\footnote{
+\href{https://huggingface.co/d0p3/O3ap-sm}{https://huggingface.co/d0p3/O3ap-sm} 
+}
+on it  — the feeling of being part of a snowball rolling from a hill is exhilarating. Each new resource makes it easier to create other ones.
+
+The datasets from the Eval-UA-tion benchmark are released with the hope that they will motivate (and simplify) further research and innovation in Ukrainian NLP and multilingual models, the development of tools needed in the process, and the release of them under open licenses, contributing to a thriving community.
+
+\section{Future work}
+In addition to the unaddressed gaps listed in \autoref{sec:limitations}, many interesting avenues for future work remain, relating to additional experiments, analyses and improvements on the existing datasets and the creation of new ones.
+
+\subsection{Language-related topics}
+\begin{enumerate}
+    \tightlist
+    \item Compare the effects of automated and manual translation of datasets, to optimize future resource allocation when creating non-English datasets
+    \item Evaluate whether English-language or Ukrainian-language prompts perform better for tasks related to the Ukrainian language (exploring in more details the findings of \cite{lai_chatgpt_2023} and \cite{sherlock})\footnote{In the initial stages most LMES templates were in English, and the LLMs tested were able to solve these tasks to a comparable degree to the later ones.}
+\end{enumerate}
+
+\subsection{Eval-UA-tion tasks}
+\begin{enumerate}
+    \tightlist
+    \item Evaluate \textbf{UA-CBT} tasks providing the entire story, only the last 35\% of the challenge segment, and only the sentence containing the gap; compare to human scores (as done by the authors of the CBT task~\cite{taskCBT})\footnote{Initial experiments showed higher scores on challenge-segment-only stories compared to the complete ones.}
+    \item Create a larger UA-CBT dataset \textit{without} human filtration (but calculate a human baseline)
+    \item Create a UA-CBT–like dataset with animals in atypical roles (e.g. turtles eating zebras — see \autoref{sec:ua-cbt-cbt-diffs})
+% \end{enumerate}
+
+% Relating to contamination:
+% \begin{enumerate}
+    \item Evaluate the UA-CBT task instances discarded as impossible (multiple correct answers, unknown answer) to gain insights on possible contamination
+    % \item Evaluate UA-CBT on Gemini Pro for deeper insights (compared to the ones described in \autoref{sec:ua-cbt-eval-analysis}) on the performance of ChatGPT and Gemini Pro based on which LLM generated the stories
+    \item  Re-create (and evaluate) UA-CBT using multiple sources of stories, for example:
+        \begin{enumerate}
+            \tightlist
+            \item Completely original stories (no contamination)
+            \item Stories translated from other languages to Ukrainian
+            \item Ukrainian-language public domain stories paraphrased or modified by an LLM
+            \item Public-domain stories from Project Gutenberg (high contamination assumed)
+        \end{enumerate}
+\end{enumerate}
+% \subsection{LMES}
+% \subsubsection{Robustness}
+The \textbf{LMES} datasets contain a large amount of metadata for evaluating robustness. 
+In LOW/WIS, investigate the impact of the size of the word/sentence and of the index of the letter/word on the accuracy (e.g. how much harder is finding the tenth word in a sentence compared to the second word?). 
+Investigate robustness to switching words and to different templates.
+% \subsubsection{Size}
+Generate a larger LMES dataset. % (in this Thesis it was capped at 2000, but a much larger number of instances can be generated using the exact same data and templates). 
+Deprioritize the focus on robustness, and instead of sequentially cutting the needed number of instances, randomly sample the entire dataset, leading to more varied dataset with instances based on different words/sentences.
+
+\subsection{New tasks}
+\subsubsection{Feminization of language}
+Feminization — the use of feminine personal nouns e.g. for professions (compare the German \textit{Informatiker\textbf{in}}) — is a phenomenon inherent to the Ukrainian language. 
+The proportion of feminine occupational titles in newspaper articles has been increasing 
+% since 2000, and increasing at a higher rate 
+in the last decade and were codified in the official 2019 orthography rules~\cite{synchak2023feminine}. 
+
+Generate a dataset composed of sentences such as \textit{My wife programs computers to perform certain functions: she is a ...} in both genders to evaluate how often LLMs would use the male-gender noun instead of a feminine one (if such a feminine noun exists and is prevalent in the language).
+The code for generating such pairs using GPT-4 exists, but the dataset was not finalized and not included in the benchmark.
+
+\subsubsection{Russian-Ukrainian interference dataset}
+Create a dataset to estimate the extent to which a LLM is influenced by Russian language when generating Ukrainian text. 
+This can be done drawing from the literature on Native Language Identification (which estimates a person's native language based on specific language patterns in their use of a foreign tongue) as well as from the typology of errors in the  Grammatical Error Correction and Fluency Corpus (UA-GEC~\cite{Syvokon2022}).
+Literature listing typical Russian-influenced incorrect Ukrainian language patterns, as well as false friends (similar words in two languages having different meanings), can be used for this as well.
+
+% \subsubsection{Other sources of data}
+% The Open Data Portal Ukraine (\href{https://data.gov.ua/}{https://data.gov.ua/}) contains a large
+% (as of this writing 33,804)
+% amount of datasets generated by the various levels of Ukraine's government.  
+% The website states that according to Ukrainian Law this data is freely available and usable, including commercially, as long as their source is clearly stated.
+
+% This could be used to generate datasets as well — for example, petitions%
+% \footnote{\href{https://opendata.gov.ua/dataset/petitions/resource/670993f4-127e-47bf-b58a-dad1a358dbee}{https://opendata.gov.ua/dataset/petitions/resource/670993f4-127e-47bf-b58a-dad1a358dbee}} with a title, a category (transport, health, ecology, ...), and whether it was approved or not.
+
+
+% The path forward involves continuous refinement of models and benchmarks, ensuring that as the digital landscape evolves, Ukrainian language technologies keep pace, offering robust support for a language that is vibrant and rich, yet historically underserved in the digital realm.
