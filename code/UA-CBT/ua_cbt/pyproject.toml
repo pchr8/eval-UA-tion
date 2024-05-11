@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "ua_cbt"
+version = "0.1.0"
+description = "Ukrainian Children's Book Test"
+authors = ["Serhii Hamotskyi <serhii.hamotskyi@hs-anhalt.de>"]
+readme = "README.md"
+packages = [{include = "ua_cbt", from = "src"}, {include = "cbt_prompt_generation", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+spacy = "^3.7.2"
+ebooklib = "^0.18"
+rich = "^13.6.0"
+bs4 = "^0.0.1"
+dataclass-wizard = "^0.22.2"
+pymorphy2 = "^0.9.1"
+pymorphy2-dicts-uk = "^2.4.1.1.1460299261"
+pytest = "^7.4.3"
+russian-tagsets = "^0.6"
+pyinflect = "^0.5.1"
+pymorphy-spacy-disambiguation = {git = "https://github.com/pchr8/pymorphy-spacy-disambiguation"}
+pyyaml = "^6.0.1"
+pandas = "^2.2.0"
+flatten-dict = "^0.4.2"
+scikit-learn = "^1.4.0"
+omegaconf = "^2.3.0"
+uk-core-news-sm = {url = "https://github.com/explosion/spacy-models/releases/download/uk_core_news_sm-3.7.0/uk_core_news_sm-3.7.0-py3-none-any.whl"}
+
+[tool.poetry.group.dev.dependencies]
+pdbpp = "^0.10.3"
+# pdbr = "^0.8.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+# run = "ua_cbt.iteration:main"
+run = "ua_cbt.__main__:main"
+ml = "ua_cbt.ml:main"
+gen = "cbt_prompt_generation.oop_recursive_generate:main"

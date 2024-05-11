@@ -1,0 +1,102 @@
+main_template: "{story_setting}\n\n\n{story_details}\n\n\n{ending}"
+
+templates:
+    story_setting: 
+        options: ["Write an interesting story in the style of {STYLE}, with at least N_MAIN_CHARACTERS recurring main characters and N_MINOR_CHARACTERS minor ones. None of the characters should have names: they should be referred to by the name of their species, and their gender should be the same as that name of their species. Try to choose the species so that all are of the same gender. {ALL_SHOULD_BE_ANIMALS} Don't use magic as a plot point, or contrived or unusual uses for objects. Don't start the story by listing the characters. \nThe story should be READING_LEVEL reading level. Please make it rather detailed than generic - don't mention that X had to Y, but show/tell him doing that. Above all, it should be logical and consistent. It should be no longer than NUM_WORDS words. BAD_ENDING "]
+        parts:
+            STYLE: 
+                 # - Stephen King
+                #  - Victor Hugo
+                # - Serhii Zhadan
+                - a Ukrainian folk tale
+                # - an Italian folk tale
+                #  - a Bulgarian folk tale
+                - an Arabic folk tale
+                #  - an Australian folk tale
+                
+            # N_MAIN_CHARACTERS: ["3"]
+            # N_MINOR_CHARACTERS: ["3", "4", "6"]
+
+            #  CHARACTERS_GENDERS_DESCRIPTION:
+            #      - the same gender
+            #      - different genders
+            ALL_SHOULD_BE_ANIMALS: ['All should be animals.']
+            # BAD_ENDING: ['The story should have an unhappy ending.', '']
+    story_details: 
+        options: 
+            - The story should be about {CHARACTER} {DOING_THING}.
+        parts:
+            CHARACTER:
+                options:
+                    - "{attribute} cat"
+                    - "{attribute} snake"
+                    - "{attribute} camel"
+                    - "{attribute} butterfly"
+                    - "{attribute} turtle"
+                    - "{attribute} mouse"
+                    #  - "{attribute} apprentice"
+                    #  - "{attribute} economist"
+                parts:
+                    attribute:
+                        - a cunning
+                        - a tricky
+                        - a wise
+                        - a greedy
+                        - a rich
+                        - a lazy
+                        - a small
+                        - a strong
+                        - a humble
+                        #  - a devout
+                        - a bright
+                        #  - a spiritual
+            DOING_THING:
+                options:
+                    #  - learning the true meaning of {holiday}
+                    - not learning anything
+                    - helping their mentor with {problem_type} problem
+                    - resolving a dispute involving {dispute_topic}
+                    - proving that they are a good {profession} 
+                    - rescuing {entity} from {rescue_from}
+                    - proving their innocence
+                    # - struggling to maintain balance between allegiances
+                parts:
+                    #  holiday: ['family', 'Christmas', 'generosity']
+                    problem_type:
+                        - an embarassing
+                        - an unexpected
+                        - a recurring
+                        - a financial
+                        - a communication
+                        - "a totally predictable"
+                        #  - a never never seen
+                    dispute_topic:
+                        - lost food
+                        - stolen food
+                        - a home being annexed by bad neighbors
+                    profession:
+                        - friend
+                        - tailor
+                        #  - bürgermeister
+                        - hunter
+                        #  - son
+                    entity:
+                        #  - a friend
+                        - a relative
+                        #  - a classmate
+                        - a lost traveler
+                    rescue_from:
+                        #  - an evil master
+                        - a tornado
+                        - the cold
+                        - captivity
+
+    ending:
+        options: ["Write the story in grammatically correct Ukrainian language. Start with the words:\n{start_words}"]
+        parts: 
+            start_words:
+                - Одного разу,
+                - Колись давним-давно
+                - Якось, 
+                - Жив-був, 
+                # - Ця історія відбулась

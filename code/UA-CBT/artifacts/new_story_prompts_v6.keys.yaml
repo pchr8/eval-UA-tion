@@ -1,0 +1,11 @@
+BAD_ENDING:
+- ' The story should have an unhappy ending.'
+- ''
+NUM_WORDS:
+- '500'
+N_MAIN_CHARACTERS:
+- '3'
+N_MINOR_CHARACTERS:
+- '5'
+READING_LEVEL:
+- graduate student
