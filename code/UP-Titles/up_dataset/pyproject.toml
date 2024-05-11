@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "up-dataset"
+version = "0.1.0"
+description = ""
+authors = ["Hamotskyi, Serhii <serhii.hamotskyi@hs-anhalt.de>"]
+readme = "README.md"
+packages = [{include = "up_dataset", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.0"
+scikit-learn = "^1.4.0"
+pdbpp = "^0.10.3"
+tqdm = "^4.66.2"
+rich = "^13.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
