@@ -1,0 +1,218 @@
+/*-- scss:defaults --*/
+$presentation-slide-text-align: center !default;
+$font-family-sans-serif: "Source Sans Pro" !default;
+
+// // to make h1 transparently usable for vertical 
+// $presentation-h1-font-size: 1.6em;
+// $presentation-h2-font-size: 1.6em;
+
+/*-- scss:rules --*/
+
+//
+// .reveal .title-slide .secheader h1 {
+// 	font-size: 2.5em;
+// 	// $presentation-h1-font-size: 2.5em;
+// }
+
+.notcenter {
+	text-align: left;
+}
+
+.newsmaller {
+	font-size: calc(#{$presentation-font-size-root} * #{$presentation-font-smaller});
+}
+
+.grey {
+	color: grey;
+}
+
+.emphred {
+	color: darkred;
+}
+
+.emphblue {
+	color: darkblue;
+}
+
+.emphgreen {
+	color: darkgreen;
+}
+
+// https://github.com/hakimel/reveal.js/blob/master/css/reveal.scss#L186
+
+.reveal .slides section .fragment.highlight-dg,
+.reveal .slides section .fragment.highlight-current-dg,
+.reveal .slides section .fragment.highlight-dp,
+.reveal .slides section .fragment.highlight-current-dp {
+	opacity: 1;
+	visibility: inherit;
+}
+
+.reveal .slides section .fragment.highlight-dg.visible,
+.reveal .slides section .fragment.highlight-current-dg.current-fragment {
+	color: darkgreen;
+}
+
+
+.reveal .slides section .fragment.highlight-dp.visible,
+.reveal .slides section .fragment.highlight-current-dp.current-fragment {
+	color: purple;
+}
+
+
+
+// Model colors for results slide 
+//
+// {'Ms-Inst-Ukr-Slerp': (0.6509803921568628,
+//   0.807843137254902,
+//   0.8901960784313725),
+//  'Ms-Inst-Ukr-sherl': (0.12156862745098039,
+//   0.47058823529411764,
+//   0.7058823529411765),
+//  'Ms-Inst-Ukr-SFT': (0.9921568627450981,
+//   0.7490196078431373,
+//   0.43529411764705883),
+//  'gpt-3.5-turbo': (0.6980392156862745, 0.8745098039215686, 0.5411764705882353),
+//  'gpt-4-1106-preview': (0.2, 0.6274509803921569, 0.17254901960784313),
+//  'Mistral-7B-Instruct-v0.2': (0.8901960784313725,
+//   0.10196078431372549,
+//   0.10980392156862745),
+//  'BASELINE-random': (0.7411764705882353,
+//   0.7411764705882353,
+//   0.7411764705882353),
+//  'BASELINE-human': (0.38823529411764707,
+//   0.38823529411764707,
+//   0.38823529411764707)}
+
+
+$mc-slerp: rgb(166, 206, 227);
+$mc-sherl: rgb(31, 120, 180);
+$mc-gpt3: rgb(178, 223, 138);
+$mc-gpt4: rgb(51, 160, 44);
+$mc-vanilla: rgb(227, 26, 28);
+
+$square-side-size: calc(#{$presentation-font-size-root} * #{$presentation-font-smaller});
+
+.mhl {
+	font-weight: bold;
+}
+
+// .gpt3 {
+// 	color: $mc-gpt3;
+// }
+.gpt3 {
+	position: relative;
+	display: inline-block;
+
+	&::before {
+		content: '';
+		display: inline-block;
+		width: $square-side-size;
+		height: $square-side-size;
+		background-color: $mc-gpt3;
+		border: 1px solid black;
+		margin-right: 5px; // Space between the text and the square
+	}
+}
+
+
+.gpt4 {
+	position: relative;
+	display: inline-block;
+
+	&::before {
+		content: '';
+		display: inline-block;
+		width: $square-side-size;
+		height: $square-side-size;
+		background-color: $mc-gpt4;
+		border: 1px solid black;
+		margin-right: 5px; // Space between the text and the square
+	}
+}
+
+.sherl {
+	position: relative;
+	display: inline-block;
+
+	&::before {
+		content: '';
+		display: inline-block;
+		width: $square-side-size;
+		height: $square-side-size;
+		background-color: $mc-sherl;
+		border: 1px solid black;
+		margin-right: 5px; // Space between the text and the square
+	}
+}
+
+.slerp {
+	position: relative;
+	display: inline-block;
+
+	&::before {
+		content: '';
+		display: inline-block;
+		width: $square-side-size;
+		height: $square-side-size;
+		background-color: $mc-slerp;
+		border: 1px solid black;
+		margin-right: 5px; // Space between the text and the square
+	}
+}
+
+.vanilla {
+	position: relative;
+	display: inline-block;
+
+	&::before {
+		content: '';
+		display: inline-block;
+		width: $square-side-size;
+		height: $square-side-size;
+		background-color: $mc-vanilla;
+		border: 1px solid black;
+		margin-right: 5px; // Space between the text and the square
+	}
+}
+
+.reveal .slide-number {
+	font-size: 1em !important;
+}
+
+// .gpt4 {
+// 	color: $mc-gpt4;
+// }
+//
+//
+// .sherl {
+// 	color: $mc-sherl;
+// }
+//
+//
+// .slerp {
+// 	color: $mc-slerp;
+// }
+//
+// .vanilla {
+// 	color: $mc-vanilla;
+// }
+
+.reveal .imp {
+	position: absolute;
+	left: calc(#{$square-side-size}*(0.1) - #{$square-side-size});
+	bottom: calc(#{$square-side-size}*(0.6) - #{$square-side-size});
+	// bottom: 0px;
+	text-align: left;
+
+
+	&::before {
+		content: '';
+		display: inline-block;
+		width: $square-side-size;
+		height: $square-side-size;
+		background-color: $mc-gpt3;
+		border: 1px solid black;
+		margin-right: 5px; // Space between the text and the square
+	}
+}
