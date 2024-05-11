@@ -1,0 +1,1308 @@
+{
+    "name": "WISTask",
+    "instances": [
+        {
+            "question": "Яке перше слово y реченні \"Переведіть мене через майдан, Де я співав усіх пісень, що знаю\"?",
+            "correctAnswer": "Переведіть",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "7b8fcacd28584261b33b4b1a6170e816",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": 1,
+                "len_haystack": 13,
+                "id": 0
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Переведіть мене через майдан, Де я співав усіх пісень, що знаю\" перше?",
+            "correctAnswer": "Переведіть",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "796818b19ea64832a5acbf2745f6efc0",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": 1,
+                "len_haystack": 13,
+                "id": 1
+            }
+        },
+        {
+            "question": "В реченні \"Переведіть мене через майдан, Де я співав усіх пісень, що знаю\" на першому місці знаходиться слово ...",
+            "correctAnswer": "Переведіть",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "19a51783be914f05844db0f05685748a",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": 1,
+                "len_haystack": 13,
+                "id": 2
+            }
+        },
+        {
+            "question": "В реченні \"Переведіть мене через майдан, Де я співав усіх пісень, що знаю\" під номером один знаходиться слово ...",
+            "correctAnswer": "Переведіть",
+            "templateUuid": "90cbc1d1cccb4b20881470150ce6bcf1",
+            "taskInstanceUuid": "63420b7be0984e4cb4f7cbdd3ca35a88",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "numeral",
+                "needle": 1,
+                "len_haystack": 13,
+                "id": 3
+            }
+        },
+        {
+            "question": "Яке п'яте слово y реченні \"Переведіть мене через майдан, Де я співав усіх пісень, що знаю\"?",
+            "correctAnswer": "Де",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "30dff250b9684917bca08af0fc4211e7",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": 5,
+                "len_haystack": 13,
+                "id": 4
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Переведіть мене через майдан, Де я співав усіх пісень, що знаю\" п'яте?",
+            "correctAnswer": "Де",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "a8b93df7a7de4b5a86b4269bf5de58af",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": 5,
+                "len_haystack": 13,
+                "id": 5
+            }
+        },
+        {
+            "question": "В реченні \"Переведіть мене через майдан, Де я співав усіх пісень, що знаю\" на п'ятому місці знаходиться слово ...",
+            "correctAnswer": "Де",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "49273586993b4bb7a31d22711ea2eda6",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": 5,
+                "len_haystack": 13,
+                "id": 6
+            }
+        },
+        {
+            "question": "В реченні \"Переведіть мене через майдан, Де я співав усіх пісень, що знаю\" під номером п'ять знаходиться слово ...",
+            "correctAnswer": "Де",
+            "templateUuid": "90cbc1d1cccb4b20881470150ce6bcf1",
+            "taskInstanceUuid": "d086f0e5c8f04af59a813582061b95a4",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "numeral",
+                "needle": 5,
+                "len_haystack": 13,
+                "id": 7
+            }
+        },
+        {
+            "question": "Яке дев'яте слово y реченні \"Переведіть мене через майдан, Де я співав усіх пісень, що знаю\"?",
+            "correctAnswer": "пісень",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "9812c87030b44c19984a144368369364",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": 9,
+                "len_haystack": 13,
+                "id": 8
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Переведіть мене через майдан, Де я співав усіх пісень, що знаю\" дев'яте?",
+            "correctAnswer": "пісень",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "e96dff8a4ebd40ef9fc95d8c83e6388c",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": 9,
+                "len_haystack": 13,
+                "id": 9
+            }
+        },
+        {
+            "question": "В реченні \"Переведіть мене через майдан, Де я співав усіх пісень, що знаю\" на дев'ятому місці знаходиться слово ...",
+            "correctAnswer": "пісень",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "53167df3a72c445ca4304900926696ce",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": 9,
+                "len_haystack": 13,
+                "id": 10
+            }
+        },
+        {
+            "question": "В реченні \"Переведіть мене через майдан, Де я співав усіх пісень, що знаю\" під номером дев'ять знаходиться слово ...",
+            "correctAnswer": "пісень",
+            "templateUuid": "90cbc1d1cccb4b20881470150ce6bcf1",
+            "taskInstanceUuid": "982edc2b970f4a3182672cec3bfd968c",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "numeral",
+                "needle": 9,
+                "len_haystack": 13,
+                "id": 11
+            }
+        },
+        {
+            "question": "Яке останнє слово y реченні \"Переведіть мене через майдан, Де я співав усіх пісень, що знаю\"?",
+            "correctAnswer": "знаю",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "e806864eeff14b21bfde9e773f07d944",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": -1,
+                "len_haystack": 13,
+                "id": 12
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Переведіть мене через майдан, Де я співав усіх пісень, що знаю\" останнє?",
+            "correctAnswer": "знаю",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "d3c4393e18b848219892bb37603bc5d2",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": -1,
+                "len_haystack": 13,
+                "id": 13
+            }
+        },
+        {
+            "question": "В реченні \"Переведіть мене через майдан, Де я співав усіх пісень, що знаю\" на останньому місці знаходиться слово ...",
+            "correctAnswer": "знаю",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "6b05af0bee1c4ca599410c98464698c4",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": -1,
+                "len_haystack": 13,
+                "id": 14
+            }
+        },
+        {
+            "question": "Яке перше слово y реченні \"Я в тишу увійду і там сконаю\"?",
+            "correctAnswer": "Я",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "d91118c21996415bbba00ac4727ce2ca",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": 1,
+                "len_haystack": 7,
+                "id": 15
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Я в тишу увійду і там сконаю\" перше?",
+            "correctAnswer": "Я",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "97a8f6fba66e4901bdd608dcdda6a7ba",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": 1,
+                "len_haystack": 7,
+                "id": 16
+            }
+        },
+        {
+            "question": "В реченні \"Я в тишу увійду і там сконаю\" на першому місці знаходиться слово ...",
+            "correctAnswer": "Я",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "a2b6d797da7e440db897f618e7760fcf",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": 1,
+                "len_haystack": 7,
+                "id": 17
+            }
+        },
+        {
+            "question": "В реченні \"Я в тишу увійду і там сконаю\" під номером один знаходиться слово ...",
+            "correctAnswer": "Я",
+            "templateUuid": "90cbc1d1cccb4b20881470150ce6bcf1",
+            "taskInstanceUuid": "a21d3e6e5ab248ccaa73b2bc1e652e63",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "numeral",
+                "needle": 1,
+                "len_haystack": 7,
+                "id": 18
+            }
+        },
+        {
+            "question": "Яке п'яте слово y реченні \"Я в тишу увійду і там сконаю\"?",
+            "correctAnswer": "і",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "2f7cbbf6dcd246dc981b5eb5be28c090",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": 5,
+                "len_haystack": 7,
+                "id": 19
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Я в тишу увійду і там сконаю\" п'яте?",
+            "correctAnswer": "і",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "b1292bfcfc5841a7803395556cae116c",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": 5,
+                "len_haystack": 7,
+                "id": 20
+            }
+        },
+        {
+            "question": "В реченні \"Я в тишу увійду і там сконаю\" на п'ятому місці знаходиться слово ...",
+            "correctAnswer": "і",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "85b39929e73449eb95e8e491eeb5dc5e",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": 5,
+                "len_haystack": 7,
+                "id": 21
+            }
+        },
+        {
+            "question": "В реченні \"Я в тишу увійду і там сконаю\" під номером п'ять знаходиться слово ...",
+            "correctAnswer": "і",
+            "templateUuid": "90cbc1d1cccb4b20881470150ce6bcf1",
+            "taskInstanceUuid": "444db1b37a7c41f6914a7de42d6a2930",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "numeral",
+                "needle": 5,
+                "len_haystack": 7,
+                "id": 22
+            }
+        },
+        {
+            "question": "Яке останнє слово y реченні \"Я в тишу увійду і там сконаю\"?",
+            "correctAnswer": "сконаю",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "25c1bef8fc0a455d9aeb6d8a95536725",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": -1,
+                "len_haystack": 7,
+                "id": 23
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Я в тишу увійду і там сконаю\" останнє?",
+            "correctAnswer": "сконаю",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "fe43b333c4c44411979ae4f360264cf6",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": -1,
+                "len_haystack": 7,
+                "id": 24
+            }
+        },
+        {
+            "question": "В реченні \"Я в тишу увійду і там сконаю\" на останньому місці знаходиться слово ...",
+            "correctAnswer": "сконаю",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "826e957a0b504dc3838fe37b1096bbf9",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": -1,
+                "len_haystack": 7,
+                "id": 25
+            }
+        },
+        {
+            "question": "Яке перше слово y реченні \"Переведіть мене через майдан, Де жінка плаче, та, що був я з нею\"?",
+            "correctAnswer": "Переведіть",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "7eb2b1424691417c97520a7a793baae7",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": 1,
+                "len_haystack": 16,
+                "id": 26
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Переведіть мене через майдан, Де жінка плаче, та, що був я з нею\" перше?",
+            "correctAnswer": "Переведіть",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "4ddcae6b2e3d4d54a8c480667acc95da",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": 1,
+                "len_haystack": 16,
+                "id": 27
+            }
+        },
+        {
+            "question": "В реченні \"Переведіть мене через майдан, Де жінка плаче, та, що був я з нею\" на першому місці знаходиться слово ...",
+            "correctAnswer": "Переведіть",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "f6cc2e0db9964185be217681fbb4d2c8",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": 1,
+                "len_haystack": 16,
+                "id": 28
+            }
+        },
+        {
+            "question": "В реченні \"Переведіть мене через майдан, Де жінка плаче, та, що був я з нею\" під номером один знаходиться слово ...",
+            "correctAnswer": "Переведіть",
+            "templateUuid": "90cbc1d1cccb4b20881470150ce6bcf1",
+            "taskInstanceUuid": "ebfaa813104a4035bf5a3139a58ef7ec",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "numeral",
+                "needle": 1,
+                "len_haystack": 16,
+                "id": 29
+            }
+        },
+        {
+            "question": "Яке п'яте слово y реченні \"Переведіть мене через майдан, Де жінка плаче, та, що був я з нею\"?",
+            "correctAnswer": "Де",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "32c143931dc2400c9c0453a6300cb976",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": 5,
+                "len_haystack": 16,
+                "id": 30
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Переведіть мене через майдан, Де жінка плаче, та, що був я з нею\" п'яте?",
+            "correctAnswer": "Де",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "1ccdd4c24487440b8584d38602f8631c",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": 5,
+                "len_haystack": 16,
+                "id": 31
+            }
+        },
+        {
+            "question": "В реченні \"Переведіть мене через майдан, Де жінка плаче, та, що був я з нею\" на п'ятому місці знаходиться слово ...",
+            "correctAnswer": "Де",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "fb9f0b116c694ef08f17155fc9dd39b8",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": 5,
+                "len_haystack": 16,
+                "id": 32
+            }
+        },
+        {
+            "question": "В реченні \"Переведіть мене через майдан, Де жінка плаче, та, що був я з нею\" під номером п'ять знаходиться слово ...",
+            "correctAnswer": "Де",
+            "templateUuid": "90cbc1d1cccb4b20881470150ce6bcf1",
+            "taskInstanceUuid": "02cfb4a82b7b4d32825020a697589bd3",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "numeral",
+                "needle": 5,
+                "len_haystack": 16,
+                "id": 33
+            }
+        },
+        {
+            "question": "Яке дев'яте слово y реченні \"Переведіть мене через майдан, Де жінка плаче, та, що був я з нею\"?",
+            "correctAnswer": "що",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "6f12152b5cb449ab9738b3f71bc5402f",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": 9,
+                "len_haystack": 16,
+                "id": 34
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Переведіть мене через майдан, Де жінка плаче, та, що був я з нею\" дев'яте?",
+            "correctAnswer": "що",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "93a27683b73a4c5bac40186dae3dd1c9",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": 9,
+                "len_haystack": 16,
+                "id": 35
+            }
+        },
+        {
+            "question": "В реченні \"Переведіть мене через майдан, Де жінка плаче, та, що був я з нею\" на дев'ятому місці знаходиться слово ...",
+            "correctAnswer": "що",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "cf7890a7a2ff47d290d11810a2ad127b",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": 9,
+                "len_haystack": 16,
+                "id": 36
+            }
+        },
+        {
+            "question": "В реченні \"Переведіть мене через майдан, Де жінка плаче, та, що був я з нею\" під номером дев'ять знаходиться слово ...",
+            "correctAnswer": "що",
+            "templateUuid": "90cbc1d1cccb4b20881470150ce6bcf1",
+            "taskInstanceUuid": "729a982c0e9843a1bcd69a1dd15c88fc",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "numeral",
+                "needle": 9,
+                "len_haystack": 16,
+                "id": 37
+            }
+        },
+        {
+            "question": "Яке останнє слово y реченні \"Переведіть мене через майдан, Де жінка плаче, та, що був я з нею\"?",
+            "correctAnswer": "нею",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "775b7cea39a64b99bc1a403cf2c63b83",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": -1,
+                "len_haystack": 16,
+                "id": 38
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Переведіть мене через майдан, Де жінка плаче, та, що був я з нею\" останнє?",
+            "correctAnswer": "нею",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "554d38597f9d4d3fa409092dd5c21c8d",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": -1,
+                "len_haystack": 16,
+                "id": 39
+            }
+        },
+        {
+            "question": "В реченні \"Переведіть мене через майдан, Де жінка плаче, та, що був я з нею\" на останньому місці знаходиться слово ...",
+            "correctAnswer": "нею",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "f725489770194db1aad619bd68021f75",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": -1,
+                "len_haystack": 16,
+                "id": 40
+            }
+        },
+        {
+            "question": "Яке перше слово y реченні \"Мину її і навіть не пізнаю\"?",
+            "correctAnswer": "Мину",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "c5af37d309334c22b8be002e528e3377",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": 1,
+                "len_haystack": 6,
+                "id": 41
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Мину її і навіть не пізнаю\" перше?",
+            "correctAnswer": "Мину",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "9e47f83ae42044f78cb2b6e402a1ae9c",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": 1,
+                "len_haystack": 6,
+                "id": 42
+            }
+        },
+        {
+            "question": "В реченні \"Мину її і навіть не пізнаю\" на першому місці знаходиться слово ...",
+            "correctAnswer": "Мину",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "c46467e953ac494a920cbf2931e44c9a",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": 1,
+                "len_haystack": 6,
+                "id": 43
+            }
+        },
+        {
+            "question": "В реченні \"Мину її і навіть не пізнаю\" під номером один знаходиться слово ...",
+            "correctAnswer": "Мину",
+            "templateUuid": "90cbc1d1cccb4b20881470150ce6bcf1",
+            "taskInstanceUuid": "65c86899879c4b70ac87d1d997b44a3d",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "numeral",
+                "needle": 1,
+                "len_haystack": 6,
+                "id": 44
+            }
+        },
+        {
+            "question": "Яке п'яте слово y реченні \"Мину її і навіть не пізнаю\"?",
+            "correctAnswer": "не",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "ed3f9fa895fa4c5eac281d10dced2ce5",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": 5,
+                "len_haystack": 6,
+                "id": 45
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Мину її і навіть не пізнаю\" п'яте?",
+            "correctAnswer": "не",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "9c60a35a2d074b86b34eb91a458e2a12",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": 5,
+                "len_haystack": 6,
+                "id": 46
+            }
+        },
+        {
+            "question": "В реченні \"Мину її і навіть не пізнаю\" на п'ятому місці знаходиться слово ...",
+            "correctAnswer": "не",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "7890bb42ff094093b2c53ea4e5e085c6",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": 5,
+                "len_haystack": 6,
+                "id": 47
+            }
+        },
+        {
+            "question": "В реченні \"Мину її і навіть не пізнаю\" під номером п'ять знаходиться слово ...",
+            "correctAnswer": "не",
+            "templateUuid": "90cbc1d1cccb4b20881470150ce6bcf1",
+            "taskInstanceUuid": "5a4d69ba6eed4e6a9e49d5e4b86e4f83",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "numeral",
+                "needle": 5,
+                "len_haystack": 6,
+                "id": 48
+            }
+        },
+        {
+            "question": "Яке останнє слово y реченні \"Мину її і навіть не пізнаю\"?",
+            "correctAnswer": "пізнаю",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "aa6246f83dae41ee9c1f9c161bbe2fd2",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": -1,
+                "len_haystack": 6,
+                "id": 49
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Мину її і навіть не пізнаю\" останнє?",
+            "correctAnswer": "пізнаю",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "dcdea56b82ad426eb11fbc7f45bd0008",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": -1,
+                "len_haystack": 6,
+                "id": 50
+            }
+        },
+        {
+            "question": "В реченні \"Мину її і навіть не пізнаю\" на останньому місці знаходиться слово ...",
+            "correctAnswer": "пізнаю",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "5a1ff031e00a4711955c05e59c40500b",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": -1,
+                "len_haystack": 6,
+                "id": 51
+            }
+        },
+        {
+            "question": "Яке перше слово y реченні \"Переведіть мене через майдан З жалями й незабутою любов'ю\"?",
+            "correctAnswer": "Переведіть",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "2597ce7276cd49f7bc41a59e08c16a1e",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": 1,
+                "len_haystack": 9,
+                "id": 52
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Переведіть мене через майдан З жалями й незабутою любов'ю\" перше?",
+            "correctAnswer": "Переведіть",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "0822440a1d0d460abd3195ecb193a693",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": 1,
+                "len_haystack": 9,
+                "id": 53
+            }
+        },
+        {
+            "question": "В реченні \"Переведіть мене через майдан З жалями й незабутою любов'ю\" на першому місці знаходиться слово ...",
+            "correctAnswer": "Переведіть",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "0e7b35e8fb4b4989b3c0c92a445b362e",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": 1,
+                "len_haystack": 9,
+                "id": 54
+            }
+        },
+        {
+            "question": "В реченні \"Переведіть мене через майдан З жалями й незабутою любов'ю\" під номером один знаходиться слово ...",
+            "correctAnswer": "Переведіть",
+            "templateUuid": "90cbc1d1cccb4b20881470150ce6bcf1",
+            "taskInstanceUuid": "f6f4722c90dc4278ad2e720568288e19",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "numeral",
+                "needle": 1,
+                "len_haystack": 9,
+                "id": 55
+            }
+        },
+        {
+            "question": "Яке п'яте слово y реченні \"Переведіть мене через майдан З жалями й незабутою любов'ю\"?",
+            "correctAnswer": "З",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "5cd7ea3a292a46f9a0a3e93dc89c6056",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": 5,
+                "len_haystack": 9,
+                "id": 56
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Переведіть мене через майдан З жалями й незабутою любов'ю\" п'яте?",
+            "correctAnswer": "З",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "ad9ad2ceca6d413f922933e549c4ce3a",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": 5,
+                "len_haystack": 9,
+                "id": 57
+            }
+        },
+        {
+            "question": "В реченні \"Переведіть мене через майдан З жалями й незабутою любов'ю\" на п'ятому місці знаходиться слово ...",
+            "correctAnswer": "З",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "aabde687f78449d49afac0009f9971b5",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": 5,
+                "len_haystack": 9,
+                "id": 58
+            }
+        },
+        {
+            "question": "В реченні \"Переведіть мене через майдан З жалями й незабутою любов'ю\" під номером п'ять знаходиться слово ...",
+            "correctAnswer": "З",
+            "templateUuid": "90cbc1d1cccb4b20881470150ce6bcf1",
+            "taskInstanceUuid": "e910efaf97654a7eb682ca5629d6910f",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "numeral",
+                "needle": 5,
+                "len_haystack": 9,
+                "id": 59
+            }
+        },
+        {
+            "question": "Яке останнє слово y реченні \"Переведіть мене через майдан З жалями й незабутою любов'ю\"?",
+            "correctAnswer": "любов'ю",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "80b13e3256774db485c68d320ede25ab",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": -1,
+                "len_haystack": 9,
+                "id": 60
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Переведіть мене через майдан З жалями й незабутою любов'ю\" останнє?",
+            "correctAnswer": "любов'ю",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "d8ff6fd25a984ddeb626ef7f27e807c0",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": -1,
+                "len_haystack": 9,
+                "id": 61
+            }
+        },
+        {
+            "question": "В реченні \"Переведіть мене через майдан З жалями й незабутою любов'ю\" на останньому місці знаходиться слово ...",
+            "correctAnswer": "любов'ю",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "2b256c432f274adcbb410345e1237759",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": -1,
+                "len_haystack": 9,
+                "id": 62
+            }
+        },
+        {
+            "question": "Яке перше слово y реченні \"Там дужим був і там нікчемним був я\"?",
+            "correctAnswer": "Там",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "358099bdbac34f4dbf83c1ca4dccd93c",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": 1,
+                "len_haystack": 8,
+                "id": 63
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Там дужим був і там нікчемним був я\" перше?",
+            "correctAnswer": "Там",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "ecb2e4cf7cd44beb974826762d386057",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": 1,
+                "len_haystack": 8,
+                "id": 64
+            }
+        },
+        {
+            "question": "В реченні \"Там дужим був і там нікчемним був я\" на першому місці знаходиться слово ...",
+            "correctAnswer": "Там",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "4f43d29f39da45d49ef97f189e2921aa",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": 1,
+                "len_haystack": 8,
+                "id": 65
+            }
+        },
+        {
+            "question": "В реченні \"Там дужим був і там нікчемним був я\" під номером один знаходиться слово ...",
+            "correctAnswer": "Там",
+            "templateUuid": "90cbc1d1cccb4b20881470150ce6bcf1",
+            "taskInstanceUuid": "e7f5e90427df404a90931372a64f984b",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "numeral",
+                "needle": 1,
+                "len_haystack": 8,
+                "id": 66
+            }
+        },
+        {
+            "question": "Яке п'яте слово y реченні \"Там дужим був і там нікчемним був я\"?",
+            "correctAnswer": "там",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "6175ed81dc874f92a445d5ca19c29bf2",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": 5,
+                "len_haystack": 8,
+                "id": 67
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Там дужим був і там нікчемним був я\" п'яте?",
+            "correctAnswer": "там",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "051fa748dbdd4ab7af1fe5a5a846e210",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": 5,
+                "len_haystack": 8,
+                "id": 68
+            }
+        },
+        {
+            "question": "В реченні \"Там дужим був і там нікчемним був я\" на п'ятому місці знаходиться слово ...",
+            "correctAnswer": "там",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "78d9bddfeb634ee1a456564357946551",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": 5,
+                "len_haystack": 8,
+                "id": 69
+            }
+        },
+        {
+            "question": "В реченні \"Там дужим був і там нікчемним був я\" під номером п'ять знаходиться слово ...",
+            "correctAnswer": "там",
+            "templateUuid": "90cbc1d1cccb4b20881470150ce6bcf1",
+            "taskInstanceUuid": "2256c47f04514f92ade72ba0d3586f43",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "numeral",
+                "needle": 5,
+                "len_haystack": 8,
+                "id": 70
+            }
+        },
+        {
+            "question": "Яке останнє слово y реченні \"Там дужим був і там нікчемним був я\"?",
+            "correctAnswer": "я",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "6b728637b38446bf9d660bdce9776063",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": -1,
+                "len_haystack": 8,
+                "id": 71
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Там дужим був і там нікчемним був я\" останнє?",
+            "correctAnswer": "я",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "b5ed24154e3040609135877cc7741daa",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": -1,
+                "len_haystack": 8,
+                "id": 72
+            }
+        },
+        {
+            "question": "В реченні \"Там дужим був і там нікчемним був я\" на останньому місці знаходиться слово ...",
+            "correctAnswer": "я",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "a3a0dc9e3423497c9e80bfac038976be",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": -1,
+                "len_haystack": 8,
+                "id": 73
+            }
+        },
+        {
+            "question": "Яке перше слово y реченні \"Переведіть мене через майдан, Де на тополях виснуть хмари п'яні\"?",
+            "correctAnswer": "Переведіть",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "023906f06b2e4224838dc1501bbaa7e7",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": 1,
+                "len_haystack": 11,
+                "id": 74
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Переведіть мене через майдан, Де на тополях виснуть хмари п'яні\" перше?",
+            "correctAnswer": "Переведіть",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "7924fb8ddf7c457e89a230e5da1bcc9c",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": 1,
+                "len_haystack": 11,
+                "id": 75
+            }
+        },
+        {
+            "question": "В реченні \"Переведіть мене через майдан, Де на тополях виснуть хмари п'яні\" на першому місці знаходиться слово ...",
+            "correctAnswer": "Переведіть",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "226bcf3fd71249698fc08ea5f0f395c4",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": 1,
+                "len_haystack": 11,
+                "id": 76
+            }
+        },
+        {
+            "question": "В реченні \"Переведіть мене через майдан, Де на тополях виснуть хмари п'яні\" під номером один знаходиться слово ...",
+            "correctAnswer": "Переведіть",
+            "templateUuid": "90cbc1d1cccb4b20881470150ce6bcf1",
+            "taskInstanceUuid": "60bc2d3142e641279242284b829e3006",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "numeral",
+                "needle": 1,
+                "len_haystack": 11,
+                "id": 77
+            }
+        },
+        {
+            "question": "Яке п'яте слово y реченні \"Переведіть мене через майдан, Де на тополях виснуть хмари п'яні\"?",
+            "correctAnswer": "Де",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "7be378ae75b5457e90cd23eff9f07af5",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": 5,
+                "len_haystack": 11,
+                "id": 78
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Переведіть мене через майдан, Де на тополях виснуть хмари п'яні\" п'яте?",
+            "correctAnswer": "Де",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "bfa34ecb808f4da89c62c3eaf0330522",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": 5,
+                "len_haystack": 11,
+                "id": 79
+            }
+        },
+        {
+            "question": "В реченні \"Переведіть мене через майдан, Де на тополях виснуть хмари п'яні\" на п'ятому місці знаходиться слово ...",
+            "correctAnswer": "Де",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "c182ed31382d42f185ed84d00d51739f",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": 5,
+                "len_haystack": 11,
+                "id": 80
+            }
+        },
+        {
+            "question": "В реченні \"Переведіть мене через майдан, Де на тополях виснуть хмари п'яні\" під номером п'ять знаходиться слово ...",
+            "correctAnswer": "Де",
+            "templateUuid": "90cbc1d1cccb4b20881470150ce6bcf1",
+            "taskInstanceUuid": "70a90e152d064f3fa01029fff4be91b5",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "numeral",
+                "needle": 5,
+                "len_haystack": 11,
+                "id": 81
+            }
+        },
+        {
+            "question": "Яке дев'яте слово y реченні \"Переведіть мене через майдан, Де на тополях виснуть хмари п'яні\"?",
+            "correctAnswer": "хмари",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "99c8a486b6cf403faccadad4369dcaad",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": 9,
+                "len_haystack": 11,
+                "id": 82
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Переведіть мене через майдан, Де на тополях виснуть хмари п'яні\" дев'яте?",
+            "correctAnswer": "хмари",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "24ac12e4e26046e683e340dc0870271b",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": 9,
+                "len_haystack": 11,
+                "id": 83
+            }
+        },
+        {
+            "question": "В реченні \"Переведіть мене через майдан, Де на тополях виснуть хмари п'яні\" на дев'ятому місці знаходиться слово ...",
+            "correctAnswer": "хмари",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "1ba7ebd36dee413eae0d9b23f55c688f",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": 9,
+                "len_haystack": 11,
+                "id": 84
+            }
+        },
+        {
+            "question": "В реченні \"Переведіть мене через майдан, Де на тополях виснуть хмари п'яні\" під номером дев'ять знаходиться слово ...",
+            "correctAnswer": "хмари",
+            "templateUuid": "90cbc1d1cccb4b20881470150ce6bcf1",
+            "taskInstanceUuid": "db7b74e47e0242df8a42f59bfe6d998d",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "numeral",
+                "needle": 9,
+                "len_haystack": 11,
+                "id": 85
+            }
+        },
+        {
+            "question": "Яке останнє слово y реченні \"Переведіть мене через майдан, Де на тополях виснуть хмари п'яні\"?",
+            "correctAnswer": "п'яні",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "9adc4cc1e9934780abf38c24446e0590",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": -1,
+                "len_haystack": 11,
+                "id": 86
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Переведіть мене через майдан, Де на тополях виснуть хмари п'яні\" останнє?",
+            "correctAnswer": "п'яні",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "7abbc596dda446b988998ccd5907d0f4",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": -1,
+                "len_haystack": 11,
+                "id": 87
+            }
+        },
+        {
+            "question": "В реченні \"Переведіть мене через майдан, Де на тополях виснуть хмари п'яні\" на останньому місці знаходиться слово ...",
+            "correctAnswer": "п'яні",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "abff1d71a247403f966b2203acb16111",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": -1,
+                "len_haystack": 11,
+                "id": 88
+            }
+        },
+        {
+            "question": "Яке перше слово y реченні \"Мій син тепер співає на майдані\"?",
+            "correctAnswer": "Мій",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "afca41b65aff4f9b801bd2aae969cf37",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": 1,
+                "len_haystack": 6,
+                "id": 89
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Мій син тепер співає на майдані\" перше?",
+            "correctAnswer": "Мій",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "6f3e43f994a2417b9469bbf157994b13",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": 1,
+                "len_haystack": 6,
+                "id": 90
+            }
+        },
+        {
+            "question": "В реченні \"Мій син тепер співає на майдані\" на першому місці знаходиться слово ...",
+            "correctAnswer": "Мій",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "1a61efe6f14f4d62a2ba10790c4a2e95",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": 1,
+                "len_haystack": 6,
+                "id": 91
+            }
+        },
+        {
+            "question": "В реченні \"Мій син тепер співає на майдані\" під номером один знаходиться слово ...",
+            "correctAnswer": "Мій",
+            "templateUuid": "90cbc1d1cccb4b20881470150ce6bcf1",
+            "taskInstanceUuid": "4b71b4716d0144e599efc1b6ddc2bdac",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "numeral",
+                "needle": 1,
+                "len_haystack": 6,
+                "id": 92
+            }
+        },
+        {
+            "question": "Яке п'яте слово y реченні \"Мій син тепер співає на майдані\"?",
+            "correctAnswer": "на",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "4af12f5e8b8843f9a989b9c10d07fc3f",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": 5,
+                "len_haystack": 6,
+                "id": 93
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Мій син тепер співає на майдані\" п'яте?",
+            "correctAnswer": "на",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "ea95c9409edd408cab1f0d049f8cce6a",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": 5,
+                "len_haystack": 6,
+                "id": 94
+            }
+        },
+        {
+            "question": "В реченні \"Мій син тепер співає на майдані\" на п'ятому місці знаходиться слово ...",
+            "correctAnswer": "на",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "b5b92470af634e55adf574c452137836",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": 5,
+                "len_haystack": 6,
+                "id": 95
+            }
+        },
+        {
+            "question": "В реченні \"Мій син тепер співає на майдані\" під номером п'ять знаходиться слово ...",
+            "correctAnswer": "на",
+            "templateUuid": "90cbc1d1cccb4b20881470150ce6bcf1",
+            "taskInstanceUuid": "32d10c74581740a887915af790da90a3",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "numeral",
+                "needle": 5,
+                "len_haystack": 6,
+                "id": 96
+            }
+        },
+        {
+            "question": "Яке останнє слово y реченні \"Мій син тепер співає на майдані\"?",
+            "correctAnswer": "майдані",
+            "templateUuid": "037af5852e0140539d3acb25e9b4c4fb",
+            "taskInstanceUuid": "d979870c65e34e159230591451421036",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "ordinal",
+                "needle": -1,
+                "len_haystack": 6,
+                "id": 97
+            }
+        },
+        {
+            "question": "Яке слово в реченні \"Мій син тепер співає на майдані\" останнє?",
+            "correctAnswer": "майдані",
+            "templateUuid": "48fe9fe54b6d4015bd579321ca0e33f4",
+            "taskInstanceUuid": "9e538f42daf8439583d133e3bac773dd",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "needle": -1,
+                "len_haystack": 6,
+                "id": 98
+            }
+        },
+        {
+            "question": "В реченні \"Мій син тепер співає на майдані\" на останньому місці знаходиться слово ...",
+            "correctAnswer": "майдані",
+            "templateUuid": "ffebe4c93a7e4f34b927e9472890277d",
+            "taskInstanceUuid": "004c7b31f6294caaafc818ce738e17d6",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "ordinal",
+                "needle": -1,
+                "len_haystack": 6,
+                "id": 99
+            }
+        }
+    ],
+    "systemPrompts": [
+        "Ви розв'язуєте екзамен з української мови. Вкажіть правильну відповідь одним словом, без лапок."
+    ]
+}

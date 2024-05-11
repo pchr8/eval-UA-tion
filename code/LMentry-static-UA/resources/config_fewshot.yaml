@@ -1,0 +1,39 @@
+cfg:
+    tasks:
+        - LOWTask
+        - WISTask
+        - WordLengthComparisonTask
+        - WordsAlphabetOrderTask
+        - WhichWordWrongCatTask
+        - DoAllWordsBelongToCatTask
+    train_test_split: false
+    # train_test_split:
+    #     - 0.7
+    #     - 0.3
+LOWTask:
+  call_params:
+    lim: 100
+WISTask:
+  init_params:
+    model_name: uk_core_news_sm
+  call_params:
+    lim: 100
+    abstand: 4
+WordLengthComparisonTask:
+  call_params:
+    lim: 100
+WordsAlphabetOrderTask:
+  call_params:
+    lim: 100
+WhichWordWrongCatTask:
+    init_params:
+        path: "/home/sh/uuni/master/code/LMentry-static-UA/resources/word_classes_fewshot.yaml"
+    call_params:
+        num_words_in_cat: 5
+        lim: 1000
+DoAllWordsBelongToCatTask:
+    init_params:
+        path: "/home/sh/uuni/master/code/LMentry-static-UA/resources/word_classes_fewshot.yaml"
+    call_params:
+        num_words_in_cat: 5
+        lim: 1000

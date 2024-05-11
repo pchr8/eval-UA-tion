@@ -1,0 +1,25 @@
+templates:
+- additional-metadata:
+    template_n: 0
+    type: ordinal
+  template: Яке ПЕРШЕ слово y реченні "{SENT}"?
+  uuid: 037af5852e0140539d3acb25e9b4c4fb
+- additional-metadata:
+    template_n: 1
+    type: ordinal
+  template: Яке слово в реченні "{SENT}" ПЕРШЕ?
+  uuid: 48fe9fe54b6d4015bd579321ca0e33f4
+- additional-metadata:
+    template_n: 2
+    type: ordinal
+  template: В реченні "{SENT}" на ПЕРШОМУ місці знаходиться слово ...
+  uuid: ffebe4c93a7e4f34b927e9472890277d
+- additional-metadata:
+    template_n: 3
+    type: numeral
+  template: В реченні "{SENT}" під номером ОДИН знаходиться слово ...
+  uuid: 90cbc1d1cccb4b20881470150ce6bcf1
+
+system_prompts:
+    - 'Ви розв''язуєте екзамен з української мови. Вкажіть правильну відповідь одним словом, без лапок.'
+    # - 'Ви розв''язуєте екзамен з української мови. Вкажіть правильну відповідь одним словом, без лапок. Наприклад: \n Питання: яке слово ПЕРШЕ у реченні "Я зараз буду снідати"? \n Відповідь: Я'

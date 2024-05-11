@@ -1,0 +1,13 @@
+templates:
+- additional-metadata:
+    kind: which_word_foreign
+    template_n: 0
+  template: "Визначте зайве слово з цього списку: {words_list}."
+- additional-metadata:
+    kind: which_word_foreign
+    template_n: 1
+  template: "Вкажіть слово, яке відрізняється від інших: {words_list}."
+
+# TODO + add uuids
+system_prompts:
+    - TODO

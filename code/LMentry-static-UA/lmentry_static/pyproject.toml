@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "lmentry-static"
+version = "0.1.0"
+description = ""
+authors = ["Hamotskyi, Serhii <serhii.hamotskyi@student.hs-anhalt.de>"]
+readme = "README.md"
+packages = [
+{include = "lmentry_static", from = "src"}, 
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+num2words = "^0.5.13"
+pymorphy2 = "^0.9.1"
+pymorphy2-dicts-uk = "^2.4.1.1.1460299261"
+rich = "^13.7.0"
+spacy = "^3.7.2"
+overrides = "^7.4.0"
+omegaconf = "^2.3.0"
+dataclass-wizard = "^0.22.2"
+# it_core_news_sm = {url = "https://github.com/explosion/spacy-models/releases/download/it_core_news_sm-3.5.0/it_core_news_sm-3.5.0.tar.gz"}
+uk_core_news_sm = {url = "https://github.com/explosion/spacy-models/releases/download/uk_core_news_sm-3.7.0/uk_core_news_sm-3.7.0-py3-none-any.whl"}
+ukr-numbers = {git = "https://github.com/pchr8/ukr_numbers"}
+datasets = "^2.15.0"
+flatten-dict = "^0.4.2"
+
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+pdbpp = "^0.10.3"
+
+[tool.pytest.ini_options]
+markers = [
+  "now: test I'm working on now",
+]
+filterwarnings = [
+    # "ignore::DeprecationWarning",
+	'ignore:inspect.getargspec'
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+run = "lmentry_static.__main__:main"

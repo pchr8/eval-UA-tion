@@ -1,0 +1,15 @@
+templates:
+- additional-metadata:
+    kind: direct
+    template_n: 0
+  template: "Чи належать слова '{words_list}' всі до категорії '{cat_name}'?"
+  uuid: 11d8db41721949a69e154143fbb4b5ea
+- additional-metadata:
+    kind: reversed
+    template_n: 1
+  template: "Чи належать всі наведені слова до категорії '{cat_name}'? Слова: {words_list}."
+  uuid: 39c9bc42bad344c4ad16691ff66d0449
+
+system_prompts:
+    - TODO
+

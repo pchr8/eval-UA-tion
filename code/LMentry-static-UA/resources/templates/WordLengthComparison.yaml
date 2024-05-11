@@ -1,0 +1,25 @@
+templates:
+- additional-metadata:
+    kind: more
+    template_n: 0
+  template: 'Яке слово довше: "{t1}" чи "{t2}"?'
+  uuid: 0ee1e5281f4c4909913ebfa7293d462e
+- additional-metadata:
+    kind: more
+    template_n: 1
+  template: 'Яке слово має більше літер: "{t1}" чи "{t2}"?'
+  uuid: 0491f97b8c5a4330ab7a558d6e68b305
+- additional-metadata:
+    kind: less
+    template_n: 2
+  template: 'Яке слово коротше: "{t1}" чи "{t2}"?'
+  uuid: 1da85d6e7cf5440cba54e3a9b548a037
+- additional-metadata:
+    kind: less
+    template_n: 3
+  template: 'Яке слово має менше літер: "{t1}" чи "{t2}"?'
+  uuid: 20019ed544b54cf08a2a66de4854a6a4
+
+system_prompts:
+    # - 'Ви розв''язуєте екзамен з української мови. Вкажіть правильну відповідь одним словом, без лапок. Наприклад: \n Питання: Яке слово має більше літер, "подушка" чи "ковдра"? \n Відповідь: подушка'
+    - 'Ви розв''язуєте екзамен з української мови. Вкажіть правильну відповідь одним словом, без лапок.'

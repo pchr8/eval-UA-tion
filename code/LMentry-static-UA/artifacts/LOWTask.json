@@ -1,0 +1,1908 @@
+{
+    "name": "LOWTask",
+    "instances": [
+        {
+            "question": "Яка перша літера y слові \"пускати\"?",
+            "correctAnswer": "п",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "381b49cf9c284b19977980f965e2a89e",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 7574,
+                "index": 5743,
+                "freq_quantile": 4,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "пуска́ти",
+                "id": 0
+            }
+        },
+        {
+            "question": "Яка літера в слові \"пускати\" перша?",
+            "correctAnswer": "п",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "6efa269f569a4898acab7acd7fedf0ee",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 7574,
+                "index": 5743,
+                "freq_quantile": 4,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "пуска́ти",
+                "id": 1
+            }
+        },
+        {
+            "question": "В слові \"пускати\" на першому місці знаходиться літера ...",
+            "correctAnswer": "п",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "589abd7dbe3543d29a3db106ff6c1623",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 7574,
+                "index": 5743,
+                "freq_quantile": 4,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "пуска́ти",
+                "id": 2
+            }
+        },
+        {
+            "question": "В слові \"пускати\" під номером один знаходиться літера ...",
+            "correctAnswer": "п",
+            "templateUuid": "060618a4f0f646f48bccb64b4b994439",
+            "taskInstanceUuid": "f0316c436a1a40c48f21475deae497e1",
+            "additionalMetadata": {
+                "template_n": 3,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 7574,
+                "index": 5743,
+                "freq_quantile": 4,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "пуска́ти",
+                "id": 3
+            }
+        },
+        {
+            "question": "Яка п'ята літера y слові \"пускати\"?",
+            "correctAnswer": "а",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "27b5a7396cd342cb89f24ee091122dbf",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 7574,
+                "index": 5743,
+                "freq_quantile": 4,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "пуска́ти",
+                "id": 4
+            }
+        },
+        {
+            "question": "Яка літера в слові \"пускати\" п'ята?",
+            "correctAnswer": "а",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "877965c0f3b44f13b12887ec48c24ebf",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 7574,
+                "index": 5743,
+                "freq_quantile": 4,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "пуска́ти",
+                "id": 5
+            }
+        },
+        {
+            "question": "В слові \"пускати\" на п'ятому місці знаходиться літера ...",
+            "correctAnswer": "а",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "808fa1ce3edf41b0a6e0468c275964f1",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 7574,
+                "index": 5743,
+                "freq_quantile": 4,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "пуска́ти",
+                "id": 6
+            }
+        },
+        {
+            "question": "В слові \"пускати\" під номером п'ять знаходиться літера ...",
+            "correctAnswer": "а",
+            "templateUuid": "060618a4f0f646f48bccb64b4b994439",
+            "taskInstanceUuid": "c3638e2a700b44cb8815870e7490bca6",
+            "additionalMetadata": {
+                "template_n": 3,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 7574,
+                "index": 5743,
+                "freq_quantile": 4,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "пуска́ти",
+                "id": 7
+            }
+        },
+        {
+            "question": "Яка остання літера y слові \"пускати\"?",
+            "correctAnswer": "и",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "a77820ff93c841dfa8b4b17fdc5de7e8",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": -1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 7574,
+                "index": 5743,
+                "freq_quantile": 4,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "пуска́ти",
+                "id": 8
+            }
+        },
+        {
+            "question": "Яка літера в слові \"пускати\" остання?",
+            "correctAnswer": "и",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "122fcf109a9f4bd18202d0a6988fb445",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": -1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 7574,
+                "index": 5743,
+                "freq_quantile": 4,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "пуска́ти",
+                "id": 9
+            }
+        },
+        {
+            "question": "В слові \"пускати\" на останньому місці знаходиться літера ...",
+            "correctAnswer": "и",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "8258b95457cc4200b2f42277214391d6",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": -1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 7574,
+                "index": 5743,
+                "freq_quantile": 4,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "пуска́ти",
+                "id": 10
+            }
+        },
+        {
+            "question": "Яка перша літера y слові \"спокусливий\"?",
+            "correctAnswer": "с",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "c4b019b741c84cfeaff6369ba01da62e",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 26704,
+                "index": 13414,
+                "freq_quantile": 8,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "споку́сливий",
+                "id": 11
+            }
+        },
+        {
+            "question": "Яка літера в слові \"спокусливий\" перша?",
+            "correctAnswer": "с",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "f35568212ce542fabadc2143da36daae",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 26704,
+                "index": 13414,
+                "freq_quantile": 8,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "споку́сливий",
+                "id": 12
+            }
+        },
+        {
+            "question": "В слові \"спокусливий\" на першому місці знаходиться літера ...",
+            "correctAnswer": "с",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "ef5cbb27e1f149e8b71b8778b4c9a9f3",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 26704,
+                "index": 13414,
+                "freq_quantile": 8,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "споку́сливий",
+                "id": 13
+            }
+        },
+        {
+            "question": "В слові \"спокусливий\" під номером один знаходиться літера ...",
+            "correctAnswer": "с",
+            "templateUuid": "060618a4f0f646f48bccb64b4b994439",
+            "taskInstanceUuid": "add8b3bd30cf4509a3784cee5b0e740d",
+            "additionalMetadata": {
+                "template_n": 3,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 26704,
+                "index": 13414,
+                "freq_quantile": 8,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "споку́сливий",
+                "id": 14
+            }
+        },
+        {
+            "question": "Яка п'ята літера y слові \"спокусливий\"?",
+            "correctAnswer": "у",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "14d65071dc3c4fab9de8b2c7c1f4baf2",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 26704,
+                "index": 13414,
+                "freq_quantile": 8,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "споку́сливий",
+                "id": 15
+            }
+        },
+        {
+            "question": "Яка літера в слові \"спокусливий\" п'ята?",
+            "correctAnswer": "у",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "ecc28f49539c40b8af041699c95b66e5",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 26704,
+                "index": 13414,
+                "freq_quantile": 8,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "споку́сливий",
+                "id": 16
+            }
+        },
+        {
+            "question": "В слові \"спокусливий\" на п'ятому місці знаходиться літера ...",
+            "correctAnswer": "у",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "8033155dea0447ae842631f5c29b322a",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 26704,
+                "index": 13414,
+                "freq_quantile": 8,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "споку́сливий",
+                "id": 17
+            }
+        },
+        {
+            "question": "В слові \"спокусливий\" під номером п'ять знаходиться літера ...",
+            "correctAnswer": "у",
+            "templateUuid": "060618a4f0f646f48bccb64b4b994439",
+            "taskInstanceUuid": "4f053ccb60614d5d982c3c45dc36f68b",
+            "additionalMetadata": {
+                "template_n": 3,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 26704,
+                "index": 13414,
+                "freq_quantile": 8,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "споку́сливий",
+                "id": 18
+            }
+        },
+        {
+            "question": "Яка дев'ята літера y слові \"спокусливий\"?",
+            "correctAnswer": "в",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "cfcd28f9d8da4a5794f6287d087eeaa1",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": 9,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 26704,
+                "index": 13414,
+                "freq_quantile": 8,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "споку́сливий",
+                "id": 19
+            }
+        },
+        {
+            "question": "Яка літера в слові \"спокусливий\" дев'ята?",
+            "correctAnswer": "в",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "d775710ce45a4dbfb282c46bff929103",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": 9,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 26704,
+                "index": 13414,
+                "freq_quantile": 8,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "споку́сливий",
+                "id": 20
+            }
+        },
+        {
+            "question": "В слові \"спокусливий\" на дев'ятому місці знаходиться літера ...",
+            "correctAnswer": "в",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "4450ebd14b9941a89f9442859897fe9e",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": 9,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 26704,
+                "index": 13414,
+                "freq_quantile": 8,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "споку́сливий",
+                "id": 21
+            }
+        },
+        {
+            "question": "В слові \"спокусливий\" під номером дев'ять знаходиться літера ...",
+            "correctAnswer": "в",
+            "templateUuid": "060618a4f0f646f48bccb64b4b994439",
+            "taskInstanceUuid": "3e995a93865f495d8126a93b8d161fac",
+            "additionalMetadata": {
+                "template_n": 3,
+                "needle": 9,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 26704,
+                "index": 13414,
+                "freq_quantile": 8,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "споку́сливий",
+                "id": 22
+            }
+        },
+        {
+            "question": "Яка остання літера y слові \"спокусливий\"?",
+            "correctAnswer": "й",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "67904dfe15ee4695b5b6193a3d76c8c9",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": -1,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 26704,
+                "index": 13414,
+                "freq_quantile": 8,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "споку́сливий",
+                "id": 23
+            }
+        },
+        {
+            "question": "Яка літера в слові \"спокусливий\" остання?",
+            "correctAnswer": "й",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "794122dc452148369c5c0a5bcc88c7b0",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": -1,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 26704,
+                "index": 13414,
+                "freq_quantile": 8,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "споку́сливий",
+                "id": 24
+            }
+        },
+        {
+            "question": "В слові \"спокусливий\" на останньому місці знаходиться літера ...",
+            "correctAnswer": "й",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "37e1d180f9be4bdc84b26b77802d4bd8",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": -1,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 26704,
+                "index": 13414,
+                "freq_quantile": 8,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "споку́сливий",
+                "id": 25
+            }
+        },
+        {
+            "question": "Яка перша літера y слові \"білоцерківський\"?",
+            "correctAnswer": "б",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "e193bbab3ab44dc6b373f3025cce4ab2",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 9676,
+                "index": 6976,
+                "freq_quantile": 4,
+                "len": 16,
+                "len_quantile": "long",
+                "word_raw": "білоцеркі́вський",
+                "id": 26
+            }
+        },
+        {
+            "question": "Яка літера в слові \"білоцерківський\" перша?",
+            "correctAnswer": "б",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "0e36b82d2e1c45ffbfac985a0fa4b957",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 9676,
+                "index": 6976,
+                "freq_quantile": 4,
+                "len": 16,
+                "len_quantile": "long",
+                "word_raw": "білоцеркі́вський",
+                "id": 27
+            }
+        },
+        {
+            "question": "В слові \"білоцерківський\" на першому місці знаходиться літера ...",
+            "correctAnswer": "б",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "d9f61f4e404f4976a85bf1a0584b93d9",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 9676,
+                "index": 6976,
+                "freq_quantile": 4,
+                "len": 16,
+                "len_quantile": "long",
+                "word_raw": "білоцеркі́вський",
+                "id": 28
+            }
+        },
+        {
+            "question": "В слові \"білоцерківський\" під номером один знаходиться літера ...",
+            "correctAnswer": "б",
+            "templateUuid": "060618a4f0f646f48bccb64b4b994439",
+            "taskInstanceUuid": "174c54cae3d74128ae67e9d7bf2e19d4",
+            "additionalMetadata": {
+                "template_n": 3,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 9676,
+                "index": 6976,
+                "freq_quantile": 4,
+                "len": 16,
+                "len_quantile": "long",
+                "word_raw": "білоцеркі́вський",
+                "id": 29
+            }
+        },
+        {
+            "question": "Яка п'ята літера y слові \"білоцерківський\"?",
+            "correctAnswer": "ц",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "042eb2477f634173b3033f48e01efe48",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 9676,
+                "index": 6976,
+                "freq_quantile": 4,
+                "len": 16,
+                "len_quantile": "long",
+                "word_raw": "білоцеркі́вський",
+                "id": 30
+            }
+        },
+        {
+            "question": "Яка літера в слові \"білоцерківський\" п'ята?",
+            "correctAnswer": "ц",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "046799dda3c34a7dbce1bab777695667",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 9676,
+                "index": 6976,
+                "freq_quantile": 4,
+                "len": 16,
+                "len_quantile": "long",
+                "word_raw": "білоцеркі́вський",
+                "id": 31
+            }
+        },
+        {
+            "question": "В слові \"білоцерківський\" на п'ятому місці знаходиться літера ...",
+            "correctAnswer": "ц",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "0109bf6b03ce499aa167292085270517",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 9676,
+                "index": 6976,
+                "freq_quantile": 4,
+                "len": 16,
+                "len_quantile": "long",
+                "word_raw": "білоцеркі́вський",
+                "id": 32
+            }
+        },
+        {
+            "question": "В слові \"білоцерківський\" під номером п'ять знаходиться літера ...",
+            "correctAnswer": "ц",
+            "templateUuid": "060618a4f0f646f48bccb64b4b994439",
+            "taskInstanceUuid": "5a757958f6164619acd28310ac7492be",
+            "additionalMetadata": {
+                "template_n": 3,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 9676,
+                "index": 6976,
+                "freq_quantile": 4,
+                "len": 16,
+                "len_quantile": "long",
+                "word_raw": "білоцеркі́вський",
+                "id": 33
+            }
+        },
+        {
+            "question": "Яка дев'ята літера y слові \"білоцерківський\"?",
+            "correctAnswer": "і",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "f41f2a70d90e445783c53540fefc31df",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": 9,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 9676,
+                "index": 6976,
+                "freq_quantile": 4,
+                "len": 16,
+                "len_quantile": "long",
+                "word_raw": "білоцеркі́вський",
+                "id": 34
+            }
+        },
+        {
+            "question": "Яка літера в слові \"білоцерківський\" дев'ята?",
+            "correctAnswer": "і",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "d7be22b833f94cbab10a4b9eb5264dbb",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": 9,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 9676,
+                "index": 6976,
+                "freq_quantile": 4,
+                "len": 16,
+                "len_quantile": "long",
+                "word_raw": "білоцеркі́вський",
+                "id": 35
+            }
+        },
+        {
+            "question": "В слові \"білоцерківський\" на дев'ятому місці знаходиться літера ...",
+            "correctAnswer": "і",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "679c84b5ed414c549361a637dc4e034c",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": 9,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 9676,
+                "index": 6976,
+                "freq_quantile": 4,
+                "len": 16,
+                "len_quantile": "long",
+                "word_raw": "білоцеркі́вський",
+                "id": 36
+            }
+        },
+        {
+            "question": "В слові \"білоцерківський\" під номером дев'ять знаходиться літера ...",
+            "correctAnswer": "і",
+            "templateUuid": "060618a4f0f646f48bccb64b4b994439",
+            "taskInstanceUuid": "224fcbc3234c4966961e8adc0452287a",
+            "additionalMetadata": {
+                "template_n": 3,
+                "needle": 9,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 9676,
+                "index": 6976,
+                "freq_quantile": 4,
+                "len": 16,
+                "len_quantile": "long",
+                "word_raw": "білоцеркі́вський",
+                "id": 37
+            }
+        },
+        {
+            "question": "Яка тринадцята літера y слові \"білоцерківський\"?",
+            "correctAnswer": "к",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "de8522e1ac1447f79b6764e8530739b9",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": 13,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 9676,
+                "index": 6976,
+                "freq_quantile": 4,
+                "len": 16,
+                "len_quantile": "long",
+                "word_raw": "білоцеркі́вський",
+                "id": 38
+            }
+        },
+        {
+            "question": "Яка літера в слові \"білоцерківський\" тринадцята?",
+            "correctAnswer": "к",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "721b7f1420c04f2e909d3dabc8943051",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": 13,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 9676,
+                "index": 6976,
+                "freq_quantile": 4,
+                "len": 16,
+                "len_quantile": "long",
+                "word_raw": "білоцеркі́вський",
+                "id": 39
+            }
+        },
+        {
+            "question": "В слові \"білоцерківський\" на тринадцятому місці знаходиться літера ...",
+            "correctAnswer": "к",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "a2bdbcc42bb94c85940a69461b85118f",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": 13,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 9676,
+                "index": 6976,
+                "freq_quantile": 4,
+                "len": 16,
+                "len_quantile": "long",
+                "word_raw": "білоцеркі́вський",
+                "id": 40
+            }
+        },
+        {
+            "question": "В слові \"білоцерківський\" під номером тринадцять знаходиться літера ...",
+            "correctAnswer": "к",
+            "templateUuid": "060618a4f0f646f48bccb64b4b994439",
+            "taskInstanceUuid": "028d44cc214a4d4a93efac49a9b9c8ef",
+            "additionalMetadata": {
+                "template_n": 3,
+                "needle": 13,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 9676,
+                "index": 6976,
+                "freq_quantile": 4,
+                "len": 16,
+                "len_quantile": "long",
+                "word_raw": "білоцеркі́вський",
+                "id": 41
+            }
+        },
+        {
+            "question": "Яка остання літера y слові \"білоцерківський\"?",
+            "correctAnswer": "й",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "eb7045cf6a5c47f59f48e483cb5d38c7",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": -1,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 9676,
+                "index": 6976,
+                "freq_quantile": 4,
+                "len": 16,
+                "len_quantile": "long",
+                "word_raw": "білоцеркі́вський",
+                "id": 42
+            }
+        },
+        {
+            "question": "Яка літера в слові \"білоцерківський\" остання?",
+            "correctAnswer": "й",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "ee73eed10a64435fb98d42bda91f5ceb",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": -1,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 9676,
+                "index": 6976,
+                "freq_quantile": 4,
+                "len": 16,
+                "len_quantile": "long",
+                "word_raw": "білоцеркі́вський",
+                "id": 43
+            }
+        },
+        {
+            "question": "В слові \"білоцерківський\" на останньому місці знаходиться літера ...",
+            "correctAnswer": "й",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "2df96142bd7642b896699bf46622d735",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": -1,
+                "word_length": "long",
+                "pos": "adjective",
+                "freq": 9676,
+                "index": 6976,
+                "freq_quantile": 4,
+                "len": 16,
+                "len_quantile": "long",
+                "word_raw": "білоцеркі́вський",
+                "id": 44
+            }
+        },
+        {
+            "question": "Яка перша літера y слові \"помогти\"?",
+            "correctAnswer": "п",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "6be546dcce5245cab608b73a6fc816e6",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 24232,
+                "index": 12725,
+                "freq_quantile": 7,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "помогти́",
+                "id": 45
+            }
+        },
+        {
+            "question": "Яка літера в слові \"помогти\" перша?",
+            "correctAnswer": "п",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "086a4f5e634843f7b925f82cc1c145b9",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 24232,
+                "index": 12725,
+                "freq_quantile": 7,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "помогти́",
+                "id": 46
+            }
+        },
+        {
+            "question": "В слові \"помогти\" на першому місці знаходиться літера ...",
+            "correctAnswer": "п",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "58d4d830a3704a67a52c7e8f706d6768",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 24232,
+                "index": 12725,
+                "freq_quantile": 7,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "помогти́",
+                "id": 47
+            }
+        },
+        {
+            "question": "В слові \"помогти\" під номером один знаходиться літера ...",
+            "correctAnswer": "п",
+            "templateUuid": "060618a4f0f646f48bccb64b4b994439",
+            "taskInstanceUuid": "5f57885878b34c28aa8f28d809ff2a65",
+            "additionalMetadata": {
+                "template_n": 3,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 24232,
+                "index": 12725,
+                "freq_quantile": 7,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "помогти́",
+                "id": 48
+            }
+        },
+        {
+            "question": "Яка п'ята літера y слові \"помогти\"?",
+            "correctAnswer": "г",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "abfc3daef1a24c908bfa6b88672dfa24",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 24232,
+                "index": 12725,
+                "freq_quantile": 7,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "помогти́",
+                "id": 49
+            }
+        },
+        {
+            "question": "Яка літера в слові \"помогти\" п'ята?",
+            "correctAnswer": "г",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "12b2ed8124204129a2e00f0396f5e385",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 24232,
+                "index": 12725,
+                "freq_quantile": 7,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "помогти́",
+                "id": 50
+            }
+        },
+        {
+            "question": "В слові \"помогти\" на п'ятому місці знаходиться літера ...",
+            "correctAnswer": "г",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "3a1fed9330474f5f81db0105dd8e7f73",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 24232,
+                "index": 12725,
+                "freq_quantile": 7,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "помогти́",
+                "id": 51
+            }
+        },
+        {
+            "question": "В слові \"помогти\" під номером п'ять знаходиться літера ...",
+            "correctAnswer": "г",
+            "templateUuid": "060618a4f0f646f48bccb64b4b994439",
+            "taskInstanceUuid": "becaf30913134af180342d5a614a93a7",
+            "additionalMetadata": {
+                "template_n": 3,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 24232,
+                "index": 12725,
+                "freq_quantile": 7,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "помогти́",
+                "id": 52
+            }
+        },
+        {
+            "question": "Яка остання літера y слові \"помогти\"?",
+            "correctAnswer": "и",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "87746160b1514317a0de3f7f17e06be0",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": -1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 24232,
+                "index": 12725,
+                "freq_quantile": 7,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "помогти́",
+                "id": 53
+            }
+        },
+        {
+            "question": "Яка літера в слові \"помогти\" остання?",
+            "correctAnswer": "и",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "0d2aed6c4dad49759445810533fdfa13",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": -1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 24232,
+                "index": 12725,
+                "freq_quantile": 7,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "помогти́",
+                "id": 54
+            }
+        },
+        {
+            "question": "В слові \"помогти\" на останньому місці знаходиться літера ...",
+            "correctAnswer": "и",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "481331e454be44359bb31064536b934c",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": -1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 24232,
+                "index": 12725,
+                "freq_quantile": 7,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "помогти́",
+                "id": 55
+            }
+        },
+        {
+            "question": "Яка перша літера y слові \"завважувати\"?",
+            "correctAnswer": "з",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "213afb04482d410893b6a15b132551db",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 25442,
+                "index": 13073,
+                "freq_quantile": 7,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "завва́жувати",
+                "id": 56
+            }
+        },
+        {
+            "question": "Яка літера в слові \"завважувати\" перша?",
+            "correctAnswer": "з",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "82d82f730b6145ad9a1f224fe4fc5971",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 25442,
+                "index": 13073,
+                "freq_quantile": 7,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "завва́жувати",
+                "id": 57
+            }
+        },
+        {
+            "question": "В слові \"завважувати\" на першому місці знаходиться літера ...",
+            "correctAnswer": "з",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "42fff61caa5e4a30bdc26134c4d22331",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 25442,
+                "index": 13073,
+                "freq_quantile": 7,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "завва́жувати",
+                "id": 58
+            }
+        },
+        {
+            "question": "В слові \"завважувати\" під номером один знаходиться літера ...",
+            "correctAnswer": "з",
+            "templateUuid": "060618a4f0f646f48bccb64b4b994439",
+            "taskInstanceUuid": "d1053b47605b4894a380ae4fd49bced2",
+            "additionalMetadata": {
+                "template_n": 3,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 25442,
+                "index": 13073,
+                "freq_quantile": 7,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "завва́жувати",
+                "id": 59
+            }
+        },
+        {
+            "question": "Яка п'ята літера y слові \"завважувати\"?",
+            "correctAnswer": "а",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "f0e9a2912d1744e5a886ac15f2280bcb",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 25442,
+                "index": 13073,
+                "freq_quantile": 7,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "завва́жувати",
+                "id": 60
+            }
+        },
+        {
+            "question": "Яка літера в слові \"завважувати\" п'ята?",
+            "correctAnswer": "а",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "557d01a2297646e080f7822de65f887f",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 25442,
+                "index": 13073,
+                "freq_quantile": 7,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "завва́жувати",
+                "id": 61
+            }
+        },
+        {
+            "question": "В слові \"завважувати\" на п'ятому місці знаходиться літера ...",
+            "correctAnswer": "а",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "e4af975e6bf543549f7cbaf8d156016c",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 25442,
+                "index": 13073,
+                "freq_quantile": 7,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "завва́жувати",
+                "id": 62
+            }
+        },
+        {
+            "question": "В слові \"завважувати\" під номером п'ять знаходиться літера ...",
+            "correctAnswer": "а",
+            "templateUuid": "060618a4f0f646f48bccb64b4b994439",
+            "taskInstanceUuid": "7c4a66359d2247a0920bb26af6378fc4",
+            "additionalMetadata": {
+                "template_n": 3,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 25442,
+                "index": 13073,
+                "freq_quantile": 7,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "завва́жувати",
+                "id": 63
+            }
+        },
+        {
+            "question": "Яка дев'ята літера y слові \"завважувати\"?",
+            "correctAnswer": "а",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "2b7903f4e0604d219fd7eaec90e8e594",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": 9,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 25442,
+                "index": 13073,
+                "freq_quantile": 7,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "завва́жувати",
+                "id": 64
+            }
+        },
+        {
+            "question": "Яка літера в слові \"завважувати\" дев'ята?",
+            "correctAnswer": "а",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "d86c8df1eb1b44f69d08e5709da1c3fe",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": 9,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 25442,
+                "index": 13073,
+                "freq_quantile": 7,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "завва́жувати",
+                "id": 65
+            }
+        },
+        {
+            "question": "В слові \"завважувати\" на дев'ятому місці знаходиться літера ...",
+            "correctAnswer": "а",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "51d65c5e0d7c4d358b3dd100f50d9613",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": 9,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 25442,
+                "index": 13073,
+                "freq_quantile": 7,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "завва́жувати",
+                "id": 66
+            }
+        },
+        {
+            "question": "В слові \"завважувати\" під номером дев'ять знаходиться літера ...",
+            "correctAnswer": "а",
+            "templateUuid": "060618a4f0f646f48bccb64b4b994439",
+            "taskInstanceUuid": "8a2b044f245b459487b02e4b7a787217",
+            "additionalMetadata": {
+                "template_n": 3,
+                "needle": 9,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 25442,
+                "index": 13073,
+                "freq_quantile": 7,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "завва́жувати",
+                "id": 67
+            }
+        },
+        {
+            "question": "Яка остання літера y слові \"завважувати\"?",
+            "correctAnswer": "и",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "2629c87a2fe84e98ba9f2cbf85195b30",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": -1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 25442,
+                "index": 13073,
+                "freq_quantile": 7,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "завва́жувати",
+                "id": 68
+            }
+        },
+        {
+            "question": "Яка літера в слові \"завважувати\" остання?",
+            "correctAnswer": "и",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "1a34f2f849704d0a95f71a41dc16ddb0",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": -1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 25442,
+                "index": 13073,
+                "freq_quantile": 7,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "завва́жувати",
+                "id": 69
+            }
+        },
+        {
+            "question": "В слові \"завважувати\" на останньому місці знаходиться літера ...",
+            "correctAnswer": "и",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "7b21891d9bff40adba4286c018c07c67",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": -1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 25442,
+                "index": 13073,
+                "freq_quantile": 7,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "завва́жувати",
+                "id": 70
+            }
+        },
+        {
+            "question": "Яка перша літера y слові \"помітно\"?",
+            "correctAnswer": "п",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "67d0a9b5e2124ad09b23011e9996d5e8",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "adverb",
+                "freq": 4395,
+                "index": 3643,
+                "freq_quantile": 2,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "помі́тно",
+                "id": 71
+            }
+        },
+        {
+            "question": "Яка літера в слові \"помітно\" перша?",
+            "correctAnswer": "п",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "3209f075e45541848f4ba1841b95fff8",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "adverb",
+                "freq": 4395,
+                "index": 3643,
+                "freq_quantile": 2,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "помі́тно",
+                "id": 72
+            }
+        },
+        {
+            "question": "В слові \"помітно\" на першому місці знаходиться літера ...",
+            "correctAnswer": "п",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "1f3bd2739f8548238c33c533e0b4de51",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "adverb",
+                "freq": 4395,
+                "index": 3643,
+                "freq_quantile": 2,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "помі́тно",
+                "id": 73
+            }
+        },
+        {
+            "question": "В слові \"помітно\" під номером один знаходиться літера ...",
+            "correctAnswer": "п",
+            "templateUuid": "060618a4f0f646f48bccb64b4b994439",
+            "taskInstanceUuid": "48d0860b3cb64f649582fddd012a1ff2",
+            "additionalMetadata": {
+                "template_n": 3,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "adverb",
+                "freq": 4395,
+                "index": 3643,
+                "freq_quantile": 2,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "помі́тно",
+                "id": 74
+            }
+        },
+        {
+            "question": "Яка п'ята літера y слові \"помітно\"?",
+            "correctAnswer": "т",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "14631656229845b0bc32ec66f5d9432d",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "adverb",
+                "freq": 4395,
+                "index": 3643,
+                "freq_quantile": 2,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "помі́тно",
+                "id": 75
+            }
+        },
+        {
+            "question": "Яка літера в слові \"помітно\" п'ята?",
+            "correctAnswer": "т",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "27f2e7a754ca4058985220083d3d9903",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "adverb",
+                "freq": 4395,
+                "index": 3643,
+                "freq_quantile": 2,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "помі́тно",
+                "id": 76
+            }
+        },
+        {
+            "question": "В слові \"помітно\" на п'ятому місці знаходиться літера ...",
+            "correctAnswer": "т",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "95d3b5c9c05b43f89016dc32934d0217",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "adverb",
+                "freq": 4395,
+                "index": 3643,
+                "freq_quantile": 2,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "помі́тно",
+                "id": 77
+            }
+        },
+        {
+            "question": "В слові \"помітно\" під номером п'ять знаходиться літера ...",
+            "correctAnswer": "т",
+            "templateUuid": "060618a4f0f646f48bccb64b4b994439",
+            "taskInstanceUuid": "4fe62c1107d646f98bda20a776f0ccd4",
+            "additionalMetadata": {
+                "template_n": 3,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "adverb",
+                "freq": 4395,
+                "index": 3643,
+                "freq_quantile": 2,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "помі́тно",
+                "id": 78
+            }
+        },
+        {
+            "question": "Яка остання літера y слові \"помітно\"?",
+            "correctAnswer": "о",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "8412b0fae19243a381b38c345d3d0796",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": -1,
+                "word_length": "long",
+                "pos": "adverb",
+                "freq": 4395,
+                "index": 3643,
+                "freq_quantile": 2,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "помі́тно",
+                "id": 79
+            }
+        },
+        {
+            "question": "Яка літера в слові \"помітно\" остання?",
+            "correctAnswer": "о",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "4c4f8a8c772d40f2b3e115e91752a6c7",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": -1,
+                "word_length": "long",
+                "pos": "adverb",
+                "freq": 4395,
+                "index": 3643,
+                "freq_quantile": 2,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "помі́тно",
+                "id": 80
+            }
+        },
+        {
+            "question": "В слові \"помітно\" на останньому місці знаходиться літера ...",
+            "correctAnswer": "о",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "c08baca542884488b32d5854e5756f84",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": -1,
+                "word_length": "long",
+                "pos": "adverb",
+                "freq": 4395,
+                "index": 3643,
+                "freq_quantile": 2,
+                "len": 8,
+                "len_quantile": "short",
+                "word_raw": "помі́тно",
+                "id": 81
+            }
+        },
+        {
+            "question": "Яка перша літера y слові \"скасовувати\"?",
+            "correctAnswer": "с",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "b8bfd4b0c08b4008b53c536f81084e72",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 4813,
+                "index": 3934,
+                "freq_quantile": 3,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "скасо́вувати",
+                "id": 82
+            }
+        },
+        {
+            "question": "Яка літера в слові \"скасовувати\" перша?",
+            "correctAnswer": "с",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "a16982f93f6d4db89ef473f3828f7108",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 4813,
+                "index": 3934,
+                "freq_quantile": 3,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "скасо́вувати",
+                "id": 83
+            }
+        },
+        {
+            "question": "В слові \"скасовувати\" на першому місці знаходиться літера ...",
+            "correctAnswer": "с",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "5e9107007cdb420eb5bbaadfd09d5ebb",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 4813,
+                "index": 3934,
+                "freq_quantile": 3,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "скасо́вувати",
+                "id": 84
+            }
+        },
+        {
+            "question": "В слові \"скасовувати\" під номером один знаходиться літера ...",
+            "correctAnswer": "с",
+            "templateUuid": "060618a4f0f646f48bccb64b4b994439",
+            "taskInstanceUuid": "7b2e900dd534448db99d9aaa5645c0c2",
+            "additionalMetadata": {
+                "template_n": 3,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 4813,
+                "index": 3934,
+                "freq_quantile": 3,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "скасо́вувати",
+                "id": 85
+            }
+        },
+        {
+            "question": "Яка п'ята літера y слові \"скасовувати\"?",
+            "correctAnswer": "о",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "eb04536694b141a0b99d893aa27d24ec",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 4813,
+                "index": 3934,
+                "freq_quantile": 3,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "скасо́вувати",
+                "id": 86
+            }
+        },
+        {
+            "question": "Яка літера в слові \"скасовувати\" п'ята?",
+            "correctAnswer": "о",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "deb172b393844760a814fe6767df8fa9",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 4813,
+                "index": 3934,
+                "freq_quantile": 3,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "скасо́вувати",
+                "id": 87
+            }
+        },
+        {
+            "question": "В слові \"скасовувати\" на п'ятому місці знаходиться літера ...",
+            "correctAnswer": "о",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "1ac582567d424d1e8f5223ae06398ea8",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 4813,
+                "index": 3934,
+                "freq_quantile": 3,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "скасо́вувати",
+                "id": 88
+            }
+        },
+        {
+            "question": "В слові \"скасовувати\" під номером п'ять знаходиться літера ...",
+            "correctAnswer": "о",
+            "templateUuid": "060618a4f0f646f48bccb64b4b994439",
+            "taskInstanceUuid": "3a36758ddd6a4498bfee95679371477c",
+            "additionalMetadata": {
+                "template_n": 3,
+                "needle": 5,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 4813,
+                "index": 3934,
+                "freq_quantile": 3,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "скасо́вувати",
+                "id": 89
+            }
+        },
+        {
+            "question": "Яка дев'ята літера y слові \"скасовувати\"?",
+            "correctAnswer": "а",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "cc1520b77975408ca6ea153c5a5e88d1",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": 9,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 4813,
+                "index": 3934,
+                "freq_quantile": 3,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "скасо́вувати",
+                "id": 90
+            }
+        },
+        {
+            "question": "Яка літера в слові \"скасовувати\" дев'ята?",
+            "correctAnswer": "а",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "653c165569084521aca9153bf2654cd9",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": 9,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 4813,
+                "index": 3934,
+                "freq_quantile": 3,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "скасо́вувати",
+                "id": 91
+            }
+        },
+        {
+            "question": "В слові \"скасовувати\" на дев'ятому місці знаходиться літера ...",
+            "correctAnswer": "а",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "4a84f2bf417e42d1919d58a31d653a28",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": 9,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 4813,
+                "index": 3934,
+                "freq_quantile": 3,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "скасо́вувати",
+                "id": 92
+            }
+        },
+        {
+            "question": "В слові \"скасовувати\" під номером дев'ять знаходиться літера ...",
+            "correctAnswer": "а",
+            "templateUuid": "060618a4f0f646f48bccb64b4b994439",
+            "taskInstanceUuid": "5068660faf004d9db735768faebbfe7f",
+            "additionalMetadata": {
+                "template_n": 3,
+                "needle": 9,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 4813,
+                "index": 3934,
+                "freq_quantile": 3,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "скасо́вувати",
+                "id": 93
+            }
+        },
+        {
+            "question": "Яка остання літера y слові \"скасовувати\"?",
+            "correctAnswer": "и",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "284ba3f6c1b643b784ef165f6a3b853b",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": -1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 4813,
+                "index": 3934,
+                "freq_quantile": 3,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "скасо́вувати",
+                "id": 94
+            }
+        },
+        {
+            "question": "Яка літера в слові \"скасовувати\" остання?",
+            "correctAnswer": "и",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "bfc46087e30e4111b3e080509fe899e3",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": -1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 4813,
+                "index": 3934,
+                "freq_quantile": 3,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "скасо́вувати",
+                "id": 95
+            }
+        },
+        {
+            "question": "В слові \"скасовувати\" на останньому місці знаходиться літера ...",
+            "correctAnswer": "и",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "b5a8c558d4fd4eecb15e306f784fccef",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": -1,
+                "word_length": "long",
+                "pos": "verb",
+                "freq": 4813,
+                "index": 3934,
+                "freq_quantile": 3,
+                "len": 12,
+                "len_quantile": "long",
+                "word_raw": "скасо́вувати",
+                "id": 96
+            }
+        },
+        {
+            "question": "Яка перша літера y слові \"строковик\"?",
+            "correctAnswer": "с",
+            "templateUuid": "3295fd6fbfe24efba8b3362c9c0f3515",
+            "taskInstanceUuid": "0a21021115ae4ade9105233750d79813",
+            "additionalMetadata": {
+                "template_n": 0,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "noun",
+                "freq": 79529,
+                "index": 18873,
+                "freq_quantile": 10,
+                "len": 10,
+                "len_quantile": "mid",
+                "word_raw": "строкови́к",
+                "id": 97
+            }
+        },
+        {
+            "question": "Яка літера в слові \"строковик\" перша?",
+            "correctAnswer": "с",
+            "templateUuid": "0eb6d2af66e04751a28041252dff7024",
+            "taskInstanceUuid": "35002b7cc5bb4677b1fa8528f4e70c85",
+            "additionalMetadata": {
+                "template_n": 1,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "noun",
+                "freq": 79529,
+                "index": 18873,
+                "freq_quantile": 10,
+                "len": 10,
+                "len_quantile": "mid",
+                "word_raw": "строкови́к",
+                "id": 98
+            }
+        },
+        {
+            "question": "В слові \"строковик\" на першому місці знаходиться літера ...",
+            "correctAnswer": "с",
+            "templateUuid": "ba27443c2f6d454b8eb7d86496970c09",
+            "taskInstanceUuid": "d8faeae413dd42a78a131ef7d4945898",
+            "additionalMetadata": {
+                "template_n": 2,
+                "needle": 1,
+                "word_length": "long",
+                "pos": "noun",
+                "freq": 79529,
+                "index": 18873,
+                "freq_quantile": 10,
+                "len": 10,
+                "len_quantile": "mid",
+                "word_raw": "строкови́к",
+                "id": 99
+            }
+        }
+    ],
+    "systemPrompts": [
+        "Ви розв'язуєте екзамен з української мови. Вкажіть правильну відповідь одним словом, без лапок."
+    ]
+}

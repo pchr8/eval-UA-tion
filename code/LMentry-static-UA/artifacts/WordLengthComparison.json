@@ -1,0 +1,3308 @@
+{
+    "name": "WordLengthComparison",
+    "instances": [
+        {
+            "question": "Яке слово коротше: \"по-шосте\" чи \"щотижневий\"?",
+            "correctAnswer": "по-шосте",
+            "templateUuid": "1da85d6e7cf5440cba54e3a9b548a037",
+            "taskInstanceUuid": "bf87a5bbff30473f946c8b32fdffe4c0",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 2,
+                "option_0": "по-шосте",
+                "option_1": "щотижневий",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 22544,
+                    "index": 12225,
+                    "freq_quantile": 7,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "по-шо́сте"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 20276,
+                    "index": 11528,
+                    "freq_quantile": 7,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "щотижне́вий"
+                },
+                "reversed": false,
+                "id": 0
+            }
+        },
+        {
+            "question": "Яке слово коротше: \"щотижневий\" чи \"по-шосте\"?",
+            "correctAnswer": "по-шосте",
+            "templateUuid": "1da85d6e7cf5440cba54e3a9b548a037",
+            "taskInstanceUuid": "218389d121b84ab5b907329986c81cb6",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 2,
+                "option_0": "щотижневий",
+                "option_1": "по-шосте",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 20276,
+                    "index": 11528,
+                    "freq_quantile": 7,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "щотижне́вий"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 22544,
+                    "index": 12225,
+                    "freq_quantile": 7,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "по-шо́сте"
+                },
+                "reversed": true,
+                "id": 1
+            }
+        },
+        {
+            "question": "Яке слово має менше літер: \"по-шосте\" чи \"щотижневий\"?",
+            "correctAnswer": "по-шосте",
+            "templateUuid": "20019ed544b54cf08a2a66de4854a6a4",
+            "taskInstanceUuid": "6f1ea50ca95e4cda9247513937c6c4f0",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 3,
+                "option_0": "по-шосте",
+                "option_1": "щотижневий",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 22544,
+                    "index": 12225,
+                    "freq_quantile": 7,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "по-шо́сте"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 20276,
+                    "index": 11528,
+                    "freq_quantile": 7,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "щотижне́вий"
+                },
+                "reversed": false,
+                "id": 2
+            }
+        },
+        {
+            "question": "Яке слово має менше літер: \"щотижневий\" чи \"по-шосте\"?",
+            "correctAnswer": "по-шосте",
+            "templateUuid": "20019ed544b54cf08a2a66de4854a6a4",
+            "taskInstanceUuid": "de2da684ca7543eab540ded435209871",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 3,
+                "option_0": "щотижневий",
+                "option_1": "по-шосте",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 20276,
+                    "index": 11528,
+                    "freq_quantile": 7,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "щотижне́вий"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 22544,
+                    "index": 12225,
+                    "freq_quantile": 7,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "по-шо́сте"
+                },
+                "reversed": true,
+                "id": 3
+            }
+        },
+        {
+            "question": "Яке слово довше: \"по-шосте\" чи \"щотижневий\"?",
+            "correctAnswer": "щотижневий",
+            "templateUuid": "0ee1e5281f4c4909913ebfa7293d462e",
+            "taskInstanceUuid": "ff83213a337f482eae38f28e71e93053",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 0,
+                "option_0": "по-шосте",
+                "option_1": "щотижневий",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 22544,
+                    "index": 12225,
+                    "freq_quantile": 7,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "по-шо́сте"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 20276,
+                    "index": 11528,
+                    "freq_quantile": 7,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "щотижне́вий"
+                },
+                "reversed": false,
+                "id": 4
+            }
+        },
+        {
+            "question": "Яке слово довше: \"щотижневий\" чи \"по-шосте\"?",
+            "correctAnswer": "щотижневий",
+            "templateUuid": "0ee1e5281f4c4909913ebfa7293d462e",
+            "taskInstanceUuid": "246d4fcbc33d44d8a50f440af1404878",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 0,
+                "option_0": "щотижневий",
+                "option_1": "по-шосте",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 20276,
+                    "index": 11528,
+                    "freq_quantile": 7,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "щотижне́вий"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 22544,
+                    "index": 12225,
+                    "freq_quantile": 7,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "по-шо́сте"
+                },
+                "reversed": true,
+                "id": 5
+            }
+        },
+        {
+            "question": "Яке слово має більше літер: \"по-шосте\" чи \"щотижневий\"?",
+            "correctAnswer": "щотижневий",
+            "templateUuid": "0491f97b8c5a4330ab7a558d6e68b305",
+            "taskInstanceUuid": "569b9b2ef931465ab3d493eceba5feb0",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 1,
+                "option_0": "по-шосте",
+                "option_1": "щотижневий",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 22544,
+                    "index": 12225,
+                    "freq_quantile": 7,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "по-шо́сте"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 20276,
+                    "index": 11528,
+                    "freq_quantile": 7,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "щотижне́вий"
+                },
+                "reversed": false,
+                "id": 6
+            }
+        },
+        {
+            "question": "Яке слово має більше літер: \"щотижневий\" чи \"по-шосте\"?",
+            "correctAnswer": "щотижневий",
+            "templateUuid": "0491f97b8c5a4330ab7a558d6e68b305",
+            "taskInstanceUuid": "9430ada08bc74838abb5ec0dd8e58dcb",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 1,
+                "option_0": "щотижневий",
+                "option_1": "по-шосте",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 20276,
+                    "index": 11528,
+                    "freq_quantile": 7,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "щотижне́вий"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 22544,
+                    "index": 12225,
+                    "freq_quantile": 7,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "по-шо́сте"
+                },
+                "reversed": true,
+                "id": 7
+            }
+        },
+        {
+            "question": "Яке слово коротше: \"філіал\" чи \"адмініструвати\"?",
+            "correctAnswer": "філіал",
+            "templateUuid": "1da85d6e7cf5440cba54e3a9b548a037",
+            "taskInstanceUuid": "0a61bb52a88a43a3b664be8f08573d1d",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 2,
+                "option_0": "філіал",
+                "option_1": "адмініструвати",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 12776,
+                    "index": 8548,
+                    "freq_quantile": 5,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "філіа́л"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 24813,
+                    "index": 12898,
+                    "freq_quantile": 7,
+                    "len": 15,
+                    "len_quantile": "long",
+                    "word_raw": "адмініструва́ти"
+                },
+                "reversed": false,
+                "id": 8
+            }
+        },
+        {
+            "question": "Яке слово коротше: \"адмініструвати\" чи \"філіал\"?",
+            "correctAnswer": "філіал",
+            "templateUuid": "1da85d6e7cf5440cba54e3a9b548a037",
+            "taskInstanceUuid": "65c6327fd9954223bf12ed0b1c4ff21c",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 2,
+                "option_0": "адмініструвати",
+                "option_1": "філіал",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 24813,
+                    "index": 12898,
+                    "freq_quantile": 7,
+                    "len": 15,
+                    "len_quantile": "long",
+                    "word_raw": "адмініструва́ти"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 12776,
+                    "index": 8548,
+                    "freq_quantile": 5,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "філіа́л"
+                },
+                "reversed": true,
+                "id": 9
+            }
+        },
+        {
+            "question": "Яке слово має менше літер: \"філіал\" чи \"адмініструвати\"?",
+            "correctAnswer": "філіал",
+            "templateUuid": "20019ed544b54cf08a2a66de4854a6a4",
+            "taskInstanceUuid": "06e40dca10ec48959ed34e465359252b",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 3,
+                "option_0": "філіал",
+                "option_1": "адмініструвати",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 12776,
+                    "index": 8548,
+                    "freq_quantile": 5,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "філіа́л"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 24813,
+                    "index": 12898,
+                    "freq_quantile": 7,
+                    "len": 15,
+                    "len_quantile": "long",
+                    "word_raw": "адмініструва́ти"
+                },
+                "reversed": false,
+                "id": 10
+            }
+        },
+        {
+            "question": "Яке слово має менше літер: \"адмініструвати\" чи \"філіал\"?",
+            "correctAnswer": "філіал",
+            "templateUuid": "20019ed544b54cf08a2a66de4854a6a4",
+            "taskInstanceUuid": "10db87ac39304fceb9353e25330fae33",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 3,
+                "option_0": "адмініструвати",
+                "option_1": "філіал",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 24813,
+                    "index": 12898,
+                    "freq_quantile": 7,
+                    "len": 15,
+                    "len_quantile": "long",
+                    "word_raw": "адмініструва́ти"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 12776,
+                    "index": 8548,
+                    "freq_quantile": 5,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "філіа́л"
+                },
+                "reversed": true,
+                "id": 11
+            }
+        },
+        {
+            "question": "Яке слово довше: \"філіал\" чи \"адмініструвати\"?",
+            "correctAnswer": "адмініструвати",
+            "templateUuid": "0ee1e5281f4c4909913ebfa7293d462e",
+            "taskInstanceUuid": "9615c81e6b4e481fb89a7c7714d63912",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 0,
+                "option_0": "філіал",
+                "option_1": "адмініструвати",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 12776,
+                    "index": 8548,
+                    "freq_quantile": 5,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "філіа́л"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 24813,
+                    "index": 12898,
+                    "freq_quantile": 7,
+                    "len": 15,
+                    "len_quantile": "long",
+                    "word_raw": "адмініструва́ти"
+                },
+                "reversed": false,
+                "id": 12
+            }
+        },
+        {
+            "question": "Яке слово довше: \"адмініструвати\" чи \"філіал\"?",
+            "correctAnswer": "адмініструвати",
+            "templateUuid": "0ee1e5281f4c4909913ebfa7293d462e",
+            "taskInstanceUuid": "d0418bf13ccf402b8d99f1bd670eb77a",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 0,
+                "option_0": "адмініструвати",
+                "option_1": "філіал",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 24813,
+                    "index": 12898,
+                    "freq_quantile": 7,
+                    "len": 15,
+                    "len_quantile": "long",
+                    "word_raw": "адмініструва́ти"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 12776,
+                    "index": 8548,
+                    "freq_quantile": 5,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "філіа́л"
+                },
+                "reversed": true,
+                "id": 13
+            }
+        },
+        {
+            "question": "Яке слово має більше літер: \"філіал\" чи \"адмініструвати\"?",
+            "correctAnswer": "адмініструвати",
+            "templateUuid": "0491f97b8c5a4330ab7a558d6e68b305",
+            "taskInstanceUuid": "f658f0b3421f4b0ab3ee919df1b0159e",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 1,
+                "option_0": "філіал",
+                "option_1": "адмініструвати",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 12776,
+                    "index": 8548,
+                    "freq_quantile": 5,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "філіа́л"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 24813,
+                    "index": 12898,
+                    "freq_quantile": 7,
+                    "len": 15,
+                    "len_quantile": "long",
+                    "word_raw": "адмініструва́ти"
+                },
+                "reversed": false,
+                "id": 14
+            }
+        },
+        {
+            "question": "Яке слово має більше літер: \"адмініструвати\" чи \"філіал\"?",
+            "correctAnswer": "адмініструвати",
+            "templateUuid": "0491f97b8c5a4330ab7a558d6e68b305",
+            "taskInstanceUuid": "346c2664fba54716a7dea1edfe275ff0",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 1,
+                "option_0": "адмініструвати",
+                "option_1": "філіал",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 24813,
+                    "index": 12898,
+                    "freq_quantile": 7,
+                    "len": 15,
+                    "len_quantile": "long",
+                    "word_raw": "адмініструва́ти"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 12776,
+                    "index": 8548,
+                    "freq_quantile": 5,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "філіа́л"
+                },
+                "reversed": true,
+                "id": 15
+            }
+        },
+        {
+            "question": "Яке слово коротше: \"шокований\" чи \"молодіжний\"?",
+            "correctAnswer": "шокований",
+            "templateUuid": "1da85d6e7cf5440cba54e3a9b548a037",
+            "taskInstanceUuid": "caab25efd23f4e3ab88a8103c1948d8d",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 2,
+                "option_0": "шокований",
+                "option_1": "молодіжний",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 10625,
+                    "index": 7479,
+                    "freq_quantile": 4,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "шоко́ваний"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 3581,
+                    "index": 3038,
+                    "freq_quantile": 2,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "молоді́жний"
+                },
+                "reversed": false,
+                "id": 16
+            }
+        },
+        {
+            "question": "Яке слово коротше: \"молодіжний\" чи \"шокований\"?",
+            "correctAnswer": "шокований",
+            "templateUuid": "1da85d6e7cf5440cba54e3a9b548a037",
+            "taskInstanceUuid": "cd4c9f62ca514749b590a1c1e7c30a56",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 2,
+                "option_0": "молодіжний",
+                "option_1": "шокований",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 3581,
+                    "index": 3038,
+                    "freq_quantile": 2,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "молоді́жний"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 10625,
+                    "index": 7479,
+                    "freq_quantile": 4,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "шоко́ваний"
+                },
+                "reversed": true,
+                "id": 17
+            }
+        },
+        {
+            "question": "Яке слово має менше літер: \"шокований\" чи \"молодіжний\"?",
+            "correctAnswer": "шокований",
+            "templateUuid": "20019ed544b54cf08a2a66de4854a6a4",
+            "taskInstanceUuid": "62b1c9cb95c8405799059e38f32c7700",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 3,
+                "option_0": "шокований",
+                "option_1": "молодіжний",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 10625,
+                    "index": 7479,
+                    "freq_quantile": 4,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "шоко́ваний"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 3581,
+                    "index": 3038,
+                    "freq_quantile": 2,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "молоді́жний"
+                },
+                "reversed": false,
+                "id": 18
+            }
+        },
+        {
+            "question": "Яке слово має менше літер: \"молодіжний\" чи \"шокований\"?",
+            "correctAnswer": "шокований",
+            "templateUuid": "20019ed544b54cf08a2a66de4854a6a4",
+            "taskInstanceUuid": "4e12c61c4a084c07bf7b0129458bd785",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 3,
+                "option_0": "молодіжний",
+                "option_1": "шокований",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 3581,
+                    "index": 3038,
+                    "freq_quantile": 2,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "молоді́жний"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 10625,
+                    "index": 7479,
+                    "freq_quantile": 4,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "шоко́ваний"
+                },
+                "reversed": true,
+                "id": 19
+            }
+        },
+        {
+            "question": "Яке слово довше: \"шокований\" чи \"молодіжний\"?",
+            "correctAnswer": "молодіжний",
+            "templateUuid": "0ee1e5281f4c4909913ebfa7293d462e",
+            "taskInstanceUuid": "e1d0e98183914252b39b4d1ef3162763",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 0,
+                "option_0": "шокований",
+                "option_1": "молодіжний",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 10625,
+                    "index": 7479,
+                    "freq_quantile": 4,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "шоко́ваний"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 3581,
+                    "index": 3038,
+                    "freq_quantile": 2,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "молоді́жний"
+                },
+                "reversed": false,
+                "id": 20
+            }
+        },
+        {
+            "question": "Яке слово довше: \"молодіжний\" чи \"шокований\"?",
+            "correctAnswer": "молодіжний",
+            "templateUuid": "0ee1e5281f4c4909913ebfa7293d462e",
+            "taskInstanceUuid": "2ef9efb319d24112b0cd387c22a91e8c",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 0,
+                "option_0": "молодіжний",
+                "option_1": "шокований",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 3581,
+                    "index": 3038,
+                    "freq_quantile": 2,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "молоді́жний"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 10625,
+                    "index": 7479,
+                    "freq_quantile": 4,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "шоко́ваний"
+                },
+                "reversed": true,
+                "id": 21
+            }
+        },
+        {
+            "question": "Яке слово має більше літер: \"шокований\" чи \"молодіжний\"?",
+            "correctAnswer": "молодіжний",
+            "templateUuid": "0491f97b8c5a4330ab7a558d6e68b305",
+            "taskInstanceUuid": "094975765c0d44e99627c6c2750404a3",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 1,
+                "option_0": "шокований",
+                "option_1": "молодіжний",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 10625,
+                    "index": 7479,
+                    "freq_quantile": 4,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "шоко́ваний"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 3581,
+                    "index": 3038,
+                    "freq_quantile": 2,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "молоді́жний"
+                },
+                "reversed": false,
+                "id": 22
+            }
+        },
+        {
+            "question": "Яке слово має більше літер: \"молодіжний\" чи \"шокований\"?",
+            "correctAnswer": "молодіжний",
+            "templateUuid": "0491f97b8c5a4330ab7a558d6e68b305",
+            "taskInstanceUuid": "e75630a053c042e2b6dbcaa9b64d61f8",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 1,
+                "option_0": "молодіжний",
+                "option_1": "шокований",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 3581,
+                    "index": 3038,
+                    "freq_quantile": 2,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "молоді́жний"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 10625,
+                    "index": 7479,
+                    "freq_quantile": 4,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "шоко́ваний"
+                },
+                "reversed": true,
+                "id": 23
+            }
+        },
+        {
+            "question": "Яке слово коротше: \"напрочуд\" чи \"пул\"?",
+            "correctAnswer": "пул",
+            "templateUuid": "1da85d6e7cf5440cba54e3a9b548a037",
+            "taskInstanceUuid": "016f640169dd4b228e642942004c9d5d",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 2,
+                "option_0": "напрочуд",
+                "option_1": "пул",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 10741,
+                    "index": 7539,
+                    "freq_quantile": 4,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "напро́чуд"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 12115,
+                    "index": 8234,
+                    "freq_quantile": 5,
+                    "len": 3,
+                    "len_quantile": "short",
+                    "word_raw": "пул"
+                },
+                "reversed": false,
+                "id": 24
+            }
+        },
+        {
+            "question": "Яке слово коротше: \"пул\" чи \"напрочуд\"?",
+            "correctAnswer": "пул",
+            "templateUuid": "1da85d6e7cf5440cba54e3a9b548a037",
+            "taskInstanceUuid": "e44c1ce227644b5ebebc975b086ed7d6",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 2,
+                "option_0": "пул",
+                "option_1": "напрочуд",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 12115,
+                    "index": 8234,
+                    "freq_quantile": 5,
+                    "len": 3,
+                    "len_quantile": "short",
+                    "word_raw": "пул"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 10741,
+                    "index": 7539,
+                    "freq_quantile": 4,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "напро́чуд"
+                },
+                "reversed": true,
+                "id": 25
+            }
+        },
+        {
+            "question": "Яке слово має менше літер: \"напрочуд\" чи \"пул\"?",
+            "correctAnswer": "пул",
+            "templateUuid": "20019ed544b54cf08a2a66de4854a6a4",
+            "taskInstanceUuid": "88f3c35105e5450b90ca348a5abfd63f",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 3,
+                "option_0": "напрочуд",
+                "option_1": "пул",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 10741,
+                    "index": 7539,
+                    "freq_quantile": 4,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "напро́чуд"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 12115,
+                    "index": 8234,
+                    "freq_quantile": 5,
+                    "len": 3,
+                    "len_quantile": "short",
+                    "word_raw": "пул"
+                },
+                "reversed": false,
+                "id": 26
+            }
+        },
+        {
+            "question": "Яке слово має менше літер: \"пул\" чи \"напрочуд\"?",
+            "correctAnswer": "пул",
+            "templateUuid": "20019ed544b54cf08a2a66de4854a6a4",
+            "taskInstanceUuid": "e3539fd3b64c48f8bceedb9d625f92f5",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 3,
+                "option_0": "пул",
+                "option_1": "напрочуд",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 12115,
+                    "index": 8234,
+                    "freq_quantile": 5,
+                    "len": 3,
+                    "len_quantile": "short",
+                    "word_raw": "пул"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 10741,
+                    "index": 7539,
+                    "freq_quantile": 4,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "напро́чуд"
+                },
+                "reversed": true,
+                "id": 27
+            }
+        },
+        {
+            "question": "Яке слово довше: \"напрочуд\" чи \"пул\"?",
+            "correctAnswer": "напрочуд",
+            "templateUuid": "0ee1e5281f4c4909913ebfa7293d462e",
+            "taskInstanceUuid": "fc23e406cdbc45e79c5b93417827deab",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 0,
+                "option_0": "напрочуд",
+                "option_1": "пул",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 10741,
+                    "index": 7539,
+                    "freq_quantile": 4,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "напро́чуд"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 12115,
+                    "index": 8234,
+                    "freq_quantile": 5,
+                    "len": 3,
+                    "len_quantile": "short",
+                    "word_raw": "пул"
+                },
+                "reversed": false,
+                "id": 28
+            }
+        },
+        {
+            "question": "Яке слово довше: \"пул\" чи \"напрочуд\"?",
+            "correctAnswer": "напрочуд",
+            "templateUuid": "0ee1e5281f4c4909913ebfa7293d462e",
+            "taskInstanceUuid": "edee5fb0b2e24d8e8114236bf4c07c1a",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 0,
+                "option_0": "пул",
+                "option_1": "напрочуд",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 12115,
+                    "index": 8234,
+                    "freq_quantile": 5,
+                    "len": 3,
+                    "len_quantile": "short",
+                    "word_raw": "пул"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 10741,
+                    "index": 7539,
+                    "freq_quantile": 4,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "напро́чуд"
+                },
+                "reversed": true,
+                "id": 29
+            }
+        },
+        {
+            "question": "Яке слово має більше літер: \"напрочуд\" чи \"пул\"?",
+            "correctAnswer": "напрочуд",
+            "templateUuid": "0491f97b8c5a4330ab7a558d6e68b305",
+            "taskInstanceUuid": "b3048ab626734d3286f6607fa7de63d9",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 1,
+                "option_0": "напрочуд",
+                "option_1": "пул",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 10741,
+                    "index": 7539,
+                    "freq_quantile": 4,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "напро́чуд"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 12115,
+                    "index": 8234,
+                    "freq_quantile": 5,
+                    "len": 3,
+                    "len_quantile": "short",
+                    "word_raw": "пул"
+                },
+                "reversed": false,
+                "id": 30
+            }
+        },
+        {
+            "question": "Яке слово має більше літер: \"пул\" чи \"напрочуд\"?",
+            "correctAnswer": "напрочуд",
+            "templateUuid": "0491f97b8c5a4330ab7a558d6e68b305",
+            "taskInstanceUuid": "fdf4fc803496416f852d87a9bcc60dd1",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 1,
+                "option_0": "пул",
+                "option_1": "напрочуд",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 12115,
+                    "index": 8234,
+                    "freq_quantile": 5,
+                    "len": 3,
+                    "len_quantile": "short",
+                    "word_raw": "пул"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 10741,
+                    "index": 7539,
+                    "freq_quantile": 4,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "напро́чуд"
+                },
+                "reversed": true,
+                "id": 31
+            }
+        },
+        {
+            "question": "Яке слово коротше: \"омолодити\" чи \"брухт\"?",
+            "correctAnswer": "брухт",
+            "templateUuid": "1da85d6e7cf5440cba54e3a9b548a037",
+            "taskInstanceUuid": "3bbccfa22a774075b00a872f5dd5642d",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 2,
+                "option_0": "омолодити",
+                "option_1": "брухт",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 46319,
+                    "index": 16662,
+                    "freq_quantile": 9,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "омолоди́ти"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 11910,
+                    "index": 8141,
+                    "freq_quantile": 5,
+                    "len": 5,
+                    "len_quantile": "short",
+                    "word_raw": "брухт"
+                },
+                "reversed": false,
+                "id": 32
+            }
+        },
+        {
+            "question": "Яке слово коротше: \"брухт\" чи \"омолодити\"?",
+            "correctAnswer": "брухт",
+            "templateUuid": "1da85d6e7cf5440cba54e3a9b548a037",
+            "taskInstanceUuid": "c11bc98f72704d83b56518065d654092",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 2,
+                "option_0": "брухт",
+                "option_1": "омолодити",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 11910,
+                    "index": 8141,
+                    "freq_quantile": 5,
+                    "len": 5,
+                    "len_quantile": "short",
+                    "word_raw": "брухт"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 46319,
+                    "index": 16662,
+                    "freq_quantile": 9,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "омолоди́ти"
+                },
+                "reversed": true,
+                "id": 33
+            }
+        },
+        {
+            "question": "Яке слово має менше літер: \"омолодити\" чи \"брухт\"?",
+            "correctAnswer": "брухт",
+            "templateUuid": "20019ed544b54cf08a2a66de4854a6a4",
+            "taskInstanceUuid": "e7fd3c4645c94aa382f35d05290dca2d",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 3,
+                "option_0": "омолодити",
+                "option_1": "брухт",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 46319,
+                    "index": 16662,
+                    "freq_quantile": 9,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "омолоди́ти"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 11910,
+                    "index": 8141,
+                    "freq_quantile": 5,
+                    "len": 5,
+                    "len_quantile": "short",
+                    "word_raw": "брухт"
+                },
+                "reversed": false,
+                "id": 34
+            }
+        },
+        {
+            "question": "Яке слово має менше літер: \"брухт\" чи \"омолодити\"?",
+            "correctAnswer": "брухт",
+            "templateUuid": "20019ed544b54cf08a2a66de4854a6a4",
+            "taskInstanceUuid": "bfeccc46a35249a7a7891a0e3c851b86",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 3,
+                "option_0": "брухт",
+                "option_1": "омолодити",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 11910,
+                    "index": 8141,
+                    "freq_quantile": 5,
+                    "len": 5,
+                    "len_quantile": "short",
+                    "word_raw": "брухт"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 46319,
+                    "index": 16662,
+                    "freq_quantile": 9,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "омолоди́ти"
+                },
+                "reversed": true,
+                "id": 35
+            }
+        },
+        {
+            "question": "Яке слово довше: \"омолодити\" чи \"брухт\"?",
+            "correctAnswer": "омолодити",
+            "templateUuid": "0ee1e5281f4c4909913ebfa7293d462e",
+            "taskInstanceUuid": "73854ce6c2454fd1afd08146fd96e170",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 0,
+                "option_0": "омолодити",
+                "option_1": "брухт",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 46319,
+                    "index": 16662,
+                    "freq_quantile": 9,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "омолоди́ти"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 11910,
+                    "index": 8141,
+                    "freq_quantile": 5,
+                    "len": 5,
+                    "len_quantile": "short",
+                    "word_raw": "брухт"
+                },
+                "reversed": false,
+                "id": 36
+            }
+        },
+        {
+            "question": "Яке слово довше: \"брухт\" чи \"омолодити\"?",
+            "correctAnswer": "омолодити",
+            "templateUuid": "0ee1e5281f4c4909913ebfa7293d462e",
+            "taskInstanceUuid": "9f18ed32f8194fc2a39a37fb3976e9d7",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 0,
+                "option_0": "брухт",
+                "option_1": "омолодити",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 11910,
+                    "index": 8141,
+                    "freq_quantile": 5,
+                    "len": 5,
+                    "len_quantile": "short",
+                    "word_raw": "брухт"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 46319,
+                    "index": 16662,
+                    "freq_quantile": 9,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "омолоди́ти"
+                },
+                "reversed": true,
+                "id": 37
+            }
+        },
+        {
+            "question": "Яке слово має більше літер: \"омолодити\" чи \"брухт\"?",
+            "correctAnswer": "омолодити",
+            "templateUuid": "0491f97b8c5a4330ab7a558d6e68b305",
+            "taskInstanceUuid": "15d980d0f7184ddf98fa2aaff8f604b0",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 1,
+                "option_0": "омолодити",
+                "option_1": "брухт",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 46319,
+                    "index": 16662,
+                    "freq_quantile": 9,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "омолоди́ти"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 11910,
+                    "index": 8141,
+                    "freq_quantile": 5,
+                    "len": 5,
+                    "len_quantile": "short",
+                    "word_raw": "брухт"
+                },
+                "reversed": false,
+                "id": 38
+            }
+        },
+        {
+            "question": "Яке слово має більше літер: \"брухт\" чи \"омолодити\"?",
+            "correctAnswer": "омолодити",
+            "templateUuid": "0491f97b8c5a4330ab7a558d6e68b305",
+            "taskInstanceUuid": "6d8d4a278188417db1a7ebf3f9eb0957",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 1,
+                "option_0": "брухт",
+                "option_1": "омолодити",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 11910,
+                    "index": 8141,
+                    "freq_quantile": 5,
+                    "len": 5,
+                    "len_quantile": "short",
+                    "word_raw": "брухт"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 46319,
+                    "index": 16662,
+                    "freq_quantile": 9,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "омолоди́ти"
+                },
+                "reversed": true,
+                "id": 39
+            }
+        },
+        {
+            "question": "Яке слово коротше: \"ввести\" чи \"шина\"?",
+            "correctAnswer": "шина",
+            "templateUuid": "1da85d6e7cf5440cba54e3a9b548a037",
+            "taskInstanceUuid": "a3077e77982e45a0a6366c1a0708faa0",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 2,
+                "option_0": "ввести",
+                "option_1": "шина",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 3445,
+                    "index": 2933,
+                    "freq_quantile": 2,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "ввести́"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 18193,
+                    "index": 10815,
+                    "freq_quantile": 6,
+                    "len": 5,
+                    "len_quantile": "short",
+                    "word_raw": "ши́на"
+                },
+                "reversed": false,
+                "id": 40
+            }
+        },
+        {
+            "question": "Яке слово коротше: \"шина\" чи \"ввести\"?",
+            "correctAnswer": "шина",
+            "templateUuid": "1da85d6e7cf5440cba54e3a9b548a037",
+            "taskInstanceUuid": "5baf241501094bbaad5be034b357aeec",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 2,
+                "option_0": "шина",
+                "option_1": "ввести",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 18193,
+                    "index": 10815,
+                    "freq_quantile": 6,
+                    "len": 5,
+                    "len_quantile": "short",
+                    "word_raw": "ши́на"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 3445,
+                    "index": 2933,
+                    "freq_quantile": 2,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "ввести́"
+                },
+                "reversed": true,
+                "id": 41
+            }
+        },
+        {
+            "question": "Яке слово має менше літер: \"ввести\" чи \"шина\"?",
+            "correctAnswer": "шина",
+            "templateUuid": "20019ed544b54cf08a2a66de4854a6a4",
+            "taskInstanceUuid": "811da65d129a4489958fe9da41e72e3b",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 3,
+                "option_0": "ввести",
+                "option_1": "шина",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 3445,
+                    "index": 2933,
+                    "freq_quantile": 2,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "ввести́"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 18193,
+                    "index": 10815,
+                    "freq_quantile": 6,
+                    "len": 5,
+                    "len_quantile": "short",
+                    "word_raw": "ши́на"
+                },
+                "reversed": false,
+                "id": 42
+            }
+        },
+        {
+            "question": "Яке слово має менше літер: \"шина\" чи \"ввести\"?",
+            "correctAnswer": "шина",
+            "templateUuid": "20019ed544b54cf08a2a66de4854a6a4",
+            "taskInstanceUuid": "52fd856389744a0ab065399b4d51a241",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 3,
+                "option_0": "шина",
+                "option_1": "ввести",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 18193,
+                    "index": 10815,
+                    "freq_quantile": 6,
+                    "len": 5,
+                    "len_quantile": "short",
+                    "word_raw": "ши́на"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 3445,
+                    "index": 2933,
+                    "freq_quantile": 2,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "ввести́"
+                },
+                "reversed": true,
+                "id": 43
+            }
+        },
+        {
+            "question": "Яке слово довше: \"ввести\" чи \"шина\"?",
+            "correctAnswer": "ввести",
+            "templateUuid": "0ee1e5281f4c4909913ebfa7293d462e",
+            "taskInstanceUuid": "1e714b590e0e4d17a76ce1cd0fac642b",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 0,
+                "option_0": "ввести",
+                "option_1": "шина",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 3445,
+                    "index": 2933,
+                    "freq_quantile": 2,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "ввести́"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 18193,
+                    "index": 10815,
+                    "freq_quantile": 6,
+                    "len": 5,
+                    "len_quantile": "short",
+                    "word_raw": "ши́на"
+                },
+                "reversed": false,
+                "id": 44
+            }
+        },
+        {
+            "question": "Яке слово довше: \"шина\" чи \"ввести\"?",
+            "correctAnswer": "ввести",
+            "templateUuid": "0ee1e5281f4c4909913ebfa7293d462e",
+            "taskInstanceUuid": "4377e045455740a986f2c680e5d8af39",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 0,
+                "option_0": "шина",
+                "option_1": "ввести",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 18193,
+                    "index": 10815,
+                    "freq_quantile": 6,
+                    "len": 5,
+                    "len_quantile": "short",
+                    "word_raw": "ши́на"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 3445,
+                    "index": 2933,
+                    "freq_quantile": 2,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "ввести́"
+                },
+                "reversed": true,
+                "id": 45
+            }
+        },
+        {
+            "question": "Яке слово має більше літер: \"ввести\" чи \"шина\"?",
+            "correctAnswer": "ввести",
+            "templateUuid": "0491f97b8c5a4330ab7a558d6e68b305",
+            "taskInstanceUuid": "7bd1fe867e8a4c2f8e1e218d144d41d3",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 1,
+                "option_0": "ввести",
+                "option_1": "шина",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 3445,
+                    "index": 2933,
+                    "freq_quantile": 2,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "ввести́"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 18193,
+                    "index": 10815,
+                    "freq_quantile": 6,
+                    "len": 5,
+                    "len_quantile": "short",
+                    "word_raw": "ши́на"
+                },
+                "reversed": false,
+                "id": 46
+            }
+        },
+        {
+            "question": "Яке слово має більше літер: \"шина\" чи \"ввести\"?",
+            "correctAnswer": "ввести",
+            "templateUuid": "0491f97b8c5a4330ab7a558d6e68b305",
+            "taskInstanceUuid": "4402d5659e5b40eeb526ec0207477957",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 1,
+                "option_0": "шина",
+                "option_1": "ввести",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 18193,
+                    "index": 10815,
+                    "freq_quantile": 6,
+                    "len": 5,
+                    "len_quantile": "short",
+                    "word_raw": "ши́на"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 3445,
+                    "index": 2933,
+                    "freq_quantile": 2,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "ввести́"
+                },
+                "reversed": true,
+                "id": 47
+            }
+        },
+        {
+            "question": "Яке слово коротше: \"довготерміновий\" чи \"спір\"?",
+            "correctAnswer": "спір",
+            "templateUuid": "1da85d6e7cf5440cba54e3a9b548a037",
+            "taskInstanceUuid": "3215d108dc8a420b85c5515ca78e96f2",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 2,
+                "option_0": "довготерміновий",
+                "option_1": "спір",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 15015,
+                    "index": 9554,
+                    "freq_quantile": 5,
+                    "len": 16,
+                    "len_quantile": "long",
+                    "word_raw": "довготерміно́вий"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 2120,
+                    "index": 1842,
+                    "freq_quantile": 1,
+                    "len": 4,
+                    "len_quantile": "short",
+                    "word_raw": "спір"
+                },
+                "reversed": false,
+                "id": 48
+            }
+        },
+        {
+            "question": "Яке слово коротше: \"спір\" чи \"довготерміновий\"?",
+            "correctAnswer": "спір",
+            "templateUuid": "1da85d6e7cf5440cba54e3a9b548a037",
+            "taskInstanceUuid": "5cf018ab73f746ee84326b3a741c6a36",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 2,
+                "option_0": "спір",
+                "option_1": "довготерміновий",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 2120,
+                    "index": 1842,
+                    "freq_quantile": 1,
+                    "len": 4,
+                    "len_quantile": "short",
+                    "word_raw": "спір"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 15015,
+                    "index": 9554,
+                    "freq_quantile": 5,
+                    "len": 16,
+                    "len_quantile": "long",
+                    "word_raw": "довготерміно́вий"
+                },
+                "reversed": true,
+                "id": 49
+            }
+        },
+        {
+            "question": "Яке слово має менше літер: \"довготерміновий\" чи \"спір\"?",
+            "correctAnswer": "спір",
+            "templateUuid": "20019ed544b54cf08a2a66de4854a6a4",
+            "taskInstanceUuid": "8255e31520be4964977496fa43bcaaa6",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 3,
+                "option_0": "довготерміновий",
+                "option_1": "спір",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 15015,
+                    "index": 9554,
+                    "freq_quantile": 5,
+                    "len": 16,
+                    "len_quantile": "long",
+                    "word_raw": "довготерміно́вий"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 2120,
+                    "index": 1842,
+                    "freq_quantile": 1,
+                    "len": 4,
+                    "len_quantile": "short",
+                    "word_raw": "спір"
+                },
+                "reversed": false,
+                "id": 50
+            }
+        },
+        {
+            "question": "Яке слово має менше літер: \"спір\" чи \"довготерміновий\"?",
+            "correctAnswer": "спір",
+            "templateUuid": "20019ed544b54cf08a2a66de4854a6a4",
+            "taskInstanceUuid": "093d535c02524508ba3849e44241d79d",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 3,
+                "option_0": "спір",
+                "option_1": "довготерміновий",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 2120,
+                    "index": 1842,
+                    "freq_quantile": 1,
+                    "len": 4,
+                    "len_quantile": "short",
+                    "word_raw": "спір"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 15015,
+                    "index": 9554,
+                    "freq_quantile": 5,
+                    "len": 16,
+                    "len_quantile": "long",
+                    "word_raw": "довготерміно́вий"
+                },
+                "reversed": true,
+                "id": 51
+            }
+        },
+        {
+            "question": "Яке слово довше: \"довготерміновий\" чи \"спір\"?",
+            "correctAnswer": "довготерміновий",
+            "templateUuid": "0ee1e5281f4c4909913ebfa7293d462e",
+            "taskInstanceUuid": "3b3947287b944a11b02ab947f9ef458e",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 0,
+                "option_0": "довготерміновий",
+                "option_1": "спір",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 15015,
+                    "index": 9554,
+                    "freq_quantile": 5,
+                    "len": 16,
+                    "len_quantile": "long",
+                    "word_raw": "довготерміно́вий"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 2120,
+                    "index": 1842,
+                    "freq_quantile": 1,
+                    "len": 4,
+                    "len_quantile": "short",
+                    "word_raw": "спір"
+                },
+                "reversed": false,
+                "id": 52
+            }
+        },
+        {
+            "question": "Яке слово довше: \"спір\" чи \"довготерміновий\"?",
+            "correctAnswer": "довготерміновий",
+            "templateUuid": "0ee1e5281f4c4909913ebfa7293d462e",
+            "taskInstanceUuid": "7d2b7c258f0b444e814ea18e58245ac1",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 0,
+                "option_0": "спір",
+                "option_1": "довготерміновий",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 2120,
+                    "index": 1842,
+                    "freq_quantile": 1,
+                    "len": 4,
+                    "len_quantile": "short",
+                    "word_raw": "спір"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 15015,
+                    "index": 9554,
+                    "freq_quantile": 5,
+                    "len": 16,
+                    "len_quantile": "long",
+                    "word_raw": "довготерміно́вий"
+                },
+                "reversed": true,
+                "id": 53
+            }
+        },
+        {
+            "question": "Яке слово має більше літер: \"довготерміновий\" чи \"спір\"?",
+            "correctAnswer": "довготерміновий",
+            "templateUuid": "0491f97b8c5a4330ab7a558d6e68b305",
+            "taskInstanceUuid": "ef65b535e07a42d5bbfe833a3402d549",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 1,
+                "option_0": "довготерміновий",
+                "option_1": "спір",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 15015,
+                    "index": 9554,
+                    "freq_quantile": 5,
+                    "len": 16,
+                    "len_quantile": "long",
+                    "word_raw": "довготерміно́вий"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 2120,
+                    "index": 1842,
+                    "freq_quantile": 1,
+                    "len": 4,
+                    "len_quantile": "short",
+                    "word_raw": "спір"
+                },
+                "reversed": false,
+                "id": 54
+            }
+        },
+        {
+            "question": "Яке слово має більше літер: \"спір\" чи \"довготерміновий\"?",
+            "correctAnswer": "довготерміновий",
+            "templateUuid": "0491f97b8c5a4330ab7a558d6e68b305",
+            "taskInstanceUuid": "c40ce3313e334c1baf41dc0d020673eb",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 1,
+                "option_0": "спір",
+                "option_1": "довготерміновий",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 2120,
+                    "index": 1842,
+                    "freq_quantile": 1,
+                    "len": 4,
+                    "len_quantile": "short",
+                    "word_raw": "спір"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 15015,
+                    "index": 9554,
+                    "freq_quantile": 5,
+                    "len": 16,
+                    "len_quantile": "long",
+                    "word_raw": "довготерміно́вий"
+                },
+                "reversed": true,
+                "id": 55
+            }
+        },
+        {
+            "question": "Яке слово коротше: \"русофільський\" чи \"харківський\"?",
+            "correctAnswer": "харківський",
+            "templateUuid": "1da85d6e7cf5440cba54e3a9b548a037",
+            "taskInstanceUuid": "60521f3834014d459e4fbac6f5161e90",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 2,
+                "option_0": "русофільський",
+                "option_1": "харківський",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 48387,
+                    "index": 16897,
+                    "freq_quantile": 9,
+                    "len": 14,
+                    "len_quantile": "long",
+                    "word_raw": "русофі́льський"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 1249,
+                    "index": 1092,
+                    "freq_quantile": 1,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "ха́рківський"
+                },
+                "reversed": false,
+                "id": 56
+            }
+        },
+        {
+            "question": "Яке слово коротше: \"харківський\" чи \"русофільський\"?",
+            "correctAnswer": "харківський",
+            "templateUuid": "1da85d6e7cf5440cba54e3a9b548a037",
+            "taskInstanceUuid": "01d9951e194c49b781606609f48bc691",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 2,
+                "option_0": "харківський",
+                "option_1": "русофільський",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 1249,
+                    "index": 1092,
+                    "freq_quantile": 1,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "ха́рківський"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 48387,
+                    "index": 16897,
+                    "freq_quantile": 9,
+                    "len": 14,
+                    "len_quantile": "long",
+                    "word_raw": "русофі́льський"
+                },
+                "reversed": true,
+                "id": 57
+            }
+        },
+        {
+            "question": "Яке слово має менше літер: \"русофільський\" чи \"харківський\"?",
+            "correctAnswer": "харківський",
+            "templateUuid": "20019ed544b54cf08a2a66de4854a6a4",
+            "taskInstanceUuid": "2aa975ece3a242daa5472694ed8e7654",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 3,
+                "option_0": "русофільський",
+                "option_1": "харківський",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 48387,
+                    "index": 16897,
+                    "freq_quantile": 9,
+                    "len": 14,
+                    "len_quantile": "long",
+                    "word_raw": "русофі́льський"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 1249,
+                    "index": 1092,
+                    "freq_quantile": 1,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "ха́рківський"
+                },
+                "reversed": false,
+                "id": 58
+            }
+        },
+        {
+            "question": "Яке слово має менше літер: \"харківський\" чи \"русофільський\"?",
+            "correctAnswer": "харківський",
+            "templateUuid": "20019ed544b54cf08a2a66de4854a6a4",
+            "taskInstanceUuid": "c57a01e6a0544f6e9bf67f12b9eab5f4",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 3,
+                "option_0": "харківський",
+                "option_1": "русофільський",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 1249,
+                    "index": 1092,
+                    "freq_quantile": 1,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "ха́рківський"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 48387,
+                    "index": 16897,
+                    "freq_quantile": 9,
+                    "len": 14,
+                    "len_quantile": "long",
+                    "word_raw": "русофі́льський"
+                },
+                "reversed": true,
+                "id": 59
+            }
+        },
+        {
+            "question": "Яке слово довше: \"русофільський\" чи \"харківський\"?",
+            "correctAnswer": "русофільський",
+            "templateUuid": "0ee1e5281f4c4909913ebfa7293d462e",
+            "taskInstanceUuid": "c5f9638663fa43eaa22408de6fc223d8",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 0,
+                "option_0": "русофільський",
+                "option_1": "харківський",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 48387,
+                    "index": 16897,
+                    "freq_quantile": 9,
+                    "len": 14,
+                    "len_quantile": "long",
+                    "word_raw": "русофі́льський"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 1249,
+                    "index": 1092,
+                    "freq_quantile": 1,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "ха́рківський"
+                },
+                "reversed": false,
+                "id": 60
+            }
+        },
+        {
+            "question": "Яке слово довше: \"харківський\" чи \"русофільський\"?",
+            "correctAnswer": "русофільський",
+            "templateUuid": "0ee1e5281f4c4909913ebfa7293d462e",
+            "taskInstanceUuid": "00501bd56b684e65ae6637516829cecc",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 0,
+                "option_0": "харківський",
+                "option_1": "русофільський",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 1249,
+                    "index": 1092,
+                    "freq_quantile": 1,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "ха́рківський"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 48387,
+                    "index": 16897,
+                    "freq_quantile": 9,
+                    "len": 14,
+                    "len_quantile": "long",
+                    "word_raw": "русофі́льський"
+                },
+                "reversed": true,
+                "id": 61
+            }
+        },
+        {
+            "question": "Яке слово має більше літер: \"русофільський\" чи \"харківський\"?",
+            "correctAnswer": "русофільський",
+            "templateUuid": "0491f97b8c5a4330ab7a558d6e68b305",
+            "taskInstanceUuid": "da3659b4ea234737a5981546f5d027f4",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 1,
+                "option_0": "русофільський",
+                "option_1": "харківський",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 48387,
+                    "index": 16897,
+                    "freq_quantile": 9,
+                    "len": 14,
+                    "len_quantile": "long",
+                    "word_raw": "русофі́льський"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 1249,
+                    "index": 1092,
+                    "freq_quantile": 1,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "ха́рківський"
+                },
+                "reversed": false,
+                "id": 62
+            }
+        },
+        {
+            "question": "Яке слово має більше літер: \"харківський\" чи \"русофільський\"?",
+            "correctAnswer": "русофільський",
+            "templateUuid": "0491f97b8c5a4330ab7a558d6e68b305",
+            "taskInstanceUuid": "0b1f97e664ff43a0b58a41b681c76fdb",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 1,
+                "option_0": "харківський",
+                "option_1": "русофільський",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 1249,
+                    "index": 1092,
+                    "freq_quantile": 1,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "ха́рківський"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 48387,
+                    "index": 16897,
+                    "freq_quantile": 9,
+                    "len": 14,
+                    "len_quantile": "long",
+                    "word_raw": "русофі́льський"
+                },
+                "reversed": true,
+                "id": 63
+            }
+        },
+        {
+            "question": "Яке слово коротше: \"всенародний\" чи \"озброювати\"?",
+            "correctAnswer": "озброювати",
+            "templateUuid": "1da85d6e7cf5440cba54e3a9b548a037",
+            "taskInstanceUuid": "7d3234d157f247e0978933e6a0a2a001",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 2,
+                "option_0": "всенародний",
+                "option_1": "озброювати",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 5472,
+                    "index": 4394,
+                    "freq_quantile": 3,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "всенаро́дний"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 46210,
+                    "index": 16651,
+                    "freq_quantile": 9,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "озбро́ювати"
+                },
+                "reversed": false,
+                "id": 64
+            }
+        },
+        {
+            "question": "Яке слово коротше: \"озброювати\" чи \"всенародний\"?",
+            "correctAnswer": "озброювати",
+            "templateUuid": "1da85d6e7cf5440cba54e3a9b548a037",
+            "taskInstanceUuid": "bc276f8247df4405a5f3d5d4a962a49b",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 2,
+                "option_0": "озброювати",
+                "option_1": "всенародний",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 46210,
+                    "index": 16651,
+                    "freq_quantile": 9,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "озбро́ювати"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 5472,
+                    "index": 4394,
+                    "freq_quantile": 3,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "всенаро́дний"
+                },
+                "reversed": true,
+                "id": 65
+            }
+        },
+        {
+            "question": "Яке слово має менше літер: \"всенародний\" чи \"озброювати\"?",
+            "correctAnswer": "озброювати",
+            "templateUuid": "20019ed544b54cf08a2a66de4854a6a4",
+            "taskInstanceUuid": "a176eac966634222aaf3cce491911628",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 3,
+                "option_0": "всенародний",
+                "option_1": "озброювати",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 5472,
+                    "index": 4394,
+                    "freq_quantile": 3,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "всенаро́дний"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 46210,
+                    "index": 16651,
+                    "freq_quantile": 9,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "озбро́ювати"
+                },
+                "reversed": false,
+                "id": 66
+            }
+        },
+        {
+            "question": "Яке слово має менше літер: \"озброювати\" чи \"всенародний\"?",
+            "correctAnswer": "озброювати",
+            "templateUuid": "20019ed544b54cf08a2a66de4854a6a4",
+            "taskInstanceUuid": "338a76d765e643c09d936c3f507cab48",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 3,
+                "option_0": "озброювати",
+                "option_1": "всенародний",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 46210,
+                    "index": 16651,
+                    "freq_quantile": 9,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "озбро́ювати"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 5472,
+                    "index": 4394,
+                    "freq_quantile": 3,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "всенаро́дний"
+                },
+                "reversed": true,
+                "id": 67
+            }
+        },
+        {
+            "question": "Яке слово довше: \"всенародний\" чи \"озброювати\"?",
+            "correctAnswer": "всенародний",
+            "templateUuid": "0ee1e5281f4c4909913ebfa7293d462e",
+            "taskInstanceUuid": "71d3155e13ff4e6eacff9cf8088af8fb",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 0,
+                "option_0": "всенародний",
+                "option_1": "озброювати",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 5472,
+                    "index": 4394,
+                    "freq_quantile": 3,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "всенаро́дний"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 46210,
+                    "index": 16651,
+                    "freq_quantile": 9,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "озбро́ювати"
+                },
+                "reversed": false,
+                "id": 68
+            }
+        },
+        {
+            "question": "Яке слово довше: \"озброювати\" чи \"всенародний\"?",
+            "correctAnswer": "всенародний",
+            "templateUuid": "0ee1e5281f4c4909913ebfa7293d462e",
+            "taskInstanceUuid": "0c5cc49ec9a14ecb8dcf600269e15a98",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 0,
+                "option_0": "озброювати",
+                "option_1": "всенародний",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 46210,
+                    "index": 16651,
+                    "freq_quantile": 9,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "озбро́ювати"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 5472,
+                    "index": 4394,
+                    "freq_quantile": 3,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "всенаро́дний"
+                },
+                "reversed": true,
+                "id": 69
+            }
+        },
+        {
+            "question": "Яке слово має більше літер: \"всенародний\" чи \"озброювати\"?",
+            "correctAnswer": "всенародний",
+            "templateUuid": "0491f97b8c5a4330ab7a558d6e68b305",
+            "taskInstanceUuid": "db69f5b992904c4f8b208d31b64a1525",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 1,
+                "option_0": "всенародний",
+                "option_1": "озброювати",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 5472,
+                    "index": 4394,
+                    "freq_quantile": 3,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "всенаро́дний"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 46210,
+                    "index": 16651,
+                    "freq_quantile": 9,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "озбро́ювати"
+                },
+                "reversed": false,
+                "id": 70
+            }
+        },
+        {
+            "question": "Яке слово має більше літер: \"озброювати\" чи \"всенародний\"?",
+            "correctAnswer": "всенародний",
+            "templateUuid": "0491f97b8c5a4330ab7a558d6e68b305",
+            "taskInstanceUuid": "504ea89b6c244a8cacde403111ce0a71",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 1,
+                "option_0": "озброювати",
+                "option_1": "всенародний",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 46210,
+                    "index": 16651,
+                    "freq_quantile": 9,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "озбро́ювати"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 5472,
+                    "index": 4394,
+                    "freq_quantile": 3,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "всенаро́дний"
+                },
+                "reversed": true,
+                "id": 71
+            }
+        },
+        {
+            "question": "Яке слово коротше: \"занурюватися\" чи \"погіршитися\"?",
+            "correctAnswer": "погіршитися",
+            "templateUuid": "1da85d6e7cf5440cba54e3a9b548a037",
+            "taskInstanceUuid": "c5cf730f88504a7d9c0f40046ad00f7b",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 2,
+                "option_0": "занурюватися",
+                "option_1": "погіршитися",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 11407,
+                    "index": 7901,
+                    "freq_quantile": 5,
+                    "len": 13,
+                    "len_quantile": "long",
+                    "word_raw": "зану́рюватися"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 8998,
+                    "index": 6607,
+                    "freq_quantile": 4,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "погі́ршитися"
+                },
+                "reversed": false,
+                "id": 72
+            }
+        },
+        {
+            "question": "Яке слово коротше: \"погіршитися\" чи \"занурюватися\"?",
+            "correctAnswer": "погіршитися",
+            "templateUuid": "1da85d6e7cf5440cba54e3a9b548a037",
+            "taskInstanceUuid": "eb4925c0a9e34baf84955f938aafeef8",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 2,
+                "option_0": "погіршитися",
+                "option_1": "занурюватися",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 8998,
+                    "index": 6607,
+                    "freq_quantile": 4,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "погі́ршитися"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 11407,
+                    "index": 7901,
+                    "freq_quantile": 5,
+                    "len": 13,
+                    "len_quantile": "long",
+                    "word_raw": "зану́рюватися"
+                },
+                "reversed": true,
+                "id": 73
+            }
+        },
+        {
+            "question": "Яке слово має менше літер: \"занурюватися\" чи \"погіршитися\"?",
+            "correctAnswer": "погіршитися",
+            "templateUuid": "20019ed544b54cf08a2a66de4854a6a4",
+            "taskInstanceUuid": "1904600d7e244742a06f40bba116211f",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 3,
+                "option_0": "занурюватися",
+                "option_1": "погіршитися",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 11407,
+                    "index": 7901,
+                    "freq_quantile": 5,
+                    "len": 13,
+                    "len_quantile": "long",
+                    "word_raw": "зану́рюватися"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 8998,
+                    "index": 6607,
+                    "freq_quantile": 4,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "погі́ршитися"
+                },
+                "reversed": false,
+                "id": 74
+            }
+        },
+        {
+            "question": "Яке слово має менше літер: \"погіршитися\" чи \"занурюватися\"?",
+            "correctAnswer": "погіршитися",
+            "templateUuid": "20019ed544b54cf08a2a66de4854a6a4",
+            "taskInstanceUuid": "511480d483d84c218dc5d7ddcc62b681",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 3,
+                "option_0": "погіршитися",
+                "option_1": "занурюватися",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 8998,
+                    "index": 6607,
+                    "freq_quantile": 4,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "погі́ршитися"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 11407,
+                    "index": 7901,
+                    "freq_quantile": 5,
+                    "len": 13,
+                    "len_quantile": "long",
+                    "word_raw": "зану́рюватися"
+                },
+                "reversed": true,
+                "id": 75
+            }
+        },
+        {
+            "question": "Яке слово довше: \"занурюватися\" чи \"погіршитися\"?",
+            "correctAnswer": "занурюватися",
+            "templateUuid": "0ee1e5281f4c4909913ebfa7293d462e",
+            "taskInstanceUuid": "e22d6253b75e41b9a052a950a66825fd",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 0,
+                "option_0": "занурюватися",
+                "option_1": "погіршитися",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 11407,
+                    "index": 7901,
+                    "freq_quantile": 5,
+                    "len": 13,
+                    "len_quantile": "long",
+                    "word_raw": "зану́рюватися"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 8998,
+                    "index": 6607,
+                    "freq_quantile": 4,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "погі́ршитися"
+                },
+                "reversed": false,
+                "id": 76
+            }
+        },
+        {
+            "question": "Яке слово довше: \"погіршитися\" чи \"занурюватися\"?",
+            "correctAnswer": "занурюватися",
+            "templateUuid": "0ee1e5281f4c4909913ebfa7293d462e",
+            "taskInstanceUuid": "c15dd2eef97d4247bb15ea353264285f",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 0,
+                "option_0": "погіршитися",
+                "option_1": "занурюватися",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 8998,
+                    "index": 6607,
+                    "freq_quantile": 4,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "погі́ршитися"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 11407,
+                    "index": 7901,
+                    "freq_quantile": 5,
+                    "len": 13,
+                    "len_quantile": "long",
+                    "word_raw": "зану́рюватися"
+                },
+                "reversed": true,
+                "id": 77
+            }
+        },
+        {
+            "question": "Яке слово має більше літер: \"занурюватися\" чи \"погіршитися\"?",
+            "correctAnswer": "занурюватися",
+            "templateUuid": "0491f97b8c5a4330ab7a558d6e68b305",
+            "taskInstanceUuid": "3c9c956b9d9b49cba66296405b97b626",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 1,
+                "option_0": "занурюватися",
+                "option_1": "погіршитися",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 11407,
+                    "index": 7901,
+                    "freq_quantile": 5,
+                    "len": 13,
+                    "len_quantile": "long",
+                    "word_raw": "зану́рюватися"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 8998,
+                    "index": 6607,
+                    "freq_quantile": 4,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "погі́ршитися"
+                },
+                "reversed": false,
+                "id": 78
+            }
+        },
+        {
+            "question": "Яке слово має більше літер: \"погіршитися\" чи \"занурюватися\"?",
+            "correctAnswer": "занурюватися",
+            "templateUuid": "0491f97b8c5a4330ab7a558d6e68b305",
+            "taskInstanceUuid": "d321e5b95e8449dab2fa5b7a9337dc1d",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 1,
+                "option_0": "погіршитися",
+                "option_1": "занурюватися",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 8998,
+                    "index": 6607,
+                    "freq_quantile": 4,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "погі́ршитися"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 11407,
+                    "index": 7901,
+                    "freq_quantile": 5,
+                    "len": 13,
+                    "len_quantile": "long",
+                    "word_raw": "зану́рюватися"
+                },
+                "reversed": true,
+                "id": 79
+            }
+        },
+        {
+            "question": "Яке слово коротше: \"розтанути\" чи \"підраховувати\"?",
+            "correctAnswer": "розтанути",
+            "templateUuid": "1da85d6e7cf5440cba54e3a9b548a037",
+            "taskInstanceUuid": "ad0a6374901942808e46c1477c3cd970",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 2,
+                "option_0": "розтанути",
+                "option_1": "підраховувати",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 26578,
+                    "index": 13377,
+                    "freq_quantile": 7,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "розта́нути"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 14719,
+                    "index": 9426,
+                    "freq_quantile": 5,
+                    "len": 14,
+                    "len_quantile": "long",
+                    "word_raw": "підрахо́вувати"
+                },
+                "reversed": false,
+                "id": 80
+            }
+        },
+        {
+            "question": "Яке слово коротше: \"підраховувати\" чи \"розтанути\"?",
+            "correctAnswer": "розтанути",
+            "templateUuid": "1da85d6e7cf5440cba54e3a9b548a037",
+            "taskInstanceUuid": "0d43ee1dee0b4c2cb787c954977daf5a",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 2,
+                "option_0": "підраховувати",
+                "option_1": "розтанути",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 14719,
+                    "index": 9426,
+                    "freq_quantile": 5,
+                    "len": 14,
+                    "len_quantile": "long",
+                    "word_raw": "підрахо́вувати"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 26578,
+                    "index": 13377,
+                    "freq_quantile": 7,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "розта́нути"
+                },
+                "reversed": true,
+                "id": 81
+            }
+        },
+        {
+            "question": "Яке слово має менше літер: \"розтанути\" чи \"підраховувати\"?",
+            "correctAnswer": "розтанути",
+            "templateUuid": "20019ed544b54cf08a2a66de4854a6a4",
+            "taskInstanceUuid": "5c79d100760a4afe8ad09a89769ca12f",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 3,
+                "option_0": "розтанути",
+                "option_1": "підраховувати",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 26578,
+                    "index": 13377,
+                    "freq_quantile": 7,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "розта́нути"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 14719,
+                    "index": 9426,
+                    "freq_quantile": 5,
+                    "len": 14,
+                    "len_quantile": "long",
+                    "word_raw": "підрахо́вувати"
+                },
+                "reversed": false,
+                "id": 82
+            }
+        },
+        {
+            "question": "Яке слово має менше літер: \"підраховувати\" чи \"розтанути\"?",
+            "correctAnswer": "розтанути",
+            "templateUuid": "20019ed544b54cf08a2a66de4854a6a4",
+            "taskInstanceUuid": "8b1bc643523940ca86778e65abcd7ae4",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 3,
+                "option_0": "підраховувати",
+                "option_1": "розтанути",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 14719,
+                    "index": 9426,
+                    "freq_quantile": 5,
+                    "len": 14,
+                    "len_quantile": "long",
+                    "word_raw": "підрахо́вувати"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 26578,
+                    "index": 13377,
+                    "freq_quantile": 7,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "розта́нути"
+                },
+                "reversed": true,
+                "id": 83
+            }
+        },
+        {
+            "question": "Яке слово довше: \"розтанути\" чи \"підраховувати\"?",
+            "correctAnswer": "підраховувати",
+            "templateUuid": "0ee1e5281f4c4909913ebfa7293d462e",
+            "taskInstanceUuid": "e1f456d16051482c94bea884c823fe08",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 0,
+                "option_0": "розтанути",
+                "option_1": "підраховувати",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 26578,
+                    "index": 13377,
+                    "freq_quantile": 7,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "розта́нути"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 14719,
+                    "index": 9426,
+                    "freq_quantile": 5,
+                    "len": 14,
+                    "len_quantile": "long",
+                    "word_raw": "підрахо́вувати"
+                },
+                "reversed": false,
+                "id": 84
+            }
+        },
+        {
+            "question": "Яке слово довше: \"підраховувати\" чи \"розтанути\"?",
+            "correctAnswer": "підраховувати",
+            "templateUuid": "0ee1e5281f4c4909913ebfa7293d462e",
+            "taskInstanceUuid": "d63d378366e648d6a3c3d033b000b846",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 0,
+                "option_0": "підраховувати",
+                "option_1": "розтанути",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 14719,
+                    "index": 9426,
+                    "freq_quantile": 5,
+                    "len": 14,
+                    "len_quantile": "long",
+                    "word_raw": "підрахо́вувати"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 26578,
+                    "index": 13377,
+                    "freq_quantile": 7,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "розта́нути"
+                },
+                "reversed": true,
+                "id": 85
+            }
+        },
+        {
+            "question": "Яке слово має більше літер: \"розтанути\" чи \"підраховувати\"?",
+            "correctAnswer": "підраховувати",
+            "templateUuid": "0491f97b8c5a4330ab7a558d6e68b305",
+            "taskInstanceUuid": "b44da888e82247389e840a4cc6e5dc79",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 1,
+                "option_0": "розтанути",
+                "option_1": "підраховувати",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 26578,
+                    "index": 13377,
+                    "freq_quantile": 7,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "розта́нути"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 14719,
+                    "index": 9426,
+                    "freq_quantile": 5,
+                    "len": 14,
+                    "len_quantile": "long",
+                    "word_raw": "підрахо́вувати"
+                },
+                "reversed": false,
+                "id": 86
+            }
+        },
+        {
+            "question": "Яке слово має більше літер: \"підраховувати\" чи \"розтанути\"?",
+            "correctAnswer": "підраховувати",
+            "templateUuid": "0491f97b8c5a4330ab7a558d6e68b305",
+            "taskInstanceUuid": "7272ac75001e4efca8257f188819d140",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 1,
+                "option_0": "підраховувати",
+                "option_1": "розтанути",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 14719,
+                    "index": 9426,
+                    "freq_quantile": 5,
+                    "len": 14,
+                    "len_quantile": "long",
+                    "word_raw": "підрахо́вувати"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 26578,
+                    "index": 13377,
+                    "freq_quantile": 7,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "розта́нути"
+                },
+                "reversed": true,
+                "id": 87
+            }
+        },
+        {
+            "question": "Яке слово коротше: \"допізна\" чи \"відправити\"?",
+            "correctAnswer": "допізна",
+            "templateUuid": "1da85d6e7cf5440cba54e3a9b548a037",
+            "taskInstanceUuid": "592bbdd2342f4f28b10e67ec4c4a9cb9",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 2,
+                "option_0": "допізна",
+                "option_1": "відправити",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 35332,
+                    "index": 15190,
+                    "freq_quantile": 8,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "допі́зна"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 3403,
+                    "index": 2904,
+                    "freq_quantile": 2,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "відпра́вити"
+                },
+                "reversed": false,
+                "id": 88
+            }
+        },
+        {
+            "question": "Яке слово коротше: \"відправити\" чи \"допізна\"?",
+            "correctAnswer": "допізна",
+            "templateUuid": "1da85d6e7cf5440cba54e3a9b548a037",
+            "taskInstanceUuid": "e8b6c90ee77642cb9671508850431fa3",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 2,
+                "option_0": "відправити",
+                "option_1": "допізна",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 3403,
+                    "index": 2904,
+                    "freq_quantile": 2,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "відпра́вити"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 35332,
+                    "index": 15190,
+                    "freq_quantile": 8,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "допі́зна"
+                },
+                "reversed": true,
+                "id": 89
+            }
+        },
+        {
+            "question": "Яке слово має менше літер: \"допізна\" чи \"відправити\"?",
+            "correctAnswer": "допізна",
+            "templateUuid": "20019ed544b54cf08a2a66de4854a6a4",
+            "taskInstanceUuid": "bbb85d028b764e309d7ac8ce3497a677",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 3,
+                "option_0": "допізна",
+                "option_1": "відправити",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 35332,
+                    "index": 15190,
+                    "freq_quantile": 8,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "допі́зна"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 3403,
+                    "index": 2904,
+                    "freq_quantile": 2,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "відпра́вити"
+                },
+                "reversed": false,
+                "id": 90
+            }
+        },
+        {
+            "question": "Яке слово має менше літер: \"відправити\" чи \"допізна\"?",
+            "correctAnswer": "допізна",
+            "templateUuid": "20019ed544b54cf08a2a66de4854a6a4",
+            "taskInstanceUuid": "0490f2c948154ab2bf4784513ed2cd42",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 3,
+                "option_0": "відправити",
+                "option_1": "допізна",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 3403,
+                    "index": 2904,
+                    "freq_quantile": 2,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "відпра́вити"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 35332,
+                    "index": 15190,
+                    "freq_quantile": 8,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "допі́зна"
+                },
+                "reversed": true,
+                "id": 91
+            }
+        },
+        {
+            "question": "Яке слово довше: \"допізна\" чи \"відправити\"?",
+            "correctAnswer": "відправити",
+            "templateUuid": "0ee1e5281f4c4909913ebfa7293d462e",
+            "taskInstanceUuid": "a52e3d7872d64a18b93bc1b8523a1f73",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 0,
+                "option_0": "допізна",
+                "option_1": "відправити",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 35332,
+                    "index": 15190,
+                    "freq_quantile": 8,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "допі́зна"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 3403,
+                    "index": 2904,
+                    "freq_quantile": 2,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "відпра́вити"
+                },
+                "reversed": false,
+                "id": 92
+            }
+        },
+        {
+            "question": "Яке слово довше: \"відправити\" чи \"допізна\"?",
+            "correctAnswer": "відправити",
+            "templateUuid": "0ee1e5281f4c4909913ebfa7293d462e",
+            "taskInstanceUuid": "1daf54c0f1b848a2bbdd9d77e7f41f3d",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 0,
+                "option_0": "відправити",
+                "option_1": "допізна",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 3403,
+                    "index": 2904,
+                    "freq_quantile": 2,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "відпра́вити"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 35332,
+                    "index": 15190,
+                    "freq_quantile": 8,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "допі́зна"
+                },
+                "reversed": true,
+                "id": 93
+            }
+        },
+        {
+            "question": "Яке слово має більше літер: \"допізна\" чи \"відправити\"?",
+            "correctAnswer": "відправити",
+            "templateUuid": "0491f97b8c5a4330ab7a558d6e68b305",
+            "taskInstanceUuid": "d3563b9a5edd4251ad60287ffdc16b9a",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 1,
+                "option_0": "допізна",
+                "option_1": "відправити",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 35332,
+                    "index": 15190,
+                    "freq_quantile": 8,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "допі́зна"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 3403,
+                    "index": 2904,
+                    "freq_quantile": 2,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "відпра́вити"
+                },
+                "reversed": false,
+                "id": 94
+            }
+        },
+        {
+            "question": "Яке слово має більше літер: \"відправити\" чи \"допізна\"?",
+            "correctAnswer": "відправити",
+            "templateUuid": "0491f97b8c5a4330ab7a558d6e68b305",
+            "taskInstanceUuid": "56912ea838a443e78427f2a7175f7ce8",
+            "additionalMetadata": {
+                "kind": "more",
+                "template_n": 1,
+                "option_0": "відправити",
+                "option_1": "допізна",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 3403,
+                    "index": 2904,
+                    "freq_quantile": 2,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "відпра́вити"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 35332,
+                    "index": 15190,
+                    "freq_quantile": 8,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "допі́зна"
+                },
+                "reversed": true,
+                "id": 95
+            }
+        },
+        {
+            "question": "Яке слово коротше: \"вусатий\" чи \"перспективний\"?",
+            "correctAnswer": "вусатий",
+            "templateUuid": "1da85d6e7cf5440cba54e3a9b548a037",
+            "taskInstanceUuid": "512cd9bff0d54350a74ca9a0e0814b63",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 2,
+                "option_0": "вусатий",
+                "option_1": "перспективний",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 56245,
+                    "index": 17496,
+                    "freq_quantile": 10,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "вуса́тий"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 2333,
+                    "index": 2018,
+                    "freq_quantile": 2,
+                    "len": 14,
+                    "len_quantile": "long",
+                    "word_raw": "перспекти́вний"
+                },
+                "reversed": false,
+                "id": 96
+            }
+        },
+        {
+            "question": "Яке слово коротше: \"перспективний\" чи \"вусатий\"?",
+            "correctAnswer": "вусатий",
+            "templateUuid": "1da85d6e7cf5440cba54e3a9b548a037",
+            "taskInstanceUuid": "963780918b684e85ac2dd57438d05435",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 2,
+                "option_0": "перспективний",
+                "option_1": "вусатий",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 2333,
+                    "index": 2018,
+                    "freq_quantile": 2,
+                    "len": 14,
+                    "len_quantile": "long",
+                    "word_raw": "перспекти́вний"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 56245,
+                    "index": 17496,
+                    "freq_quantile": 10,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "вуса́тий"
+                },
+                "reversed": true,
+                "id": 97
+            }
+        },
+        {
+            "question": "Яке слово має менше літер: \"вусатий\" чи \"перспективний\"?",
+            "correctAnswer": "вусатий",
+            "templateUuid": "20019ed544b54cf08a2a66de4854a6a4",
+            "taskInstanceUuid": "de2065d9c1ab448fa7e6e31ffd77e932",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 3,
+                "option_0": "вусатий",
+                "option_1": "перспективний",
+                "label": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 56245,
+                    "index": 17496,
+                    "freq_quantile": 10,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "вуса́тий"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 2333,
+                    "index": 2018,
+                    "freq_quantile": 2,
+                    "len": 14,
+                    "len_quantile": "long",
+                    "word_raw": "перспекти́вний"
+                },
+                "reversed": false,
+                "id": 98
+            }
+        },
+        {
+            "question": "Яке слово має менше літер: \"перспективний\" чи \"вусатий\"?",
+            "correctAnswer": "вусатий",
+            "templateUuid": "20019ed544b54cf08a2a66de4854a6a4",
+            "taskInstanceUuid": "f10236d1e8f445ba87bdae71fdce72ca",
+            "additionalMetadata": {
+                "kind": "less",
+                "template_n": 3,
+                "option_0": "перспективний",
+                "option_1": "вусатий",
+                "label": 1,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 2333,
+                    "index": 2018,
+                    "freq_quantile": 2,
+                    "len": 14,
+                    "len_quantile": "long",
+                    "word_raw": "перспекти́вний"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 56245,
+                    "index": 17496,
+                    "freq_quantile": 10,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "вуса́тий"
+                },
+                "reversed": true,
+                "id": 99
+            }
+        }
+    ],
+    "systemPrompts": [
+        "Ви розв'язуєте екзамен з української мови. Вкажіть правильну відповідь одним словом, без лапок."
+    ]
+}

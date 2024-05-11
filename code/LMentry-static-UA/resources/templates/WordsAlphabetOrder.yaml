@@ -1,0 +1,43 @@
+# HERE 'kind': less -> closer to beginning of alphabet, more -> closer to end.
+
+templates:
+- template: 'Яке слово далі по алфавітному порядку: "{t1}" чи "{t2}"?'
+  additional-metadata:
+    template_n: 0
+    type: further
+    kind: more
+  uuid: c6a455d0449d42f192f020c56f437894
+- template: 'Яке слово перше по алфавітному порядку: "{t1}" чи "{t2}"?'
+  additional-metadata:
+    template_n: 1
+    type: ordinal
+    kind: less
+  uuid: e2e8b027f1ab45a78c333425d01f3e21
+- template: 'Яке слово стоїть ближче до початку алфавіту: "{t1}" чи "{t2}"?'
+  additional-metadata:
+    template_n: 2
+    type: closer_to_side
+    kind: less
+  uuid: 5245101e70ce4eb7a110ac4770410fe6
+- template: Серед '{t1}' та '{t2}', яке слово розташоване ближче до кінця алфавіту?
+  additional-metadata:
+    template_n: 3
+    type: closer_to_side
+    kind: more
+  uuid: 29e6e3639b264ad9a93a00d10acd2295
+- template: Серед '{t1}' і '{t2}', яке слово знаходиться ближче до літери A в алфавіті?
+  additional-metadata:
+    template_n: 4
+    type: closer_to_letter
+    kind: less
+  uuid: 4f5769ae372749eba67bb8a3318e117a
+- template: Серед '{t1}' і '{t2}', яке слово знаходиться ближче до літери Я в алфавіті?
+  additional-metadata:
+    template_n: 5
+    type: closer_to_letter
+    kind: more
+  uuid: 10fc8db9f93f4bfa93ff9d2878bd1079
+
+system_prompts:
+    # - 'Ви розв''язуєте екзамен з української мови. Вкажіть правильну відповідь одним словом, без лапок. Наприклад: \n Питання: Яке слово перше в алфавіті, "подушка" чи "ковдра"? \n Відповідь: ковдра'
+    - 'Ви розв''язуєте екзамен з української мови. Вкажіть правильну відповідь одним словом, без лапок.'

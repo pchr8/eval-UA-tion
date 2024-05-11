@@ -1,0 +1,3508 @@
+{
+    "name": "WordsAlphabetOrder",
+    "instances": [
+        {
+            "question": "Яке слово перше по алфавітному порядку: \"прикро\" чи \"ніжно\"?",
+            "correctAnswer": "ніжно",
+            "templateUuid": "e2e8b027f1ab45a78c333425d01f3e21",
+            "taskInstanceUuid": "daff7d21c4f74f29a46f7c08e4983dcd",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "kind": "less",
+                "option_0": "прикро",
+                "option_1": "ніжно",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 3877,
+                    "index": 3260,
+                    "freq_quantile": 2,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "при́кро"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 19811,
+                    "index": 11367,
+                    "freq_quantile": 6,
+                    "len": 6,
+                    "len_quantile": "short",
+                    "word_raw": "ні́жно"
+                },
+                "reversed": false,
+                "id": 0
+            }
+        },
+        {
+            "question": "Яке слово перше по алфавітному порядку: \"ніжно\" чи \"прикро\"?",
+            "correctAnswer": "ніжно",
+            "templateUuid": "e2e8b027f1ab45a78c333425d01f3e21",
+            "taskInstanceUuid": "d69c65b1dfe14946993448a2c99d8ca7",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "kind": "less",
+                "option_0": "ніжно",
+                "option_1": "прикро",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 19811,
+                    "index": 11367,
+                    "freq_quantile": 6,
+                    "len": 6,
+                    "len_quantile": "short",
+                    "word_raw": "ні́жно"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 3877,
+                    "index": 3260,
+                    "freq_quantile": 2,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "при́кро"
+                },
+                "reversed": true,
+                "id": 1
+            }
+        },
+        {
+            "question": "Яке слово стоїть ближче до початку алфавіту: \"прикро\" чи \"ніжно\"?",
+            "correctAnswer": "ніжно",
+            "templateUuid": "5245101e70ce4eb7a110ac4770410fe6",
+            "taskInstanceUuid": "89459ca432794c1380cb898dba6a6753",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "closer_to_side",
+                "kind": "less",
+                "option_0": "прикро",
+                "option_1": "ніжно",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 3877,
+                    "index": 3260,
+                    "freq_quantile": 2,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "при́кро"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 19811,
+                    "index": 11367,
+                    "freq_quantile": 6,
+                    "len": 6,
+                    "len_quantile": "short",
+                    "word_raw": "ні́жно"
+                },
+                "reversed": false,
+                "id": 2
+            }
+        },
+        {
+            "question": "Яке слово стоїть ближче до початку алфавіту: \"ніжно\" чи \"прикро\"?",
+            "correctAnswer": "ніжно",
+            "templateUuid": "5245101e70ce4eb7a110ac4770410fe6",
+            "taskInstanceUuid": "9a3933a7137a4222ae508788569f305b",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "closer_to_side",
+                "kind": "less",
+                "option_0": "ніжно",
+                "option_1": "прикро",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 19811,
+                    "index": 11367,
+                    "freq_quantile": 6,
+                    "len": 6,
+                    "len_quantile": "short",
+                    "word_raw": "ні́жно"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 3877,
+                    "index": 3260,
+                    "freq_quantile": 2,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "при́кро"
+                },
+                "reversed": true,
+                "id": 3
+            }
+        },
+        {
+            "question": "Серед 'прикро' і 'ніжно', яке слово знаходиться ближче до літери A в алфавіті?",
+            "correctAnswer": "ніжно",
+            "templateUuid": "4f5769ae372749eba67bb8a3318e117a",
+            "taskInstanceUuid": "48849e33badf4feea8eb4e255261c83b",
+            "additionalMetadata": {
+                "template_n": 4,
+                "type": "closer_to_letter",
+                "kind": "less",
+                "option_0": "прикро",
+                "option_1": "ніжно",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 3877,
+                    "index": 3260,
+                    "freq_quantile": 2,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "при́кро"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 19811,
+                    "index": 11367,
+                    "freq_quantile": 6,
+                    "len": 6,
+                    "len_quantile": "short",
+                    "word_raw": "ні́жно"
+                },
+                "reversed": false,
+                "id": 4
+            }
+        },
+        {
+            "question": "Серед 'ніжно' і 'прикро', яке слово знаходиться ближче до літери A в алфавіті?",
+            "correctAnswer": "ніжно",
+            "templateUuid": "4f5769ae372749eba67bb8a3318e117a",
+            "taskInstanceUuid": "624f8ab3d78345deb1de8bcd9938c533",
+            "additionalMetadata": {
+                "template_n": 4,
+                "type": "closer_to_letter",
+                "kind": "less",
+                "option_0": "ніжно",
+                "option_1": "прикро",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 19811,
+                    "index": 11367,
+                    "freq_quantile": 6,
+                    "len": 6,
+                    "len_quantile": "short",
+                    "word_raw": "ні́жно"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 3877,
+                    "index": 3260,
+                    "freq_quantile": 2,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "при́кро"
+                },
+                "reversed": true,
+                "id": 5
+            }
+        },
+        {
+            "question": "Яке слово далі по алфавітному порядку: \"прикро\" чи \"ніжно\"?",
+            "correctAnswer": "прикро",
+            "templateUuid": "c6a455d0449d42f192f020c56f437894",
+            "taskInstanceUuid": "bf054ddaa9e94f7986e261a4cfbecedc",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "further",
+                "kind": "more",
+                "option_0": "прикро",
+                "option_1": "ніжно",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 3877,
+                    "index": 3260,
+                    "freq_quantile": 2,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "при́кро"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 19811,
+                    "index": 11367,
+                    "freq_quantile": 6,
+                    "len": 6,
+                    "len_quantile": "short",
+                    "word_raw": "ні́жно"
+                },
+                "reversed": false,
+                "id": 6
+            }
+        },
+        {
+            "question": "Яке слово далі по алфавітному порядку: \"ніжно\" чи \"прикро\"?",
+            "correctAnswer": "прикро",
+            "templateUuid": "c6a455d0449d42f192f020c56f437894",
+            "taskInstanceUuid": "fbfa4ecf90e8462fbc04d88b5533e4a8",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "further",
+                "kind": "more",
+                "option_0": "ніжно",
+                "option_1": "прикро",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 19811,
+                    "index": 11367,
+                    "freq_quantile": 6,
+                    "len": 6,
+                    "len_quantile": "short",
+                    "word_raw": "ні́жно"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 3877,
+                    "index": 3260,
+                    "freq_quantile": 2,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "при́кро"
+                },
+                "reversed": true,
+                "id": 7
+            }
+        },
+        {
+            "question": "Серед 'прикро' та 'ніжно', яке слово розташоване ближче до кінця алфавіту?",
+            "correctAnswer": "прикро",
+            "templateUuid": "29e6e3639b264ad9a93a00d10acd2295",
+            "taskInstanceUuid": "9c1e2872e3e443d9a024af654e7f8648",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "closer_to_side",
+                "kind": "more",
+                "option_0": "прикро",
+                "option_1": "ніжно",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 3877,
+                    "index": 3260,
+                    "freq_quantile": 2,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "при́кро"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 19811,
+                    "index": 11367,
+                    "freq_quantile": 6,
+                    "len": 6,
+                    "len_quantile": "short",
+                    "word_raw": "ні́жно"
+                },
+                "reversed": false,
+                "id": 8
+            }
+        },
+        {
+            "question": "Серед 'ніжно' та 'прикро', яке слово розташоване ближче до кінця алфавіту?",
+            "correctAnswer": "прикро",
+            "templateUuid": "29e6e3639b264ad9a93a00d10acd2295",
+            "taskInstanceUuid": "558b3f7e6d9f4d76ad0ce0e22d936ca5",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "closer_to_side",
+                "kind": "more",
+                "option_0": "ніжно",
+                "option_1": "прикро",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 19811,
+                    "index": 11367,
+                    "freq_quantile": 6,
+                    "len": 6,
+                    "len_quantile": "short",
+                    "word_raw": "ні́жно"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 3877,
+                    "index": 3260,
+                    "freq_quantile": 2,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "при́кро"
+                },
+                "reversed": true,
+                "id": 9
+            }
+        },
+        {
+            "question": "Серед 'прикро' і 'ніжно', яке слово знаходиться ближче до літери Я в алфавіті?",
+            "correctAnswer": "прикро",
+            "templateUuid": "10fc8db9f93f4bfa93ff9d2878bd1079",
+            "taskInstanceUuid": "3fd44709d9a749bdb4aa4a0aa7445e9a",
+            "additionalMetadata": {
+                "template_n": 5,
+                "type": "closer_to_letter",
+                "kind": "more",
+                "option_0": "прикро",
+                "option_1": "ніжно",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 3877,
+                    "index": 3260,
+                    "freq_quantile": 2,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "при́кро"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 19811,
+                    "index": 11367,
+                    "freq_quantile": 6,
+                    "len": 6,
+                    "len_quantile": "short",
+                    "word_raw": "ні́жно"
+                },
+                "reversed": false,
+                "id": 10
+            }
+        },
+        {
+            "question": "Серед 'ніжно' і 'прикро', яке слово знаходиться ближче до літери Я в алфавіті?",
+            "correctAnswer": "прикро",
+            "templateUuid": "10fc8db9f93f4bfa93ff9d2878bd1079",
+            "taskInstanceUuid": "191594c8ebb14b10a957f058e55eef32",
+            "additionalMetadata": {
+                "template_n": 5,
+                "type": "closer_to_letter",
+                "kind": "more",
+                "option_0": "ніжно",
+                "option_1": "прикро",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 19811,
+                    "index": 11367,
+                    "freq_quantile": 6,
+                    "len": 6,
+                    "len_quantile": "short",
+                    "word_raw": "ні́жно"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 3877,
+                    "index": 3260,
+                    "freq_quantile": 2,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "при́кро"
+                },
+                "reversed": true,
+                "id": 11
+            }
+        },
+        {
+            "question": "Яке слово перше по алфавітному порядку: \"повсюди\" чи \"омолодити\"?",
+            "correctAnswer": "омолодити",
+            "templateUuid": "e2e8b027f1ab45a78c333425d01f3e21",
+            "taskInstanceUuid": "ac9ef600319d4c56972592fb4c9470af",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "kind": "less",
+                "option_0": "повсюди",
+                "option_1": "омолодити",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 11792,
+                    "index": 8082,
+                    "freq_quantile": 5,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "повсю́ди"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 46319,
+                    "index": 16662,
+                    "freq_quantile": 9,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "омолоди́ти"
+                },
+                "reversed": false,
+                "id": 12
+            }
+        },
+        {
+            "question": "Яке слово перше по алфавітному порядку: \"омолодити\" чи \"повсюди\"?",
+            "correctAnswer": "омолодити",
+            "templateUuid": "e2e8b027f1ab45a78c333425d01f3e21",
+            "taskInstanceUuid": "ac3c5fe518614da69bca744950eef574",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "kind": "less",
+                "option_0": "омолодити",
+                "option_1": "повсюди",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 46319,
+                    "index": 16662,
+                    "freq_quantile": 9,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "омолоди́ти"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 11792,
+                    "index": 8082,
+                    "freq_quantile": 5,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "повсю́ди"
+                },
+                "reversed": true,
+                "id": 13
+            }
+        },
+        {
+            "question": "Яке слово стоїть ближче до початку алфавіту: \"повсюди\" чи \"омолодити\"?",
+            "correctAnswer": "омолодити",
+            "templateUuid": "5245101e70ce4eb7a110ac4770410fe6",
+            "taskInstanceUuid": "f26f2b65ffed4b90be9ba483b6ced51b",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "closer_to_side",
+                "kind": "less",
+                "option_0": "повсюди",
+                "option_1": "омолодити",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 11792,
+                    "index": 8082,
+                    "freq_quantile": 5,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "повсю́ди"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 46319,
+                    "index": 16662,
+                    "freq_quantile": 9,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "омолоди́ти"
+                },
+                "reversed": false,
+                "id": 14
+            }
+        },
+        {
+            "question": "Яке слово стоїть ближче до початку алфавіту: \"омолодити\" чи \"повсюди\"?",
+            "correctAnswer": "омолодити",
+            "templateUuid": "5245101e70ce4eb7a110ac4770410fe6",
+            "taskInstanceUuid": "01b801b6b08747d9bebcc38c0dd70e4f",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "closer_to_side",
+                "kind": "less",
+                "option_0": "омолодити",
+                "option_1": "повсюди",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 46319,
+                    "index": 16662,
+                    "freq_quantile": 9,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "омолоди́ти"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 11792,
+                    "index": 8082,
+                    "freq_quantile": 5,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "повсю́ди"
+                },
+                "reversed": true,
+                "id": 15
+            }
+        },
+        {
+            "question": "Серед 'повсюди' і 'омолодити', яке слово знаходиться ближче до літери A в алфавіті?",
+            "correctAnswer": "омолодити",
+            "templateUuid": "4f5769ae372749eba67bb8a3318e117a",
+            "taskInstanceUuid": "bd9751aa60ba47c0a4da048f37448024",
+            "additionalMetadata": {
+                "template_n": 4,
+                "type": "closer_to_letter",
+                "kind": "less",
+                "option_0": "повсюди",
+                "option_1": "омолодити",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 11792,
+                    "index": 8082,
+                    "freq_quantile": 5,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "повсю́ди"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 46319,
+                    "index": 16662,
+                    "freq_quantile": 9,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "омолоди́ти"
+                },
+                "reversed": false,
+                "id": 16
+            }
+        },
+        {
+            "question": "Серед 'омолодити' і 'повсюди', яке слово знаходиться ближче до літери A в алфавіті?",
+            "correctAnswer": "омолодити",
+            "templateUuid": "4f5769ae372749eba67bb8a3318e117a",
+            "taskInstanceUuid": "cdf33e94728347d6ac826d78c7e33e2c",
+            "additionalMetadata": {
+                "template_n": 4,
+                "type": "closer_to_letter",
+                "kind": "less",
+                "option_0": "омолодити",
+                "option_1": "повсюди",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 46319,
+                    "index": 16662,
+                    "freq_quantile": 9,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "омолоди́ти"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 11792,
+                    "index": 8082,
+                    "freq_quantile": 5,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "повсю́ди"
+                },
+                "reversed": true,
+                "id": 17
+            }
+        },
+        {
+            "question": "Яке слово далі по алфавітному порядку: \"повсюди\" чи \"омолодити\"?",
+            "correctAnswer": "повсюди",
+            "templateUuid": "c6a455d0449d42f192f020c56f437894",
+            "taskInstanceUuid": "91cdc55378274ffa9b538ad9c62a3144",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "further",
+                "kind": "more",
+                "option_0": "повсюди",
+                "option_1": "омолодити",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 11792,
+                    "index": 8082,
+                    "freq_quantile": 5,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "повсю́ди"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 46319,
+                    "index": 16662,
+                    "freq_quantile": 9,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "омолоди́ти"
+                },
+                "reversed": false,
+                "id": 18
+            }
+        },
+        {
+            "question": "Яке слово далі по алфавітному порядку: \"омолодити\" чи \"повсюди\"?",
+            "correctAnswer": "повсюди",
+            "templateUuid": "c6a455d0449d42f192f020c56f437894",
+            "taskInstanceUuid": "6fc28e3a2fb24dd08367afac189780c6",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "further",
+                "kind": "more",
+                "option_0": "омолодити",
+                "option_1": "повсюди",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 46319,
+                    "index": 16662,
+                    "freq_quantile": 9,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "омолоди́ти"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 11792,
+                    "index": 8082,
+                    "freq_quantile": 5,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "повсю́ди"
+                },
+                "reversed": true,
+                "id": 19
+            }
+        },
+        {
+            "question": "Серед 'повсюди' та 'омолодити', яке слово розташоване ближче до кінця алфавіту?",
+            "correctAnswer": "повсюди",
+            "templateUuid": "29e6e3639b264ad9a93a00d10acd2295",
+            "taskInstanceUuid": "3eb49afceee44537a579f8707076c2f1",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "closer_to_side",
+                "kind": "more",
+                "option_0": "повсюди",
+                "option_1": "омолодити",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 11792,
+                    "index": 8082,
+                    "freq_quantile": 5,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "повсю́ди"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 46319,
+                    "index": 16662,
+                    "freq_quantile": 9,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "омолоди́ти"
+                },
+                "reversed": false,
+                "id": 20
+            }
+        },
+        {
+            "question": "Серед 'омолодити' та 'повсюди', яке слово розташоване ближче до кінця алфавіту?",
+            "correctAnswer": "повсюди",
+            "templateUuid": "29e6e3639b264ad9a93a00d10acd2295",
+            "taskInstanceUuid": "a1894d169e6b45b7b53638872160a415",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "closer_to_side",
+                "kind": "more",
+                "option_0": "омолодити",
+                "option_1": "повсюди",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 46319,
+                    "index": 16662,
+                    "freq_quantile": 9,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "омолоди́ти"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 11792,
+                    "index": 8082,
+                    "freq_quantile": 5,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "повсю́ди"
+                },
+                "reversed": true,
+                "id": 21
+            }
+        },
+        {
+            "question": "Серед 'повсюди' і 'омолодити', яке слово знаходиться ближче до літери Я в алфавіті?",
+            "correctAnswer": "повсюди",
+            "templateUuid": "10fc8db9f93f4bfa93ff9d2878bd1079",
+            "taskInstanceUuid": "765d1abed3494aaeb0e7d9c3bd1f2ea9",
+            "additionalMetadata": {
+                "template_n": 5,
+                "type": "closer_to_letter",
+                "kind": "more",
+                "option_0": "повсюди",
+                "option_1": "омолодити",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 11792,
+                    "index": 8082,
+                    "freq_quantile": 5,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "повсю́ди"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 46319,
+                    "index": 16662,
+                    "freq_quantile": 9,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "омолоди́ти"
+                },
+                "reversed": false,
+                "id": 22
+            }
+        },
+        {
+            "question": "Серед 'омолодити' і 'повсюди', яке слово знаходиться ближче до літери Я в алфавіті?",
+            "correctAnswer": "повсюди",
+            "templateUuid": "10fc8db9f93f4bfa93ff9d2878bd1079",
+            "taskInstanceUuid": "bc5e6a48453f404aa786457cccd141d4",
+            "additionalMetadata": {
+                "template_n": 5,
+                "type": "closer_to_letter",
+                "kind": "more",
+                "option_0": "омолодити",
+                "option_1": "повсюди",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 46319,
+                    "index": 16662,
+                    "freq_quantile": 9,
+                    "len": 10,
+                    "len_quantile": "mid",
+                    "word_raw": "омолоди́ти"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 11792,
+                    "index": 8082,
+                    "freq_quantile": 5,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "повсю́ди"
+                },
+                "reversed": true,
+                "id": 23
+            }
+        },
+        {
+            "question": "Яке слово перше по алфавітному порядку: \"аквапарк\" чи \"вгору\"?",
+            "correctAnswer": "аквапарк",
+            "templateUuid": "e2e8b027f1ab45a78c333425d01f3e21",
+            "taskInstanceUuid": "bdc051bf7a314428bfafa96d1f68082a",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "kind": "less",
+                "option_0": "аквапарк",
+                "option_1": "вгору",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 24819,
+                    "index": 12900,
+                    "freq_quantile": 7,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "аквапа́рк"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 6561,
+                    "index": 5112,
+                    "freq_quantile": 3,
+                    "len": 6,
+                    "len_quantile": "short",
+                    "word_raw": "вго́ру"
+                },
+                "reversed": false,
+                "id": 24
+            }
+        },
+        {
+            "question": "Яке слово перше по алфавітному порядку: \"вгору\" чи \"аквапарк\"?",
+            "correctAnswer": "аквапарк",
+            "templateUuid": "e2e8b027f1ab45a78c333425d01f3e21",
+            "taskInstanceUuid": "f36df6b7a9d344018f914a5a082abc6c",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "kind": "less",
+                "option_0": "вгору",
+                "option_1": "аквапарк",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 6561,
+                    "index": 5112,
+                    "freq_quantile": 3,
+                    "len": 6,
+                    "len_quantile": "short",
+                    "word_raw": "вго́ру"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 24819,
+                    "index": 12900,
+                    "freq_quantile": 7,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "аквапа́рк"
+                },
+                "reversed": true,
+                "id": 25
+            }
+        },
+        {
+            "question": "Яке слово стоїть ближче до початку алфавіту: \"аквапарк\" чи \"вгору\"?",
+            "correctAnswer": "аквапарк",
+            "templateUuid": "5245101e70ce4eb7a110ac4770410fe6",
+            "taskInstanceUuid": "7d2316659b51423c901d2e090a76f9ca",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "closer_to_side",
+                "kind": "less",
+                "option_0": "аквапарк",
+                "option_1": "вгору",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 24819,
+                    "index": 12900,
+                    "freq_quantile": 7,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "аквапа́рк"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 6561,
+                    "index": 5112,
+                    "freq_quantile": 3,
+                    "len": 6,
+                    "len_quantile": "short",
+                    "word_raw": "вго́ру"
+                },
+                "reversed": false,
+                "id": 26
+            }
+        },
+        {
+            "question": "Яке слово стоїть ближче до початку алфавіту: \"вгору\" чи \"аквапарк\"?",
+            "correctAnswer": "аквапарк",
+            "templateUuid": "5245101e70ce4eb7a110ac4770410fe6",
+            "taskInstanceUuid": "9c5eb900335b4227bb1246b85a93ea9e",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "closer_to_side",
+                "kind": "less",
+                "option_0": "вгору",
+                "option_1": "аквапарк",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 6561,
+                    "index": 5112,
+                    "freq_quantile": 3,
+                    "len": 6,
+                    "len_quantile": "short",
+                    "word_raw": "вго́ру"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 24819,
+                    "index": 12900,
+                    "freq_quantile": 7,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "аквапа́рк"
+                },
+                "reversed": true,
+                "id": 27
+            }
+        },
+        {
+            "question": "Серед 'аквапарк' і 'вгору', яке слово знаходиться ближче до літери A в алфавіті?",
+            "correctAnswer": "аквапарк",
+            "templateUuid": "4f5769ae372749eba67bb8a3318e117a",
+            "taskInstanceUuid": "88dcc39dfe904b438a174e17e545f72a",
+            "additionalMetadata": {
+                "template_n": 4,
+                "type": "closer_to_letter",
+                "kind": "less",
+                "option_0": "аквапарк",
+                "option_1": "вгору",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 24819,
+                    "index": 12900,
+                    "freq_quantile": 7,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "аквапа́рк"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 6561,
+                    "index": 5112,
+                    "freq_quantile": 3,
+                    "len": 6,
+                    "len_quantile": "short",
+                    "word_raw": "вго́ру"
+                },
+                "reversed": false,
+                "id": 28
+            }
+        },
+        {
+            "question": "Серед 'вгору' і 'аквапарк', яке слово знаходиться ближче до літери A в алфавіті?",
+            "correctAnswer": "аквапарк",
+            "templateUuid": "4f5769ae372749eba67bb8a3318e117a",
+            "taskInstanceUuid": "c291f79a5b6c4b029dcfdaa1b60d0a02",
+            "additionalMetadata": {
+                "template_n": 4,
+                "type": "closer_to_letter",
+                "kind": "less",
+                "option_0": "вгору",
+                "option_1": "аквапарк",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 6561,
+                    "index": 5112,
+                    "freq_quantile": 3,
+                    "len": 6,
+                    "len_quantile": "short",
+                    "word_raw": "вго́ру"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 24819,
+                    "index": 12900,
+                    "freq_quantile": 7,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "аквапа́рк"
+                },
+                "reversed": true,
+                "id": 29
+            }
+        },
+        {
+            "question": "Яке слово далі по алфавітному порядку: \"аквапарк\" чи \"вгору\"?",
+            "correctAnswer": "вгору",
+            "templateUuid": "c6a455d0449d42f192f020c56f437894",
+            "taskInstanceUuid": "2fd44423b6f540f0a8b5f89df2376391",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "further",
+                "kind": "more",
+                "option_0": "аквапарк",
+                "option_1": "вгору",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 24819,
+                    "index": 12900,
+                    "freq_quantile": 7,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "аквапа́рк"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 6561,
+                    "index": 5112,
+                    "freq_quantile": 3,
+                    "len": 6,
+                    "len_quantile": "short",
+                    "word_raw": "вго́ру"
+                },
+                "reversed": false,
+                "id": 30
+            }
+        },
+        {
+            "question": "Яке слово далі по алфавітному порядку: \"вгору\" чи \"аквапарк\"?",
+            "correctAnswer": "вгору",
+            "templateUuid": "c6a455d0449d42f192f020c56f437894",
+            "taskInstanceUuid": "96b13077adbe485e9a721a0a01140acb",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "further",
+                "kind": "more",
+                "option_0": "вгору",
+                "option_1": "аквапарк",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 6561,
+                    "index": 5112,
+                    "freq_quantile": 3,
+                    "len": 6,
+                    "len_quantile": "short",
+                    "word_raw": "вго́ру"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 24819,
+                    "index": 12900,
+                    "freq_quantile": 7,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "аквапа́рк"
+                },
+                "reversed": true,
+                "id": 31
+            }
+        },
+        {
+            "question": "Серед 'аквапарк' та 'вгору', яке слово розташоване ближче до кінця алфавіту?",
+            "correctAnswer": "вгору",
+            "templateUuid": "29e6e3639b264ad9a93a00d10acd2295",
+            "taskInstanceUuid": "f0fea629f22c4985978eed8c3d8ee966",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "closer_to_side",
+                "kind": "more",
+                "option_0": "аквапарк",
+                "option_1": "вгору",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 24819,
+                    "index": 12900,
+                    "freq_quantile": 7,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "аквапа́рк"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 6561,
+                    "index": 5112,
+                    "freq_quantile": 3,
+                    "len": 6,
+                    "len_quantile": "short",
+                    "word_raw": "вго́ру"
+                },
+                "reversed": false,
+                "id": 32
+            }
+        },
+        {
+            "question": "Серед 'вгору' та 'аквапарк', яке слово розташоване ближче до кінця алфавіту?",
+            "correctAnswer": "вгору",
+            "templateUuid": "29e6e3639b264ad9a93a00d10acd2295",
+            "taskInstanceUuid": "e8dceff5bfe14f0fa6db13173f1a1641",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "closer_to_side",
+                "kind": "more",
+                "option_0": "вгору",
+                "option_1": "аквапарк",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 6561,
+                    "index": 5112,
+                    "freq_quantile": 3,
+                    "len": 6,
+                    "len_quantile": "short",
+                    "word_raw": "вго́ру"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 24819,
+                    "index": 12900,
+                    "freq_quantile": 7,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "аквапа́рк"
+                },
+                "reversed": true,
+                "id": 33
+            }
+        },
+        {
+            "question": "Серед 'аквапарк' і 'вгору', яке слово знаходиться ближче до літери Я в алфавіті?",
+            "correctAnswer": "вгору",
+            "templateUuid": "10fc8db9f93f4bfa93ff9d2878bd1079",
+            "taskInstanceUuid": "70a2c7ae9ea147f585d31631b8c77766",
+            "additionalMetadata": {
+                "template_n": 5,
+                "type": "closer_to_letter",
+                "kind": "more",
+                "option_0": "аквапарк",
+                "option_1": "вгору",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 24819,
+                    "index": 12900,
+                    "freq_quantile": 7,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "аквапа́рк"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 6561,
+                    "index": 5112,
+                    "freq_quantile": 3,
+                    "len": 6,
+                    "len_quantile": "short",
+                    "word_raw": "вго́ру"
+                },
+                "reversed": false,
+                "id": 34
+            }
+        },
+        {
+            "question": "Серед 'вгору' і 'аквапарк', яке слово знаходиться ближче до літери Я в алфавіті?",
+            "correctAnswer": "вгору",
+            "templateUuid": "10fc8db9f93f4bfa93ff9d2878bd1079",
+            "taskInstanceUuid": "a2d750ca886c451c889066cadd12ca6f",
+            "additionalMetadata": {
+                "template_n": 5,
+                "type": "closer_to_letter",
+                "kind": "more",
+                "option_0": "вгору",
+                "option_1": "аквапарк",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 6561,
+                    "index": 5112,
+                    "freq_quantile": 3,
+                    "len": 6,
+                    "len_quantile": "short",
+                    "word_raw": "вго́ру"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 24819,
+                    "index": 12900,
+                    "freq_quantile": 7,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "аквапа́рк"
+                },
+                "reversed": true,
+                "id": 35
+            }
+        },
+        {
+            "question": "Яке слово перше по алфавітному порядку: \"хоч-не-хоч\" чи \"оправдувати\"?",
+            "correctAnswer": "оправдувати",
+            "templateUuid": "e2e8b027f1ab45a78c333425d01f3e21",
+            "taskInstanceUuid": "04483b9f3f2145f9803711441182be63",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "kind": "less",
+                "option_0": "хоч-не-хоч",
+                "option_1": "оправдувати",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 83024,
+                    "index": 19055,
+                    "freq_quantile": 10,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "хоч-не-хо́ч"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 37444,
+                    "index": 15502,
+                    "freq_quantile": 9,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "опра́вдувати"
+                },
+                "reversed": false,
+                "id": 36
+            }
+        },
+        {
+            "question": "Яке слово перше по алфавітному порядку: \"оправдувати\" чи \"хоч-не-хоч\"?",
+            "correctAnswer": "оправдувати",
+            "templateUuid": "e2e8b027f1ab45a78c333425d01f3e21",
+            "taskInstanceUuid": "5e9480f4bbe14bde8185ad3c3323ed28",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "kind": "less",
+                "option_0": "оправдувати",
+                "option_1": "хоч-не-хоч",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 37444,
+                    "index": 15502,
+                    "freq_quantile": 9,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "опра́вдувати"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 83024,
+                    "index": 19055,
+                    "freq_quantile": 10,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "хоч-не-хо́ч"
+                },
+                "reversed": true,
+                "id": 37
+            }
+        },
+        {
+            "question": "Яке слово стоїть ближче до початку алфавіту: \"хоч-не-хоч\" чи \"оправдувати\"?",
+            "correctAnswer": "оправдувати",
+            "templateUuid": "5245101e70ce4eb7a110ac4770410fe6",
+            "taskInstanceUuid": "c5e34a4141fc4e9bb5ac2037a7b9914c",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "closer_to_side",
+                "kind": "less",
+                "option_0": "хоч-не-хоч",
+                "option_1": "оправдувати",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 83024,
+                    "index": 19055,
+                    "freq_quantile": 10,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "хоч-не-хо́ч"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 37444,
+                    "index": 15502,
+                    "freq_quantile": 9,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "опра́вдувати"
+                },
+                "reversed": false,
+                "id": 38
+            }
+        },
+        {
+            "question": "Яке слово стоїть ближче до початку алфавіту: \"оправдувати\" чи \"хоч-не-хоч\"?",
+            "correctAnswer": "оправдувати",
+            "templateUuid": "5245101e70ce4eb7a110ac4770410fe6",
+            "taskInstanceUuid": "550068da7fce4d67b0afca4ec3f2588f",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "closer_to_side",
+                "kind": "less",
+                "option_0": "оправдувати",
+                "option_1": "хоч-не-хоч",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 37444,
+                    "index": 15502,
+                    "freq_quantile": 9,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "опра́вдувати"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 83024,
+                    "index": 19055,
+                    "freq_quantile": 10,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "хоч-не-хо́ч"
+                },
+                "reversed": true,
+                "id": 39
+            }
+        },
+        {
+            "question": "Серед 'хоч-не-хоч' і 'оправдувати', яке слово знаходиться ближче до літери A в алфавіті?",
+            "correctAnswer": "оправдувати",
+            "templateUuid": "4f5769ae372749eba67bb8a3318e117a",
+            "taskInstanceUuid": "70acd731f6b642a2ac6ae5933902fd49",
+            "additionalMetadata": {
+                "template_n": 4,
+                "type": "closer_to_letter",
+                "kind": "less",
+                "option_0": "хоч-не-хоч",
+                "option_1": "оправдувати",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 83024,
+                    "index": 19055,
+                    "freq_quantile": 10,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "хоч-не-хо́ч"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 37444,
+                    "index": 15502,
+                    "freq_quantile": 9,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "опра́вдувати"
+                },
+                "reversed": false,
+                "id": 40
+            }
+        },
+        {
+            "question": "Серед 'оправдувати' і 'хоч-не-хоч', яке слово знаходиться ближче до літери A в алфавіті?",
+            "correctAnswer": "оправдувати",
+            "templateUuid": "4f5769ae372749eba67bb8a3318e117a",
+            "taskInstanceUuid": "0310ccba7352487a8e70de5edb319d34",
+            "additionalMetadata": {
+                "template_n": 4,
+                "type": "closer_to_letter",
+                "kind": "less",
+                "option_0": "оправдувати",
+                "option_1": "хоч-не-хоч",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 37444,
+                    "index": 15502,
+                    "freq_quantile": 9,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "опра́вдувати"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 83024,
+                    "index": 19055,
+                    "freq_quantile": 10,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "хоч-не-хо́ч"
+                },
+                "reversed": true,
+                "id": 41
+            }
+        },
+        {
+            "question": "Яке слово далі по алфавітному порядку: \"хоч-не-хоч\" чи \"оправдувати\"?",
+            "correctAnswer": "хоч-не-хоч",
+            "templateUuid": "c6a455d0449d42f192f020c56f437894",
+            "taskInstanceUuid": "f57b4411c0bd42409740c024ea532982",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "further",
+                "kind": "more",
+                "option_0": "хоч-не-хоч",
+                "option_1": "оправдувати",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 83024,
+                    "index": 19055,
+                    "freq_quantile": 10,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "хоч-не-хо́ч"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 37444,
+                    "index": 15502,
+                    "freq_quantile": 9,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "опра́вдувати"
+                },
+                "reversed": false,
+                "id": 42
+            }
+        },
+        {
+            "question": "Яке слово далі по алфавітному порядку: \"оправдувати\" чи \"хоч-не-хоч\"?",
+            "correctAnswer": "хоч-не-хоч",
+            "templateUuid": "c6a455d0449d42f192f020c56f437894",
+            "taskInstanceUuid": "4d42718006f946f09b53613b1c9c4d1d",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "further",
+                "kind": "more",
+                "option_0": "оправдувати",
+                "option_1": "хоч-не-хоч",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 37444,
+                    "index": 15502,
+                    "freq_quantile": 9,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "опра́вдувати"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 83024,
+                    "index": 19055,
+                    "freq_quantile": 10,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "хоч-не-хо́ч"
+                },
+                "reversed": true,
+                "id": 43
+            }
+        },
+        {
+            "question": "Серед 'хоч-не-хоч' та 'оправдувати', яке слово розташоване ближче до кінця алфавіту?",
+            "correctAnswer": "хоч-не-хоч",
+            "templateUuid": "29e6e3639b264ad9a93a00d10acd2295",
+            "taskInstanceUuid": "2a11163607b64420a2c2e8ef4e9d5781",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "closer_to_side",
+                "kind": "more",
+                "option_0": "хоч-не-хоч",
+                "option_1": "оправдувати",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 83024,
+                    "index": 19055,
+                    "freq_quantile": 10,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "хоч-не-хо́ч"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 37444,
+                    "index": 15502,
+                    "freq_quantile": 9,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "опра́вдувати"
+                },
+                "reversed": false,
+                "id": 44
+            }
+        },
+        {
+            "question": "Серед 'оправдувати' та 'хоч-не-хоч', яке слово розташоване ближче до кінця алфавіту?",
+            "correctAnswer": "хоч-не-хоч",
+            "templateUuid": "29e6e3639b264ad9a93a00d10acd2295",
+            "taskInstanceUuid": "316aee39397d4ed09f01fa5953d8556d",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "closer_to_side",
+                "kind": "more",
+                "option_0": "оправдувати",
+                "option_1": "хоч-не-хоч",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 37444,
+                    "index": 15502,
+                    "freq_quantile": 9,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "опра́вдувати"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 83024,
+                    "index": 19055,
+                    "freq_quantile": 10,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "хоч-не-хо́ч"
+                },
+                "reversed": true,
+                "id": 45
+            }
+        },
+        {
+            "question": "Серед 'хоч-не-хоч' і 'оправдувати', яке слово знаходиться ближче до літери Я в алфавіті?",
+            "correctAnswer": "хоч-не-хоч",
+            "templateUuid": "10fc8db9f93f4bfa93ff9d2878bd1079",
+            "taskInstanceUuid": "f9b6573758c045369429987f8d790a5c",
+            "additionalMetadata": {
+                "template_n": 5,
+                "type": "closer_to_letter",
+                "kind": "more",
+                "option_0": "хоч-не-хоч",
+                "option_1": "оправдувати",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 83024,
+                    "index": 19055,
+                    "freq_quantile": 10,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "хоч-не-хо́ч"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 37444,
+                    "index": 15502,
+                    "freq_quantile": 9,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "опра́вдувати"
+                },
+                "reversed": false,
+                "id": 46
+            }
+        },
+        {
+            "question": "Серед 'оправдувати' і 'хоч-не-хоч', яке слово знаходиться ближче до літери Я в алфавіті?",
+            "correctAnswer": "хоч-не-хоч",
+            "templateUuid": "10fc8db9f93f4bfa93ff9d2878bd1079",
+            "taskInstanceUuid": "14709223e41e401b8744adde0ca42f3d",
+            "additionalMetadata": {
+                "template_n": 5,
+                "type": "closer_to_letter",
+                "kind": "more",
+                "option_0": "оправдувати",
+                "option_1": "хоч-не-хоч",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 37444,
+                    "index": 15502,
+                    "freq_quantile": 9,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "опра́вдувати"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 83024,
+                    "index": 19055,
+                    "freq_quantile": 10,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "хоч-не-хо́ч"
+                },
+                "reversed": true,
+                "id": 47
+            }
+        },
+        {
+            "question": "Яке слово перше по алфавітному порядку: \"наодинці\" чи \"удовиця\"?",
+            "correctAnswer": "наодинці",
+            "templateUuid": "e2e8b027f1ab45a78c333425d01f3e21",
+            "taskInstanceUuid": "d0d2f1eaf43342ff8e280853d90ae1de",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "kind": "less",
+                "option_0": "наодинці",
+                "option_1": "удовиця",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 12639,
+                    "index": 8477,
+                    "freq_quantile": 5,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "наоди́нці"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 81272,
+                    "index": 18979,
+                    "freq_quantile": 10,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "удови́ця"
+                },
+                "reversed": false,
+                "id": 48
+            }
+        },
+        {
+            "question": "Яке слово перше по алфавітному порядку: \"удовиця\" чи \"наодинці\"?",
+            "correctAnswer": "наодинці",
+            "templateUuid": "e2e8b027f1ab45a78c333425d01f3e21",
+            "taskInstanceUuid": "05b3326942c246e89a6723babcf19eb6",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "kind": "less",
+                "option_0": "удовиця",
+                "option_1": "наодинці",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 81272,
+                    "index": 18979,
+                    "freq_quantile": 10,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "удови́ця"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 12639,
+                    "index": 8477,
+                    "freq_quantile": 5,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "наоди́нці"
+                },
+                "reversed": true,
+                "id": 49
+            }
+        },
+        {
+            "question": "Яке слово стоїть ближче до початку алфавіту: \"наодинці\" чи \"удовиця\"?",
+            "correctAnswer": "наодинці",
+            "templateUuid": "5245101e70ce4eb7a110ac4770410fe6",
+            "taskInstanceUuid": "5393ce1ee88845389da1c5bbd5d6dd44",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "closer_to_side",
+                "kind": "less",
+                "option_0": "наодинці",
+                "option_1": "удовиця",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 12639,
+                    "index": 8477,
+                    "freq_quantile": 5,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "наоди́нці"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 81272,
+                    "index": 18979,
+                    "freq_quantile": 10,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "удови́ця"
+                },
+                "reversed": false,
+                "id": 50
+            }
+        },
+        {
+            "question": "Яке слово стоїть ближче до початку алфавіту: \"удовиця\" чи \"наодинці\"?",
+            "correctAnswer": "наодинці",
+            "templateUuid": "5245101e70ce4eb7a110ac4770410fe6",
+            "taskInstanceUuid": "40cf74025d4548b7902f93a0b7ee356e",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "closer_to_side",
+                "kind": "less",
+                "option_0": "удовиця",
+                "option_1": "наодинці",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 81272,
+                    "index": 18979,
+                    "freq_quantile": 10,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "удови́ця"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 12639,
+                    "index": 8477,
+                    "freq_quantile": 5,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "наоди́нці"
+                },
+                "reversed": true,
+                "id": 51
+            }
+        },
+        {
+            "question": "Серед 'наодинці' і 'удовиця', яке слово знаходиться ближче до літери A в алфавіті?",
+            "correctAnswer": "наодинці",
+            "templateUuid": "4f5769ae372749eba67bb8a3318e117a",
+            "taskInstanceUuid": "a70705e2d1874a4bb763fbe3fbe2e562",
+            "additionalMetadata": {
+                "template_n": 4,
+                "type": "closer_to_letter",
+                "kind": "less",
+                "option_0": "наодинці",
+                "option_1": "удовиця",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 12639,
+                    "index": 8477,
+                    "freq_quantile": 5,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "наоди́нці"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 81272,
+                    "index": 18979,
+                    "freq_quantile": 10,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "удови́ця"
+                },
+                "reversed": false,
+                "id": 52
+            }
+        },
+        {
+            "question": "Серед 'удовиця' і 'наодинці', яке слово знаходиться ближче до літери A в алфавіті?",
+            "correctAnswer": "наодинці",
+            "templateUuid": "4f5769ae372749eba67bb8a3318e117a",
+            "taskInstanceUuid": "eca541a87f634323941ab7969b19f293",
+            "additionalMetadata": {
+                "template_n": 4,
+                "type": "closer_to_letter",
+                "kind": "less",
+                "option_0": "удовиця",
+                "option_1": "наодинці",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 81272,
+                    "index": 18979,
+                    "freq_quantile": 10,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "удови́ця"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 12639,
+                    "index": 8477,
+                    "freq_quantile": 5,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "наоди́нці"
+                },
+                "reversed": true,
+                "id": 53
+            }
+        },
+        {
+            "question": "Яке слово далі по алфавітному порядку: \"наодинці\" чи \"удовиця\"?",
+            "correctAnswer": "удовиця",
+            "templateUuid": "c6a455d0449d42f192f020c56f437894",
+            "taskInstanceUuid": "3e504dc0d4af4bed868bb23e3d194ab8",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "further",
+                "kind": "more",
+                "option_0": "наодинці",
+                "option_1": "удовиця",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 12639,
+                    "index": 8477,
+                    "freq_quantile": 5,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "наоди́нці"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 81272,
+                    "index": 18979,
+                    "freq_quantile": 10,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "удови́ця"
+                },
+                "reversed": false,
+                "id": 54
+            }
+        },
+        {
+            "question": "Яке слово далі по алфавітному порядку: \"удовиця\" чи \"наодинці\"?",
+            "correctAnswer": "удовиця",
+            "templateUuid": "c6a455d0449d42f192f020c56f437894",
+            "taskInstanceUuid": "894ce20d037d4473a4cca396283171c2",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "further",
+                "kind": "more",
+                "option_0": "удовиця",
+                "option_1": "наодинці",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 81272,
+                    "index": 18979,
+                    "freq_quantile": 10,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "удови́ця"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 12639,
+                    "index": 8477,
+                    "freq_quantile": 5,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "наоди́нці"
+                },
+                "reversed": true,
+                "id": 55
+            }
+        },
+        {
+            "question": "Серед 'наодинці' та 'удовиця', яке слово розташоване ближче до кінця алфавіту?",
+            "correctAnswer": "удовиця",
+            "templateUuid": "29e6e3639b264ad9a93a00d10acd2295",
+            "taskInstanceUuid": "cb9fc855375c437aa06d4388ad2c278e",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "closer_to_side",
+                "kind": "more",
+                "option_0": "наодинці",
+                "option_1": "удовиця",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 12639,
+                    "index": 8477,
+                    "freq_quantile": 5,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "наоди́нці"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 81272,
+                    "index": 18979,
+                    "freq_quantile": 10,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "удови́ця"
+                },
+                "reversed": false,
+                "id": 56
+            }
+        },
+        {
+            "question": "Серед 'удовиця' та 'наодинці', яке слово розташоване ближче до кінця алфавіту?",
+            "correctAnswer": "удовиця",
+            "templateUuid": "29e6e3639b264ad9a93a00d10acd2295",
+            "taskInstanceUuid": "48c346597990453bbc98d7eebcb65669",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "closer_to_side",
+                "kind": "more",
+                "option_0": "удовиця",
+                "option_1": "наодинці",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 81272,
+                    "index": 18979,
+                    "freq_quantile": 10,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "удови́ця"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 12639,
+                    "index": 8477,
+                    "freq_quantile": 5,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "наоди́нці"
+                },
+                "reversed": true,
+                "id": 57
+            }
+        },
+        {
+            "question": "Серед 'наодинці' і 'удовиця', яке слово знаходиться ближче до літери Я в алфавіті?",
+            "correctAnswer": "удовиця",
+            "templateUuid": "10fc8db9f93f4bfa93ff9d2878bd1079",
+            "taskInstanceUuid": "5b2b9d1c7e4144d4b3ac8f3e3a654d8f",
+            "additionalMetadata": {
+                "template_n": 5,
+                "type": "closer_to_letter",
+                "kind": "more",
+                "option_0": "наодинці",
+                "option_1": "удовиця",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 12639,
+                    "index": 8477,
+                    "freq_quantile": 5,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "наоди́нці"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 81272,
+                    "index": 18979,
+                    "freq_quantile": 10,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "удови́ця"
+                },
+                "reversed": false,
+                "id": 58
+            }
+        },
+        {
+            "question": "Серед 'удовиця' і 'наодинці', яке слово знаходиться ближче до літери Я в алфавіті?",
+            "correctAnswer": "удовиця",
+            "templateUuid": "10fc8db9f93f4bfa93ff9d2878bd1079",
+            "taskInstanceUuid": "52bcd3c9922d4074a9608f13dbd84323",
+            "additionalMetadata": {
+                "template_n": 5,
+                "type": "closer_to_letter",
+                "kind": "more",
+                "option_0": "удовиця",
+                "option_1": "наодинці",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 81272,
+                    "index": 18979,
+                    "freq_quantile": 10,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "удови́ця"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 12639,
+                    "index": 8477,
+                    "freq_quantile": 5,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "наоди́нці"
+                },
+                "reversed": true,
+                "id": 59
+            }
+        },
+        {
+            "question": "Яке слово перше по алфавітному порядку: \"дискримінаційний\" чи \"фігурант\"?",
+            "correctAnswer": "дискримінаційний",
+            "templateUuid": "e2e8b027f1ab45a78c333425d01f3e21",
+            "taskInstanceUuid": "f141303d6f8c482dbaa15ed670f7964a",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "kind": "less",
+                "option_0": "дискримінаційний",
+                "option_1": "фігурант",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 10896,
+                    "index": 7611,
+                    "freq_quantile": 4,
+                    "len": 17,
+                    "len_quantile": "long",
+                    "word_raw": "дискримінаці́йний"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 7424,
+                    "index": 5645,
+                    "freq_quantile": 3,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "фігура́нт"
+                },
+                "reversed": false,
+                "id": 60
+            }
+        },
+        {
+            "question": "Яке слово перше по алфавітному порядку: \"фігурант\" чи \"дискримінаційний\"?",
+            "correctAnswer": "дискримінаційний",
+            "templateUuid": "e2e8b027f1ab45a78c333425d01f3e21",
+            "taskInstanceUuid": "213244bb38bb4d31bd726b308dcc6455",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "kind": "less",
+                "option_0": "фігурант",
+                "option_1": "дискримінаційний",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 7424,
+                    "index": 5645,
+                    "freq_quantile": 3,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "фігура́нт"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 10896,
+                    "index": 7611,
+                    "freq_quantile": 4,
+                    "len": 17,
+                    "len_quantile": "long",
+                    "word_raw": "дискримінаці́йний"
+                },
+                "reversed": true,
+                "id": 61
+            }
+        },
+        {
+            "question": "Яке слово стоїть ближче до початку алфавіту: \"дискримінаційний\" чи \"фігурант\"?",
+            "correctAnswer": "дискримінаційний",
+            "templateUuid": "5245101e70ce4eb7a110ac4770410fe6",
+            "taskInstanceUuid": "dd63060fd8c74861836cafde38260024",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "closer_to_side",
+                "kind": "less",
+                "option_0": "дискримінаційний",
+                "option_1": "фігурант",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 10896,
+                    "index": 7611,
+                    "freq_quantile": 4,
+                    "len": 17,
+                    "len_quantile": "long",
+                    "word_raw": "дискримінаці́йний"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 7424,
+                    "index": 5645,
+                    "freq_quantile": 3,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "фігура́нт"
+                },
+                "reversed": false,
+                "id": 62
+            }
+        },
+        {
+            "question": "Яке слово стоїть ближче до початку алфавіту: \"фігурант\" чи \"дискримінаційний\"?",
+            "correctAnswer": "дискримінаційний",
+            "templateUuid": "5245101e70ce4eb7a110ac4770410fe6",
+            "taskInstanceUuid": "7c7727e5173c4c31a712228279890554",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "closer_to_side",
+                "kind": "less",
+                "option_0": "фігурант",
+                "option_1": "дискримінаційний",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 7424,
+                    "index": 5645,
+                    "freq_quantile": 3,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "фігура́нт"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 10896,
+                    "index": 7611,
+                    "freq_quantile": 4,
+                    "len": 17,
+                    "len_quantile": "long",
+                    "word_raw": "дискримінаці́йний"
+                },
+                "reversed": true,
+                "id": 63
+            }
+        },
+        {
+            "question": "Серед 'дискримінаційний' і 'фігурант', яке слово знаходиться ближче до літери A в алфавіті?",
+            "correctAnswer": "дискримінаційний",
+            "templateUuid": "4f5769ae372749eba67bb8a3318e117a",
+            "taskInstanceUuid": "93c42a9675864d25904d3a85867770af",
+            "additionalMetadata": {
+                "template_n": 4,
+                "type": "closer_to_letter",
+                "kind": "less",
+                "option_0": "дискримінаційний",
+                "option_1": "фігурант",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 10896,
+                    "index": 7611,
+                    "freq_quantile": 4,
+                    "len": 17,
+                    "len_quantile": "long",
+                    "word_raw": "дискримінаці́йний"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 7424,
+                    "index": 5645,
+                    "freq_quantile": 3,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "фігура́нт"
+                },
+                "reversed": false,
+                "id": 64
+            }
+        },
+        {
+            "question": "Серед 'фігурант' і 'дискримінаційний', яке слово знаходиться ближче до літери A в алфавіті?",
+            "correctAnswer": "дискримінаційний",
+            "templateUuid": "4f5769ae372749eba67bb8a3318e117a",
+            "taskInstanceUuid": "787535914bd04fd69540c4edbfafe7b3",
+            "additionalMetadata": {
+                "template_n": 4,
+                "type": "closer_to_letter",
+                "kind": "less",
+                "option_0": "фігурант",
+                "option_1": "дискримінаційний",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 7424,
+                    "index": 5645,
+                    "freq_quantile": 3,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "фігура́нт"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 10896,
+                    "index": 7611,
+                    "freq_quantile": 4,
+                    "len": 17,
+                    "len_quantile": "long",
+                    "word_raw": "дискримінаці́йний"
+                },
+                "reversed": true,
+                "id": 65
+            }
+        },
+        {
+            "question": "Яке слово далі по алфавітному порядку: \"дискримінаційний\" чи \"фігурант\"?",
+            "correctAnswer": "фігурант",
+            "templateUuid": "c6a455d0449d42f192f020c56f437894",
+            "taskInstanceUuid": "ce801dfeea3a4063b52ed7250d2d3d6c",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "further",
+                "kind": "more",
+                "option_0": "дискримінаційний",
+                "option_1": "фігурант",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 10896,
+                    "index": 7611,
+                    "freq_quantile": 4,
+                    "len": 17,
+                    "len_quantile": "long",
+                    "word_raw": "дискримінаці́йний"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 7424,
+                    "index": 5645,
+                    "freq_quantile": 3,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "фігура́нт"
+                },
+                "reversed": false,
+                "id": 66
+            }
+        },
+        {
+            "question": "Яке слово далі по алфавітному порядку: \"фігурант\" чи \"дискримінаційний\"?",
+            "correctAnswer": "фігурант",
+            "templateUuid": "c6a455d0449d42f192f020c56f437894",
+            "taskInstanceUuid": "d3fc533608a44f5fb3eb9cb2b2ef3a38",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "further",
+                "kind": "more",
+                "option_0": "фігурант",
+                "option_1": "дискримінаційний",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 7424,
+                    "index": 5645,
+                    "freq_quantile": 3,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "фігура́нт"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 10896,
+                    "index": 7611,
+                    "freq_quantile": 4,
+                    "len": 17,
+                    "len_quantile": "long",
+                    "word_raw": "дискримінаці́йний"
+                },
+                "reversed": true,
+                "id": 67
+            }
+        },
+        {
+            "question": "Серед 'дискримінаційний' та 'фігурант', яке слово розташоване ближче до кінця алфавіту?",
+            "correctAnswer": "фігурант",
+            "templateUuid": "29e6e3639b264ad9a93a00d10acd2295",
+            "taskInstanceUuid": "c4df37451a034537a3c41b51f47edc46",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "closer_to_side",
+                "kind": "more",
+                "option_0": "дискримінаційний",
+                "option_1": "фігурант",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 10896,
+                    "index": 7611,
+                    "freq_quantile": 4,
+                    "len": 17,
+                    "len_quantile": "long",
+                    "word_raw": "дискримінаці́йний"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 7424,
+                    "index": 5645,
+                    "freq_quantile": 3,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "фігура́нт"
+                },
+                "reversed": false,
+                "id": 68
+            }
+        },
+        {
+            "question": "Серед 'фігурант' та 'дискримінаційний', яке слово розташоване ближче до кінця алфавіту?",
+            "correctAnswer": "фігурант",
+            "templateUuid": "29e6e3639b264ad9a93a00d10acd2295",
+            "taskInstanceUuid": "abbe6e84ac6f46c79612153876743bcf",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "closer_to_side",
+                "kind": "more",
+                "option_0": "фігурант",
+                "option_1": "дискримінаційний",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 7424,
+                    "index": 5645,
+                    "freq_quantile": 3,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "фігура́нт"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 10896,
+                    "index": 7611,
+                    "freq_quantile": 4,
+                    "len": 17,
+                    "len_quantile": "long",
+                    "word_raw": "дискримінаці́йний"
+                },
+                "reversed": true,
+                "id": 69
+            }
+        },
+        {
+            "question": "Серед 'дискримінаційний' і 'фігурант', яке слово знаходиться ближче до літери Я в алфавіті?",
+            "correctAnswer": "фігурант",
+            "templateUuid": "10fc8db9f93f4bfa93ff9d2878bd1079",
+            "taskInstanceUuid": "79891de788674cfb96db3503361e33b0",
+            "additionalMetadata": {
+                "template_n": 5,
+                "type": "closer_to_letter",
+                "kind": "more",
+                "option_0": "дискримінаційний",
+                "option_1": "фігурант",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 10896,
+                    "index": 7611,
+                    "freq_quantile": 4,
+                    "len": 17,
+                    "len_quantile": "long",
+                    "word_raw": "дискримінаці́йний"
+                },
+                "t2_meta": {
+                    "pos": "noun",
+                    "freq": 7424,
+                    "index": 5645,
+                    "freq_quantile": 3,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "фігура́нт"
+                },
+                "reversed": false,
+                "id": 70
+            }
+        },
+        {
+            "question": "Серед 'фігурант' і 'дискримінаційний', яке слово знаходиться ближче до літери Я в алфавіті?",
+            "correctAnswer": "фігурант",
+            "templateUuid": "10fc8db9f93f4bfa93ff9d2878bd1079",
+            "taskInstanceUuid": "79d2147aed25426e9502f84e694770fb",
+            "additionalMetadata": {
+                "template_n": 5,
+                "type": "closer_to_letter",
+                "kind": "more",
+                "option_0": "фігурант",
+                "option_1": "дискримінаційний",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "noun",
+                    "freq": 7424,
+                    "index": 5645,
+                    "freq_quantile": 3,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "фігура́нт"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 10896,
+                    "index": 7611,
+                    "freq_quantile": 4,
+                    "len": 17,
+                    "len_quantile": "long",
+                    "word_raw": "дискримінаці́йний"
+                },
+                "reversed": true,
+                "id": 71
+            }
+        },
+        {
+            "question": "Яке слово перше по алфавітному порядку: \"з'єднатися\" чи \"видатний\"?",
+            "correctAnswer": "видатний",
+            "templateUuid": "e2e8b027f1ab45a78c333425d01f3e21",
+            "taskInstanceUuid": "73bcea9e01dc434ab4d270f850ccca8f",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "kind": "less",
+                "option_0": "з'єднатися",
+                "option_1": "видатний",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 35814,
+                    "index": 15257,
+                    "freq_quantile": 8,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "з'єдна́тися"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 1800,
+                    "index": 1576,
+                    "freq_quantile": 1,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "видатни́й"
+                },
+                "reversed": false,
+                "id": 72
+            }
+        },
+        {
+            "question": "Яке слово перше по алфавітному порядку: \"видатний\" чи \"з'єднатися\"?",
+            "correctAnswer": "видатний",
+            "templateUuid": "e2e8b027f1ab45a78c333425d01f3e21",
+            "taskInstanceUuid": "73086d34f06144c6b48ce12160bca2a6",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "kind": "less",
+                "option_0": "видатний",
+                "option_1": "з'єднатися",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 1800,
+                    "index": 1576,
+                    "freq_quantile": 1,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "видатни́й"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 35814,
+                    "index": 15257,
+                    "freq_quantile": 8,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "з'єдна́тися"
+                },
+                "reversed": true,
+                "id": 73
+            }
+        },
+        {
+            "question": "Яке слово стоїть ближче до початку алфавіту: \"з'єднатися\" чи \"видатний\"?",
+            "correctAnswer": "видатний",
+            "templateUuid": "5245101e70ce4eb7a110ac4770410fe6",
+            "taskInstanceUuid": "f2aa34e3040c4d1e8cee41ad05252dde",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "closer_to_side",
+                "kind": "less",
+                "option_0": "з'єднатися",
+                "option_1": "видатний",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 35814,
+                    "index": 15257,
+                    "freq_quantile": 8,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "з'єдна́тися"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 1800,
+                    "index": 1576,
+                    "freq_quantile": 1,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "видатни́й"
+                },
+                "reversed": false,
+                "id": 74
+            }
+        },
+        {
+            "question": "Яке слово стоїть ближче до початку алфавіту: \"видатний\" чи \"з'єднатися\"?",
+            "correctAnswer": "видатний",
+            "templateUuid": "5245101e70ce4eb7a110ac4770410fe6",
+            "taskInstanceUuid": "200a3a7542e444e9a03fb759e117325b",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "closer_to_side",
+                "kind": "less",
+                "option_0": "видатний",
+                "option_1": "з'єднатися",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 1800,
+                    "index": 1576,
+                    "freq_quantile": 1,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "видатни́й"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 35814,
+                    "index": 15257,
+                    "freq_quantile": 8,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "з'єдна́тися"
+                },
+                "reversed": true,
+                "id": 75
+            }
+        },
+        {
+            "question": "Серед 'з'єднатися' і 'видатний', яке слово знаходиться ближче до літери A в алфавіті?",
+            "correctAnswer": "видатний",
+            "templateUuid": "4f5769ae372749eba67bb8a3318e117a",
+            "taskInstanceUuid": "b469fab3007a457490363480d304a6e2",
+            "additionalMetadata": {
+                "template_n": 4,
+                "type": "closer_to_letter",
+                "kind": "less",
+                "option_0": "з'єднатися",
+                "option_1": "видатний",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 35814,
+                    "index": 15257,
+                    "freq_quantile": 8,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "з'єдна́тися"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 1800,
+                    "index": 1576,
+                    "freq_quantile": 1,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "видатни́й"
+                },
+                "reversed": false,
+                "id": 76
+            }
+        },
+        {
+            "question": "Серед 'видатний' і 'з'єднатися', яке слово знаходиться ближче до літери A в алфавіті?",
+            "correctAnswer": "видатний",
+            "templateUuid": "4f5769ae372749eba67bb8a3318e117a",
+            "taskInstanceUuid": "f123770dd4b54cf1a8e7c71bc637f715",
+            "additionalMetadata": {
+                "template_n": 4,
+                "type": "closer_to_letter",
+                "kind": "less",
+                "option_0": "видатний",
+                "option_1": "з'єднатися",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 1800,
+                    "index": 1576,
+                    "freq_quantile": 1,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "видатни́й"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 35814,
+                    "index": 15257,
+                    "freq_quantile": 8,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "з'єдна́тися"
+                },
+                "reversed": true,
+                "id": 77
+            }
+        },
+        {
+            "question": "Яке слово далі по алфавітному порядку: \"з'єднатися\" чи \"видатний\"?",
+            "correctAnswer": "з'єднатися",
+            "templateUuid": "c6a455d0449d42f192f020c56f437894",
+            "taskInstanceUuid": "e1ca5cc694db43239c648b4cd17723d1",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "further",
+                "kind": "more",
+                "option_0": "з'єднатися",
+                "option_1": "видатний",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 35814,
+                    "index": 15257,
+                    "freq_quantile": 8,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "з'єдна́тися"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 1800,
+                    "index": 1576,
+                    "freq_quantile": 1,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "видатни́й"
+                },
+                "reversed": false,
+                "id": 78
+            }
+        },
+        {
+            "question": "Яке слово далі по алфавітному порядку: \"видатний\" чи \"з'єднатися\"?",
+            "correctAnswer": "з'єднатися",
+            "templateUuid": "c6a455d0449d42f192f020c56f437894",
+            "taskInstanceUuid": "fdf17d14d2124e11b3d68e47652bb47d",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "further",
+                "kind": "more",
+                "option_0": "видатний",
+                "option_1": "з'єднатися",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 1800,
+                    "index": 1576,
+                    "freq_quantile": 1,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "видатни́й"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 35814,
+                    "index": 15257,
+                    "freq_quantile": 8,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "з'єдна́тися"
+                },
+                "reversed": true,
+                "id": 79
+            }
+        },
+        {
+            "question": "Серед 'з'єднатися' та 'видатний', яке слово розташоване ближче до кінця алфавіту?",
+            "correctAnswer": "з'єднатися",
+            "templateUuid": "29e6e3639b264ad9a93a00d10acd2295",
+            "taskInstanceUuid": "fad4e096a62b4a879d9c2970c1925140",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "closer_to_side",
+                "kind": "more",
+                "option_0": "з'єднатися",
+                "option_1": "видатний",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 35814,
+                    "index": 15257,
+                    "freq_quantile": 8,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "з'єдна́тися"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 1800,
+                    "index": 1576,
+                    "freq_quantile": 1,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "видатни́й"
+                },
+                "reversed": false,
+                "id": 80
+            }
+        },
+        {
+            "question": "Серед 'видатний' та 'з'єднатися', яке слово розташоване ближче до кінця алфавіту?",
+            "correctAnswer": "з'єднатися",
+            "templateUuid": "29e6e3639b264ad9a93a00d10acd2295",
+            "taskInstanceUuid": "b0ed78f7be3543cab33b042b9866db47",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "closer_to_side",
+                "kind": "more",
+                "option_0": "видатний",
+                "option_1": "з'єднатися",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 1800,
+                    "index": 1576,
+                    "freq_quantile": 1,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "видатни́й"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 35814,
+                    "index": 15257,
+                    "freq_quantile": 8,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "з'єдна́тися"
+                },
+                "reversed": true,
+                "id": 81
+            }
+        },
+        {
+            "question": "Серед 'з'єднатися' і 'видатний', яке слово знаходиться ближче до літери Я в алфавіті?",
+            "correctAnswer": "з'єднатися",
+            "templateUuid": "10fc8db9f93f4bfa93ff9d2878bd1079",
+            "taskInstanceUuid": "380899c8366a44cc8ffe9f626ad04798",
+            "additionalMetadata": {
+                "template_n": 5,
+                "type": "closer_to_letter",
+                "kind": "more",
+                "option_0": "з'єднатися",
+                "option_1": "видатний",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 35814,
+                    "index": 15257,
+                    "freq_quantile": 8,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "з'єдна́тися"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 1800,
+                    "index": 1576,
+                    "freq_quantile": 1,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "видатни́й"
+                },
+                "reversed": false,
+                "id": 82
+            }
+        },
+        {
+            "question": "Серед 'видатний' і 'з'єднатися', яке слово знаходиться ближче до літери Я в алфавіті?",
+            "correctAnswer": "з'єднатися",
+            "templateUuid": "10fc8db9f93f4bfa93ff9d2878bd1079",
+            "taskInstanceUuid": "67a2d67ea90a4a3d9bc3dfb429b0aa48",
+            "additionalMetadata": {
+                "template_n": 5,
+                "type": "closer_to_letter",
+                "kind": "more",
+                "option_0": "видатний",
+                "option_1": "з'єднатися",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 1800,
+                    "index": 1576,
+                    "freq_quantile": 1,
+                    "len": 9,
+                    "len_quantile": "mid",
+                    "word_raw": "видатни́й"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 35814,
+                    "index": 15257,
+                    "freq_quantile": 8,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "з'єдна́тися"
+                },
+                "reversed": true,
+                "id": 83
+            }
+        },
+        {
+            "question": "Яке слово перше по алфавітному порядку: \"хоч-не-хоч\" чи \"харківський\"?",
+            "correctAnswer": "харківський",
+            "templateUuid": "e2e8b027f1ab45a78c333425d01f3e21",
+            "taskInstanceUuid": "a32753c59e1f48be8839a21f5a8aabcb",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "kind": "less",
+                "option_0": "хоч-не-хоч",
+                "option_1": "харківський",
+                "label": 1,
+                "num_shared_characters": 1,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 83024,
+                    "index": 19055,
+                    "freq_quantile": 10,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "хоч-не-хо́ч"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 1249,
+                    "index": 1092,
+                    "freq_quantile": 1,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "ха́рківський"
+                },
+                "reversed": false,
+                "id": 84
+            }
+        },
+        {
+            "question": "Яке слово перше по алфавітному порядку: \"харківський\" чи \"хоч-не-хоч\"?",
+            "correctAnswer": "харківський",
+            "templateUuid": "e2e8b027f1ab45a78c333425d01f3e21",
+            "taskInstanceUuid": "0013620633704fca89a4e2c086453fa1",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "kind": "less",
+                "option_0": "харківський",
+                "option_1": "хоч-не-хоч",
+                "label": 0,
+                "num_shared_characters": 1,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 1249,
+                    "index": 1092,
+                    "freq_quantile": 1,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "ха́рківський"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 83024,
+                    "index": 19055,
+                    "freq_quantile": 10,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "хоч-не-хо́ч"
+                },
+                "reversed": true,
+                "id": 85
+            }
+        },
+        {
+            "question": "Яке слово стоїть ближче до початку алфавіту: \"хоч-не-хоч\" чи \"харківський\"?",
+            "correctAnswer": "харківський",
+            "templateUuid": "5245101e70ce4eb7a110ac4770410fe6",
+            "taskInstanceUuid": "e827a36f460c48459ea62071f831d273",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "closer_to_side",
+                "kind": "less",
+                "option_0": "хоч-не-хоч",
+                "option_1": "харківський",
+                "label": 1,
+                "num_shared_characters": 1,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 83024,
+                    "index": 19055,
+                    "freq_quantile": 10,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "хоч-не-хо́ч"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 1249,
+                    "index": 1092,
+                    "freq_quantile": 1,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "ха́рківський"
+                },
+                "reversed": false,
+                "id": 86
+            }
+        },
+        {
+            "question": "Яке слово стоїть ближче до початку алфавіту: \"харківський\" чи \"хоч-не-хоч\"?",
+            "correctAnswer": "харківський",
+            "templateUuid": "5245101e70ce4eb7a110ac4770410fe6",
+            "taskInstanceUuid": "7ffef71fa1724f0999a0908e80e94c40",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "closer_to_side",
+                "kind": "less",
+                "option_0": "харківський",
+                "option_1": "хоч-не-хоч",
+                "label": 0,
+                "num_shared_characters": 1,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 1249,
+                    "index": 1092,
+                    "freq_quantile": 1,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "ха́рківський"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 83024,
+                    "index": 19055,
+                    "freq_quantile": 10,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "хоч-не-хо́ч"
+                },
+                "reversed": true,
+                "id": 87
+            }
+        },
+        {
+            "question": "Серед 'хоч-не-хоч' і 'харківський', яке слово знаходиться ближче до літери A в алфавіті?",
+            "correctAnswer": "харківський",
+            "templateUuid": "4f5769ae372749eba67bb8a3318e117a",
+            "taskInstanceUuid": "e0cd1285a47242b29f192ca07c7ce24d",
+            "additionalMetadata": {
+                "template_n": 4,
+                "type": "closer_to_letter",
+                "kind": "less",
+                "option_0": "хоч-не-хоч",
+                "option_1": "харківський",
+                "label": 1,
+                "num_shared_characters": 1,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 83024,
+                    "index": 19055,
+                    "freq_quantile": 10,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "хоч-не-хо́ч"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 1249,
+                    "index": 1092,
+                    "freq_quantile": 1,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "ха́рківський"
+                },
+                "reversed": false,
+                "id": 88
+            }
+        },
+        {
+            "question": "Серед 'харківський' і 'хоч-не-хоч', яке слово знаходиться ближче до літери A в алфавіті?",
+            "correctAnswer": "харківський",
+            "templateUuid": "4f5769ae372749eba67bb8a3318e117a",
+            "taskInstanceUuid": "59828efaed964e3b93f55398205009ca",
+            "additionalMetadata": {
+                "template_n": 4,
+                "type": "closer_to_letter",
+                "kind": "less",
+                "option_0": "харківський",
+                "option_1": "хоч-не-хоч",
+                "label": 0,
+                "num_shared_characters": 1,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 1249,
+                    "index": 1092,
+                    "freq_quantile": 1,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "ха́рківський"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 83024,
+                    "index": 19055,
+                    "freq_quantile": 10,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "хоч-не-хо́ч"
+                },
+                "reversed": true,
+                "id": 89
+            }
+        },
+        {
+            "question": "Яке слово далі по алфавітному порядку: \"хоч-не-хоч\" чи \"харківський\"?",
+            "correctAnswer": "хоч-не-хоч",
+            "templateUuid": "c6a455d0449d42f192f020c56f437894",
+            "taskInstanceUuid": "1b03f956eaa44e4ab5e2f35a480f2535",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "further",
+                "kind": "more",
+                "option_0": "хоч-не-хоч",
+                "option_1": "харківський",
+                "label": 0,
+                "num_shared_characters": 1,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 83024,
+                    "index": 19055,
+                    "freq_quantile": 10,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "хоч-не-хо́ч"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 1249,
+                    "index": 1092,
+                    "freq_quantile": 1,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "ха́рківський"
+                },
+                "reversed": false,
+                "id": 90
+            }
+        },
+        {
+            "question": "Яке слово далі по алфавітному порядку: \"харківський\" чи \"хоч-не-хоч\"?",
+            "correctAnswer": "хоч-не-хоч",
+            "templateUuid": "c6a455d0449d42f192f020c56f437894",
+            "taskInstanceUuid": "24993d1f0c454425bf27808dfa59a74f",
+            "additionalMetadata": {
+                "template_n": 0,
+                "type": "further",
+                "kind": "more",
+                "option_0": "харківський",
+                "option_1": "хоч-не-хоч",
+                "label": 1,
+                "num_shared_characters": 1,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 1249,
+                    "index": 1092,
+                    "freq_quantile": 1,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "ха́рківський"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 83024,
+                    "index": 19055,
+                    "freq_quantile": 10,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "хоч-не-хо́ч"
+                },
+                "reversed": true,
+                "id": 91
+            }
+        },
+        {
+            "question": "Серед 'хоч-не-хоч' та 'харківський', яке слово розташоване ближче до кінця алфавіту?",
+            "correctAnswer": "хоч-не-хоч",
+            "templateUuid": "29e6e3639b264ad9a93a00d10acd2295",
+            "taskInstanceUuid": "06642f01a6c64e668684a4ec8a85f29d",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "closer_to_side",
+                "kind": "more",
+                "option_0": "хоч-не-хоч",
+                "option_1": "харківський",
+                "label": 0,
+                "num_shared_characters": 1,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 83024,
+                    "index": 19055,
+                    "freq_quantile": 10,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "хоч-не-хо́ч"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 1249,
+                    "index": 1092,
+                    "freq_quantile": 1,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "ха́рківський"
+                },
+                "reversed": false,
+                "id": 92
+            }
+        },
+        {
+            "question": "Серед 'харківський' та 'хоч-не-хоч', яке слово розташоване ближче до кінця алфавіту?",
+            "correctAnswer": "хоч-не-хоч",
+            "templateUuid": "29e6e3639b264ad9a93a00d10acd2295",
+            "taskInstanceUuid": "95c35301bf6643dc986996a78effb0ff",
+            "additionalMetadata": {
+                "template_n": 3,
+                "type": "closer_to_side",
+                "kind": "more",
+                "option_0": "харківський",
+                "option_1": "хоч-не-хоч",
+                "label": 1,
+                "num_shared_characters": 1,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 1249,
+                    "index": 1092,
+                    "freq_quantile": 1,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "ха́рківський"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 83024,
+                    "index": 19055,
+                    "freq_quantile": 10,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "хоч-не-хо́ч"
+                },
+                "reversed": true,
+                "id": 93
+            }
+        },
+        {
+            "question": "Серед 'хоч-не-хоч' і 'харківський', яке слово знаходиться ближче до літери Я в алфавіті?",
+            "correctAnswer": "хоч-не-хоч",
+            "templateUuid": "10fc8db9f93f4bfa93ff9d2878bd1079",
+            "taskInstanceUuid": "ec0c282d60db4139884c8d63bd6003e3",
+            "additionalMetadata": {
+                "template_n": 5,
+                "type": "closer_to_letter",
+                "kind": "more",
+                "option_0": "хоч-не-хоч",
+                "option_1": "харківський",
+                "label": 0,
+                "num_shared_characters": 1,
+                "t1_meta": {
+                    "pos": "adverb",
+                    "freq": 83024,
+                    "index": 19055,
+                    "freq_quantile": 10,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "хоч-не-хо́ч"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 1249,
+                    "index": 1092,
+                    "freq_quantile": 1,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "ха́рківський"
+                },
+                "reversed": false,
+                "id": 94
+            }
+        },
+        {
+            "question": "Серед 'харківський' і 'хоч-не-хоч', яке слово знаходиться ближче до літери Я в алфавіті?",
+            "correctAnswer": "хоч-не-хоч",
+            "templateUuid": "10fc8db9f93f4bfa93ff9d2878bd1079",
+            "taskInstanceUuid": "5cee81b42e124871a377bf5dbf082d5c",
+            "additionalMetadata": {
+                "template_n": 5,
+                "type": "closer_to_letter",
+                "kind": "more",
+                "option_0": "харківський",
+                "option_1": "хоч-не-хоч",
+                "label": 1,
+                "num_shared_characters": 1,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 1249,
+                    "index": 1092,
+                    "freq_quantile": 1,
+                    "len": 12,
+                    "len_quantile": "long",
+                    "word_raw": "ха́рківський"
+                },
+                "t2_meta": {
+                    "pos": "adverb",
+                    "freq": 83024,
+                    "index": 19055,
+                    "freq_quantile": 10,
+                    "len": 11,
+                    "len_quantile": "long",
+                    "word_raw": "хоч-не-хо́ч"
+                },
+                "reversed": true,
+                "id": 95
+            }
+        },
+        {
+            "question": "Яке слово перше по алфавітному порядку: \"печений\" чи \"утекти\"?",
+            "correctAnswer": "печений",
+            "templateUuid": "e2e8b027f1ab45a78c333425d01f3e21",
+            "taskInstanceUuid": "97a675a3645f48fe81a328664e5029a4",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "kind": "less",
+                "option_0": "печений",
+                "option_1": "утекти",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 28925,
+                    "index": 13908,
+                    "freq_quantile": 8,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "пече́ний"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 11300,
+                    "index": 7843,
+                    "freq_quantile": 5,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "утекти́"
+                },
+                "reversed": false,
+                "id": 96
+            }
+        },
+        {
+            "question": "Яке слово перше по алфавітному порядку: \"утекти\" чи \"печений\"?",
+            "correctAnswer": "печений",
+            "templateUuid": "e2e8b027f1ab45a78c333425d01f3e21",
+            "taskInstanceUuid": "856b6aae629a44b18092c8b89943cb89",
+            "additionalMetadata": {
+                "template_n": 1,
+                "type": "ordinal",
+                "kind": "less",
+                "option_0": "утекти",
+                "option_1": "печений",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 11300,
+                    "index": 7843,
+                    "freq_quantile": 5,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "утекти́"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 28925,
+                    "index": 13908,
+                    "freq_quantile": 8,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "пече́ний"
+                },
+                "reversed": true,
+                "id": 97
+            }
+        },
+        {
+            "question": "Яке слово стоїть ближче до початку алфавіту: \"печений\" чи \"утекти\"?",
+            "correctAnswer": "печений",
+            "templateUuid": "5245101e70ce4eb7a110ac4770410fe6",
+            "taskInstanceUuid": "fa819dc96651469ca75767391fc5b561",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "closer_to_side",
+                "kind": "less",
+                "option_0": "печений",
+                "option_1": "утекти",
+                "label": 0,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "adjective",
+                    "freq": 28925,
+                    "index": 13908,
+                    "freq_quantile": 8,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "пече́ний"
+                },
+                "t2_meta": {
+                    "pos": "verb",
+                    "freq": 11300,
+                    "index": 7843,
+                    "freq_quantile": 5,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "утекти́"
+                },
+                "reversed": false,
+                "id": 98
+            }
+        },
+        {
+            "question": "Яке слово стоїть ближче до початку алфавіту: \"утекти\" чи \"печений\"?",
+            "correctAnswer": "печений",
+            "templateUuid": "5245101e70ce4eb7a110ac4770410fe6",
+            "taskInstanceUuid": "6aff0171bf17425ba777578237576e37",
+            "additionalMetadata": {
+                "template_n": 2,
+                "type": "closer_to_side",
+                "kind": "less",
+                "option_0": "утекти",
+                "option_1": "печений",
+                "label": 1,
+                "num_shared_characters": 0,
+                "t1_meta": {
+                    "pos": "verb",
+                    "freq": 11300,
+                    "index": 7843,
+                    "freq_quantile": 5,
+                    "len": 7,
+                    "len_quantile": "short",
+                    "word_raw": "утекти́"
+                },
+                "t2_meta": {
+                    "pos": "adjective",
+                    "freq": 28925,
+                    "index": 13908,
+                    "freq_quantile": 8,
+                    "len": 8,
+                    "len_quantile": "short",
+                    "word_raw": "пече́ний"
+                },
+                "reversed": true,
+                "id": 99
+            }
+        }
+    ],
+    "systemPrompts": [
+        "Ви розв'язуєте екзамен з української мови. Вкажіть правильну відповідь одним словом, без лапок."
+    ]
+}

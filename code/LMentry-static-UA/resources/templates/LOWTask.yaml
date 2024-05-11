@@ -1,0 +1,21 @@
+templates:
+- additional-metadata:
+    template_n: 0
+  template: Яка ПЕРША літера y слові "{WORD}"?
+  uuid: 3295fd6fbfe24efba8b3362c9c0f3515
+- additional-metadata:
+    template_n: 1
+  template: Яка літера в слові "{WORD}" ПЕРША?
+  uuid: 0eb6d2af66e04751a28041252dff7024
+- additional-metadata:
+    template_n: 2
+  template: В слові "{WORD}" на ПЕРШОМУ місці знаходиться літера ...
+  uuid: ba27443c2f6d454b8eb7d86496970c09
+- additional-metadata:
+    template_n: 3
+  template: В слові "{WORD}" під номером ОДИН знаходиться літера ...
+  uuid: 060618a4f0f646f48bccb64b4b994439
+
+system_prompts:
+    # - 'Ви розв''язуєте екзамен з української мови. Вкажіть правильну відповідь одним словом, без лапок. Наприклад: \n Питання: В слові "герметизація" яка літера третя?\n Відповідь: р'
+    - 'Ви розв''язуєте екзамен з української мови. Вкажіть правильну відповідь одним словом, без лапок.'
