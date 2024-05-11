@@ -10,6 +10,7 @@
 ## Intro 
 Directly inspired by the excellent [aviaefrat/lmentry](https://github.com/aviaefrat/lmentry/), but no affiliation with it except the name. In LMentry-static-UA, "static" refers to the fact that these are datasets — not python files with regular expressions.
 
+
 ## Basics: Datasets
 - **N-in-M–type** tasks:
   1. LOW[^lmeslow] (**L**etters **O**f **W**ord): "What is the first/Nth/last letter in the word ..."
@@ -94,6 +95,10 @@ DoAllWordsBelongToCatTask:
 - The code uses a lot of inheritance etc. mostly because I wanted to learn how to do it in Python — not because it's actually needed or useful here. It makes the code MUCH harder to read. 
 - "system prompts" are added to the files but not used anywhere at all, and shouldn't be used either. Evaluation was done in a 3-shot setting (see lm-eval YAMLs).
 
+
+## Thanks
+- [dmklinger/ukrainian: English to Ukrainian dictionary](https://github.com/dmklinger/ukrainian) is awesome (Ukrainian dictionary, words as json!) and is used here as source of words.
+- Annotators **TODO**
 
 
 ## Canary 
