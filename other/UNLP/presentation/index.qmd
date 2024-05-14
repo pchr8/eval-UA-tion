@@ -131,8 +131,8 @@ Introduction - Motivation - Usage of Ukrainian
 
 ## Ukrainian is a Challenge for LLMs {background-image="https://upload.wikimedia.org/wikipedia/commons/2/2b/Ouroboros-Abake.svg" background-position="center" background-size="contain" background-opacity="10%" .smaller}
 
-- Our CBT-UA task involved manually correcting LLM-generated stories — **every one** of them had errors in the text. (The before/after dataset is on HF[^cbt_stories].)
-  - Many errors involved language clearly coming from Russian (word-by-word translations, Russian words,gender agreement issues in words where Ukrainian and Russian genders differ...)
+- Our CBT-UA task involved manually correcting LLM-generated stories — **every one** of them had errors in the text. The before/after dataset[^cbt_stories] is on the HF Hub.
+  - Many errors involved Russian-language interference (Russian words, gender agreement issues in words where Ukrainian and Russian genders differ...)
 - GPT-4 and Gemini Pro had trouble with longer texts, but smaller LLMs fared even worse.
 
 ![
@@ -160,7 +160,7 @@ Introduction
 :::
 
 
-## Ukrainian is an inflected language 
+## Ukrainian is an Inflected Language 
 <!-- These challenges stem in part from the fact that Ukrainian has a rich morphology. -->
 :::{.notcenter .newsmaller}
 1. _Analytic_ languages show grammatical relationships by the addition of words
@@ -205,101 +205,6 @@ Theory - Ukrainian grammar
 
 ::: {.notes}
 :::
-
-
-## Eval-UA-tion Essentials
-
-::: {.incremental}
-- **Eval-UA-tion** is a benchmark for the evaluation of Language Models in the Ukrainian language.
-- A **benchmark** is a set of tests and metrics used to demonstrate performance — generally, one or multiple datasets  on which a model's predictions are compared to ground truth.
-- Eval-UA-tion includes tasks similar to these:
-:::
-
-## Sample tasks: UA-CBT
-
-![Partial translated UA-CBT instance with the 6 options](./images/tasks/ua-cbt.png) 
-
-<!-- ::: {.callout-note appearance="minimal"} -->
-<!-- I have a dog, Fido, and a parrot, Ollie. We were all friends -->
-<!-- until last week, when Fido ate my steak. -->
-<!-- But I wasn't angry for long: after all, he's just a -->
-<!-- [**⇒ ̲_ ̲_ ̲_ ̲ ̲_ ̲⇐**]{}, I can't expect him to be moral.   -->
-<!---->
-<!-- ::::{layout-ncol=5} -->
-<!-- [a) dog]{.rn rn-type=box rn-color=green rn-animate=false rn-index=4} -->
-<!---->
-<!-- [b) animal]{.rn rn-type=circle rn-color=blue rn-index=5 rn-iterations=10 rn-animationDuration=13000} -->
-<!---->
-<!-- [c) parrot]{.rn rn-type=crossed-off rn-color=red rn-animate=false rn-index=1} -->
-<!---->
-<!-- [d) Ollie]{.rn rn-type=crossed-off rn-color=red rn-animate=false rn-index=2} -->
-<!---->
-<!-- [e) ate]{.rn rn-type=crossed-off rn-color=red rn-animate=false rn-index=3} -->
-<!-- :::: -->
-<!-- ::: -->
-<!---->
-<!-- [^like]: not translations, just examples of the _type_ of tasks included -->
-
-::: footer
-Introduction - Samples
-:::
-
-::: {.notes}
-:::
-
-## Sample tasks: LMentry-static-UA {.smaller}
-<font color="red">TODO: actual examples and translations instead of this</font>
-
-::: {.callout-note appearance="minimal"}
-- What's the fifth letter in the word _evaluation_?
-- What's the last word in the sentence "London is the capital of Great Britain"?
-
-- Which word doesn't belong the same category as the rest: _fear, love, sadness, optimism, pizza_?
-- Do all these words belong to the same category: _hand, arm, leg, head, finger_?
-
-- Which word is longer: _democracy_ or _pasta_?
-- Which word comes first in alphabetical order: _cat_ or _cactus_?
-:::
-
-[^like]: not translations, just examples of the _type_ of tasks included
-
-::: footer
-Introduction - Samples
-:::
-
-::: {.notes}
-:::
-
-
-## Sample tasks: UP-Titles {.smaller}
-<font color="red">TODO: actual examples and translations instead of this</font>
-
-Pick the correct title for the article: 
-
-::: {layout-ncol=2}
-:::: {.callout-note appearance="minimal"}
-A rare celestial phenomenon will be visible across North America in **X** weeks on Wednesday. 
-Dubbed the "Night of the Red Comet," this event occurs only once every **XXX** years when a comet with a distinct red hue crosses the northern sky.
-Astronomers and stargazers alike are gearing up for what is expected to be a spectacular view on Wednesday night. Cities in the comet's path are organizing viewing parties, and local observatories are extending their hours to accommodate the expected influx of enthusiasts. Experts recommend finding a dark spot away from city lights to get the best view of this extraordinary astronomical event.
-::::
-
-:::: {}
-- Once-in-**XXX**-years comet passing around North America
-- Annual Meteor Shower to Peak Wednesday Night
-- Northern Lights Expected to Dazzle Stargazers in **X** weeks
-- SuperMoon to Appear Larger and Brighter Than Usual
-::::
-
-:::
-
-
-::: footer
-Introduction - Samples
-:::
-
-::: {.notes}
-:::
-
 
 
 
@@ -353,22 +258,8 @@ It can be transformed into _використовуватимуться_<sup>use-
 
 :::
 
-## Tasks outline {visibility="hidden"}
-::: {.notcenter}
-- Tasks
-  1. UA-CBT
-  2. LMentry-static-UA
-  3. UP-Titles
-- Baselines
-:::
 
-
-::: footer
-Tasks - Outline
-:::
-
-
-## Eval-UA-tion Overview
+## Eval-UA-tion Essentials
 ::: {.notcenter}
 **Eval-UA-tion** is a set of 3 benchmark tasks (9 datasets, each with 1,000+ instances) for evaluating Large Language Models (LLMs).
 <!-- All except UP-Titles use material unlikely to be in LLMs' training sets.  -->
@@ -395,6 +286,20 @@ Tasks - Eval-UA-tion overview
 :::
 
 
+
+# 1. UA-CBT
+
+(Ukrainian Children's Book Test)
+
+<!-- ::: {layout="[[-1,1,1,1,-1]]"} -->
+<!-- ![](./images/logos/l2.png){.nostretch width="200px"} -->
+
+<!-- ![](./images/logos/l1.png){.nostretch width="200px"} -->
+
+![](./images/logos/l3.png){.nostretch width="200px"}
+
+<!-- ::: -->
+
 ## UA-CBT – Description
 - Inspired by the Children's Book Test [@taskCBT] 
 - Fill-in-the-blanks tasks where a word is masked, and the correct option has to be chosen
@@ -406,116 +311,9 @@ Tasks - UA-CBT
 :::
 
 
-## Example story I: "Inflection"
-
-<font color="red">TODO: use a Ukrainian example or delete </font>
-
-::: {.callout-note appearance="minimal"}
-I have a dog, Fido, and a [parrot]{.fragment .highlight-current-blue fragment-index=1}, Ollie. We were all [friends]{.fragment .highlight-current-red  fragment-index=1}
-until last week, when Fido [ate]{} my steak.
-But I wasn't angry for long: he, like most [**→\_\_\_\_\_←**]{}, loves meat.
-I think the light from the Moon makes [him]{.fragment .highlight-current-dp fragment-index=1} a bit of a werewolf[.]{.fragment .shrink fragment-index=2}
-
-::::{layout-ncol=4 layout-nrow=2}
-[a) dogs]{.rn rn-type=box rn-color=green rn-animate=false rn-index=4}
-
-[b) [parrot]{.fragment .highlight-current-blue   fragment-index=1   .rn rn-type=crossed-off rn-color=red rn-animate=false rn-index=2}]{}
-
-[c) [friends]{.fragment .highlight-current-red   fragment-index=1   .rn rn-type=crossed-off rn-color=orange rn-animate=false rn-index=3 }]{}
-
-[d) [him]{.fragment .highlight-current-dp fragment-index=1 .rn rn-type=crossed-off rn-color=red rn-animate=false rn-index=1}]{}
-
-[a) dogs]{.fragment fragment-index=3}
-
-[b) parrot[**s**]{.fragment .highlight-blue fragment-index=3}]{.fragment fragment-index=3}
-
-[c) friends]{.fragment fragment-index=3}
-
-[d) [**him**]{.fragment .strike fragment-index=3}]{.fragment fragment-index=3}
-::::
-:::
-
-::::{.incremental .newsmaller .notcenter}
-- Grammar limits which words are usable as options. 
-<!-- _Like most_ → noun, plural. -->
-  - "Like most X" implies X is a noun (~~him~~), a plural one (~~parrot~~).
-<!-- "Like most" implies it's a noun (~~him~~), a plural one (~~parrot~~). -->
-- Therefore it's necessary to:
-	1. **inflect** the words to fit the grammar (parrot → parrots)
-	2. remove the ones where this is impossible (_him_ will never be a plural noun;  _das Buch_ will never be feminine — but _der Lehrer_ might).
-::::
-
-
-
-::: footer
-[]{.imp}
-Theory - Two stories
-:::
-
-::: {.notes}
-:::
-
-## Example story II: "Disambiguation"{.smaller}
-<!-- How do we inflect and/or filter? -->
-
-<font color="red">TODO: use a Ukrainian example or delete</font>
-
-:::{.notcenter .column-page}
-:::: {.callout-note appearance="minimal" }
-[In meiner Tasche habe ich ein Stift und einen Schlüsselring mit Schlüssel. Ich darf den Schlüsselring nicht verlieren, sonst verliere ich auch alle meine]{.rn rn-color=black}
-**Schlüssel**.
-<!-- **→\_Schlüssel\_←** . -->
-
-
-:::::{layout-ncol=4, layout-nrow=2}
-[a) Tasche]{}
-
-[b) Stift]{}
-
-[c) Schlüsselring]{}
-
-[d) Schlüssel]{}
-
-
-[a) Tasche[**n**]{.fragment .highlight-blue fragment-index=1}]{}
-
-[b) Stift[**e**]{.fragment .highlight-blue fragment-index=1}]{}
-
-[c) Schlüsselring[**e**]{.fragment .highlight-blue fragment-index=1}]{}
-
-[d) Schlüssel-[**$\varnothing$**]{.fragment .highlight-blue fragment-index=1}]{}
-:::::
-::::
-
-::: {.notcenter}
-- Assume only the word **Schlüssel** can be analyzed. 
-- Should the options be inflected to singular or plural?
-  - Both the singular and plural of Schlüssel is _Schlüssel_!
-
-- Different words 
-<!-- — parts of speech (POS), synonyms, same lemma but different grammatical features ... —  -->
-can be indistinguishable without the context.
-- An incorrect **disambiguation** before replacement or inflection may lead to wrong sentences, where words don't **agree** with each other (_\*alle meine Stift_)[^ungram].
-<!-- It's not known if it's singular or plural. -->
-<!-- - Both the singular and plural of Schlüssel are _Schlüssel_! -->
-::: 
-
-[^ungram]: `*` denotes ungrammatical (wrong) sentences 
-
-:::
-
-::: footer
-[]{.imp}
-Theory - Two stories
-:::
-
-::: {.notes}
-:::
-
 
 ## UA-CBT – Sample{.smaller}
 
-<font color="red">TODO: add Ukrainian untranslated example </font>
 
 ![](./images/tasks/ua-cbt.png) 
 
@@ -531,6 +329,118 @@ Tasks - UA-CBT
 - **usurer** — money lender / loan-shark
 :::
 
+
+## UA-CBT — Sample (Inflection) {.smaller}
+
+<!-- "storyId": 7511, -->
+<!-- "id": 8427, -->
+<!-- "md_global_number": 507, -->
+
+::: {.callout-note appearance="minimal" }
+[...] Мисливець, не маючи можливості захищатися, був розірваний на шматки розлюченими тваринами. 
+Невдовзі [Змія]{.fragment .highlight-current-blue fragment-index=1} померла від своїх тяжких ран. Звірі поховали наставницю в пустелі, –  і на її честь були влаштовані пишні похорони.
+[Лихвар]{.fragment .highlight-current-red fragment-index=1}, почувши про історію зі смертю 
+<!-- [**→\_\_\_\_\_←**]{},  -->
+[**→\_<u>Мисливця</u>\_←**]{.fragment .highlight-current-dp fragment-index=1},
+розлютився. [...]
+
+
+::::{layout-ncol=6 layout-nrow=2}
+[a) [Лихвар]{.fragment .highlight-current-red   fragment-index=1}]{.rn rn-type=crossed-off rn-color=red rn-animate=false rn-index=1}
+
+[b) [Осел]{}]{   .rn rn-type=crossed-off rn-color=red rn-animate=false rn-index=1}
+
+[c) [Мисливця]{.fragment .highlight-current-dp fragment-index=1}]{.rn rn-type=box rn-color=green rn-animate=false rn-index=2} 
+
+[d) [Фермер]{.rn rn-type=crossed-off rn-color=red rn-animate=false rn-index=1}]{}
+
+[e) [Змія]{.fragment .highlight-current-blue fragment-index=1}]{ .rn rn-type=crossed-off rn-color=red rn-animate=false rn-index=1}
+
+[f) [Півень]{.rn rn-type=crossed-off rn-color=red rn-animate=false rn-index=1}]{}
+
+
+[a) [Лихвар[я]{.fragment .highlight-blue fragment-index=3}]{}]{.fragment fragment-index=3}
+
+[b) [Ос[ла]{.fragment .highlight-blue fragment-index=3}]{}]{.fragment fragment-index=3}
+
+[c) [Мислив[ця]{.fragment .highlight-blue fragment-index=3}]{}]{.fragment fragment-index=3} 
+
+[d) [Фермер[а]{.fragment .highlight-blue fragment-index=3}]{}]{.fragment fragment-index=3}
+
+[e) [Змі[ї]{.fragment .highlight-blue fragment-index=3}]{}]{.fragment fragment-index=3}
+
+[f) [Пів[ня]{.fragment .highlight-blue fragment-index=3}]{}]{.fragment fragment-index=3}
+::::
+:::
+
+::::{.incremental .newsmaller .notcenter}
+- Grammar limits which words are usable as options. 
+  - "... зі смертю _(кого/чого?)_" implies Genitive case (_Родовий відмінок_)
+- Therefore it's necessary to **inflect** the words to make them **agree** with the surrounding ones (_Змія_ → _Змії_).
+::::
+
+
+
+::: footer
+[]{.imp}
+Theory - Two stories
+:::
+
+::: {.notes}
+:::
+
+
+## UA-CBT — Sample (Disambiguation) {.smaller}
+
+<!-- "storyId": 7511, -->
+<!-- "id": 8427, -->
+<!-- "md_global_number": 507, -->
+
+::: {.callout-note appearance="minimal" }
+[...] [Мисливець, не маючи можливості захищатися, був розірваний на шматки розлюченими тваринами. 
+Невдовзі [Змія]{} померла від своїх тяжких ран. Звірі поховали наставницю в пустелі, –  і на її честь були влаштовані пишні похорони.
+[Лихвар]{}, почувши про історію зі смертю]{.rn rn-color=gray}
+<!-- [**→\_\_\_\_\_←**]{},  -->
+[**→\_<u>Мисливця</u>\_←**]{},
+[розлютився]{.rn rn-color=gray}. [...]
+:::
+
+::::{.newsmaller .notcenter}
+- _Мисливця^SG.ACC^_  ⩵  _Мисливця^SG.GEN^_ (_родовий_) — can't tell without context.
+  - _знайшов Мисливц[**я**]{.fragment .highlight-blue fragment-index=2} (знахідний)_
+  - _смерть Мисливц[**я**]{.fragment .highlight-blue fragment-index=2} (родовий)_
+- If you **disambiguate** this incorrectly, errors will happen if you replace it with words which aren't equal in both cases:
+  - _історія зі смертю Змі[**ї**]{.fragment .highlight-blue fragment-index=2}_
+  - _\*історія зі смертю Змі[**ю**]{.fragment .highlight-blue fragment-index=2}_
+
+::::
+
+
+
+::: footer
+[]{.imp}
+Theory - Two stories
+:::
+
+::: {.notes}
+:::
+
+## UA-CBT — Approach to disambiguation
+
+1. **pymorphy2/pymorphy3** does morphological analysis and offers $N$ different options 
+2. The option most closely matching the morphology detected by **spacy** (which uses contextual information) is selected (and later processed further).
+
+This became a separate package _pymorphy-spacy-disambiguation_[^disam] and is on Github.
+
+::: footer
+[]{.imp}
+Theory - Two stories
+:::
+
+::: {.notes}
+:::
+
+[^disam]: <https://github.com/pchr8/pymorphy-spacy-disambiguation/>
 
 
 ## UA-CBT – Stories Generation 
@@ -617,17 +527,6 @@ Tasks - UA-CBT
 Tasks - UA-CBT
 :::
 
-## UA-CBT – Templates{.smaller}
-
-![](./images/tasks/prompt.png)
-
-- Iteratively improved but no formal testing was done
-- (for **d** see prev. slide)
-
-::: footer
-Tasks - UA-CBT
-:::
-
 ## UA-CBT – Stories Generation{.smaller}
 ::: {.columns}
 ::: {.column width="30%"}
@@ -637,7 +536,7 @@ Tasks - UA-CBT
 - Part of the stories were generated with GPT-4, part with Gemini Pro
 - Gemini Pro wrote better Ukrainian, GPT-4 was better at following orders 
 - The system used the strength of both: Gemini had an additional prompt to make it longer, and all the stories were piped through it at the end for grammar and consistency
-- **English**-language prompts were used (so _a/an_ are the hardest agreement issues I encounter)
+- **English**-language prompts were used (so no agreement issues harder _than a/an animal_)
 - Half of the prompts asked for unhappy endings: this seemed to result in more creative stories
 :::
 :::
@@ -705,6 +604,20 @@ Tasks - UA-CBT
 [^numstor]: 98/142 (**69%**) when counting the ones not used for task instances (but present in ua\_cbt\_stories).
 [^hli]: not all listed, and an instance could have multiple problems
 
+# 2. LMentry-static-UA (LMES)
+
+<!-- (Ukrainian Children's Book Test) -->
+
+<!-- ::: {layout="[[-1,1,1,1,-1]]"} -->
+<!-- ![](./images/logos/l2.png){.nostretch width="200px"} -->
+
+<!-- ![](./images/logos/l1.png){.nostretch width="200px"} -->
+
+![](./images/logos/l3.png){.nostretch width="200px"}
+
+<!-- ::: -->
+
+
 
 ## LMentry-static-UA (LMES) {visibility="hidden"}
 
@@ -750,7 +663,7 @@ Tasks - LMentry-static-UA - Outline
 Different templates are used for the same task; instances have **a lot** of metadata.
 
 <!-- ```{.yaml code-line-numbers="1-25|3,9,15,21|3,6,7|9,12,13|15,18,19,21,24,25"} -->
-```{.yaml code-line-numbers="1-25|3,9,15,21"}
+```{.yaml code-line-numbers="1-25|2,3,8,9,14,15,20,21"}
 templates:
   # template: 'Яке слово перше по алфавітному порядку: "{t1}" чи "{t2}"?'
   - template: 'Which word is first in alphabetical order: "{t1}" or "{t2}"?'
@@ -798,7 +711,7 @@ Tasks - LMentry-static-UA - Robustness
 
 ::::{.notcenter}
 - LMES-LOW[^lmeslow] and LMES-WIS[^lmeswis] deal with counting words and letters.
-- LMentry had only first/last, no numbers. Adding numbers brought back Ukrainian grammar.
+- Numbers + different templates = more Ukrainian grammar.
  
 ::::
 
@@ -814,16 +727,14 @@ Tasks - LMentry-static-UA - N-in-M
 
 ## LMES – Numeral Agreement
 
-<font color="red">TODO: use a Ukrainian example or delete </font>
-
 ::::{.notcenter}
 - Two kinds of numerals:
   - "the **fifth** word" → ordinal
   - "word number **five**" → cardinal
-- Multiple cases and genders:
-  - Was ist der Buchstabe Nummer [**eins**]{.fragment .highlight-dp  fragment-index=2}^CARD^? 
-  - Was ist der [**erste**]{.fragment .highlight-dp  fragment-index=2}^ORD.M^ Buchstabe? 
-  - Was ist der Buchstabe an [**erster**]{.fragment .highlight-dp  fragment-index=2}^ORD.[**F**]{.rn rn-type=box rn-color=purple}^ Stelle? 
+- Multiple cases and genders: _Яка ..._
+  - ... літера номер [**один**]{.fragment .highlight-dp  fragment-index=2}^CARD^ в слові ..?
+  - ... [**перша**]{.fragment .highlight-dp  fragment-index=2}^F.ORD.NOM^ літера в слові ..?
+  - ... літера на [**першому**]{.fragment .highlight-dp  fragment-index=2}^N.ORD.LOC^ місці в слові ..?
 
 ::::
 
@@ -858,41 +769,12 @@ Tasks - LMentry-static-UA - N-in-M
 :::
 
 
-## LMES – Numeral Agreement
-
-::::{.notcenter}
-**Solution:** keep the capitalized numeral in the template!  
-  <!-- ("What's the **FIRST** letter in the word `{word}`?")  -->
-<!-- - When generating tasks from the template: -->
-<!--   1. Find the capitalized word in the template  -->
-<!--   2. Parse+disambiguate it as numeral  -->
-<!--   3. Inflect the target integer to match the parsed numeral -->
-::::
-
-::: {.notcenter .callout-note appearance="minimal"}
-**Template**: `What's the FIRST letter in the word '{word}'?`  
-**Numeral**: `5`  
-**Word**: `cactus`
-::::
-
-::: {.notcenter}
-1. `FIRST` → first^ORD^ → target: ordinal 
-2. `5` → five → _fifth_^ORD^
-3. ⇒ "What's the **fifth** letter in the word 'cactus'?"
-:::
-
-
-::: footer
-Tasks - LMentry-static-UA - N-in-M
-:::
-
-::: {.notes}
-:::
 
 ## LMES – Numeral Agreement
+- **Solution:** keep the numeral in the template and disambiguate!
 - For the disambiguation-inflection itself, `ukr_numbers`[^unums] was written:
 
-```{.python code-line-numbers="5-7"}
+```{.python code-line-numbers="2-7"}
 >>> from ukr_numbers import Numbers
 >>> Numbers().convert_to_auto(15, "перший")
 'пʼятнадцятий'
@@ -1005,13 +887,27 @@ Tasks - LMentry-static-UA - Baselines
 ::: {.notes}
 :::
 
+# 3. UP-Titles
+
+<!-- (Ukrainian Children's Book Test) -->
+
+<!-- ::: {layout="[[-1,1,1,1,-1]]"} -->
+<!-- ![](./images/logos/l2.png){.nostretch width="200px"} -->
+
+<!-- ![](./images/logos/l1.png){.nostretch width="200px"} -->
+
+![](./images/logos/l3.png){.nostretch width="200px"}
+
+<!-- ::: -->
+
+
 ## UP-Titles
 ::: {.notcenter}
 - Matching Ukrainska Pravda articles to their correct title (out of 10).
-- Based on my scraped[^scr] 2022-2023 articles dataset.
+- Based on our scraped[^scr] 2022-2023 articles dataset.
 - Two versions (**~5,000** in each): 
   - masked[^upmask] (replacing digits in titles and articles with "X") 
-  - unmasked[^upnomask] (built by Anna-Izabella Levbarg).
+  - unmasked[^upnomask]
 :::
 [^upmask]: <https://huggingface.co/datasets/shamotskyi/up_titles_masked>
 [^upnomask]: <https://huggingface.co/datasets/anilev6/up_titles_unmasked>
@@ -1019,19 +915,6 @@ Tasks - LMentry-static-UA - Baselines
 [^ukrp]: <https://pravda.com.ua>
 [^scr]: <https://huggingface.co/datasets/shamotskyi/ukr_pravda_2y>
 
-
-::: footer
-Tasks - UP-Titles
-:::
-
-::: {.notes}
-:::
-
-## UP-Titles
-![Ukrainska Pravda's English (<https://pravda.com.ua/eng>) Homepage, 04 May 2024](./images/tasks/up.png){.nostretch width=60%}
-
-::: {.notcenter}
-:::
 
 ::: footer
 Tasks - UP-Titles
@@ -1091,34 +974,21 @@ Tasks - UP-Titles
 ::: {.notes}
 :::
 
+# Baselines and Human Evaluation
 
-## Baselines {.smaller}
-::: {.notcenter}
-- UA-CBT (random baseline: **16.6%**)
-  <!-- - **16.6%** random baseline (6 options) -->
-  - Most frequent baseline (option most frequently found in the story): **57%**
-  - Human baseline: **94%**
+<!-- (Ukrainian Children's Book Test) -->
 
-- UP-Titles (**10%**):
-<!-- - Random baseline is **10%** -->
-  - Human baselines: 
-	- **88%** for unmasked
-	- [**84%** for masked]{.rn} (harder than unmasked)
-- LMentry-static-UA
-  <!-- - Random baselines calculated as elsewhere, $1/num\_options$  -->
-  - LMES-LOW / LMES-WIS: 
-	- variable number of options (words/letters), so average used
-	- $1/mean(num\_options)$: `[cat, magic]` → $1/\frac{3+5}{2} = 25\%$
+<!-- ::: {layout="[[-1,1,1,1,-1]]"} -->
+<!-- ![](./images/logos/l2.png){.nostretch width="200px"} -->
+
+<!-- ![](./images/logos/l1.png){.nostretch width="200px"} -->
+
+![](./images/logos/l3.png){.nostretch width="200px"}
+
+<!-- ::: -->
 
 
-:::
 
-::: footer
-Tasks - Baselines
-:::
-
-::: {.notes}
-:::
 
 ## All baselines {.smaller}
 
@@ -1145,30 +1015,21 @@ Tasks - UP-Titles
 ::: {.notes}
 :::
 
-# Annotation and Human Evaluation 
-::: {layout="[[-1,1,1,1,-1]]"}
-![](./images/logos/l2.png){.nostretch width="200px"}
-
-![](./images/logos/l1.png){.nostretch width="200px"}
-
-![](./images/logos/l3.png){.nostretch width="200px"}
-:::
-
-
-## Telegram Bot{.smaller}
+## Annotation and Human Evaluation{.smaller}
 
 ::: {.columns}
 ::: {.column width="27%"}
 ![](./images/tgbot.gif){height=100%}
 :::
 ::: {.column width="73%"}
-- Anna-Izabella Levbarg wrote a bot to make annotations easier.
-- All human baselines were done with it.
-- On the left is the human baseline of LMES CATS-MC (_which word doesn't belong..._)
-- Gamification approach with 
-  - random food being sent for each answer 
-  - At the end shows number of instances remaining
-- The bot available on GitHub[^bot].
+- Story correction and labeling was done in Label Studio
+- All human baselines were done with a **Telegram bot**.
+  - On the left is the human baseline of LMES CATS-MC (_which word doesn't belong..._)
+  - Gamification approaches with e.g.
+	- random food emoji after each answer
+	- showing the number of remaining instances
+  - The bot available on GitHub[^bot].
+- Thanks to: Serhii Hamotskyi, Oleksii K., Viacheslav Kravchenko, Daria Kravets, Anna-Izabella Levbarg, Lina Mykhailenko, Mariia Tkachenko, \@arturius453
 :::
 :::
 
@@ -1252,27 +1113,7 @@ Experiments
 ::: {.notes}
 :::
 
-## Limitations {.smaller}
-- Not being able to evaluate Gemini Pro  is the single biggest limitation of this Thesis
-  - very promising Ukrainian-language abilities
-  - better picture of contamination based on GPT-4/Gemini–generated stories
-- Few models (and model classes) evaluated, few mid-size open models
-- Evaluation didn't take into account instruction finetuning
-<!-- - The _Sherlock_ model is better than vanilla Mistral — is it because of the language or of the _other_ datasets it's been fine-tuned on?  -->
-- No formal testing of contamination
-
-:::{.notcenter}
-:::
-
-::: footer
-Experiments
-:::
-
-::: {.notes}
-- Two models with Ukrainian finetuning,
-:::
-
-# Conclusion
+# Conclusions
 <!-- and future work -->
 ::: {layout="[[-1,1,1,1,-1]]"}
 ![](./images/logos/l2.png){.nostretch width="200px"}
@@ -1284,11 +1125,18 @@ Experiments
 
 
 
-## Conclusion
-- Three tasks where created, different in their content, focus, and programming approaches.
+## Conclusions and Future Work {.smaller}
+- Three tasks where created, different in their content, focus, and programming approaches
 <!-- - (issues created by Ukrainian morphology being the only constant) -->
 <!-- - More labeled datasets _will_ be helpful for Ukrainian NLP. -->
-- The experiments using clean non-contaminated data show the potential of open models.
+- The experiments (using clean non-contaminated data) show the potential of open models (_Sherlock_ compares with GPT-3 on 4/9 tasks while using 4% of its parameters!)
+- Future work
+  - Evaluate more models (and especially Gemini Pro); use instruction finetuning
+  - Formally investigate memorization/contamination issues
+  - Use the LMES metadata to investigate 
+	  - robustness 
+	  - impact of word/sentence lengths, number of common letters, word frequencies etc.
+
 
 ::: footer
 Conclusion
@@ -1327,6 +1175,92 @@ UNCOUNTED INVISIBLE SLIDES
 UNCOUNTED INVISIBLE SLIDES
 UNCOUNTED INVISIBLE SLIDES
 -->
+
+
+## Sample tasks: UA-CBT {visibility="uncounted"}
+
+![Partial translated UA-CBT instance with the 6 options](./images/tasks/ua-cbt.png) 
+
+<!-- ::: {.callout-note appearance="minimal"} -->
+<!-- I have a dog, Fido, and a parrot, Ollie. We were all friends -->
+<!-- until last week, when Fido ate my steak. -->
+<!-- But I wasn't angry for long: after all, he's just a -->
+<!-- [**⇒ ̲_ ̲_ ̲_ ̲ ̲_ ̲⇐**]{}, I can't expect him to be moral.   -->
+<!---->
+<!-- ::::{layout-ncol=5} -->
+<!-- [a) dog]{.rn rn-type=box rn-color=green rn-animate=false rn-index=4} -->
+<!---->
+<!-- [b) animal]{.rn rn-type=circle rn-color=blue rn-index=5 rn-iterations=10 rn-animationDuration=13000} -->
+<!---->
+<!-- [c) parrot]{.rn rn-type=crossed-off rn-color=red rn-animate=false rn-index=1} -->
+<!---->
+<!-- [d) Ollie]{.rn rn-type=crossed-off rn-color=red rn-animate=false rn-index=2} -->
+<!---->
+<!-- [e) ate]{.rn rn-type=crossed-off rn-color=red rn-animate=false rn-index=3} -->
+<!-- :::: -->
+<!-- ::: -->
+<!---->
+<!-- [^like]: not translations, just examples of the _type_ of tasks included -->
+
+::: footer
+Introduction - Samples
+:::
+
+::: {.notes}
+:::
+
+## Sample tasks: LMentry-static-UA {.smaller visibility="uncounted"}
+<font color="red">TODO: actual examples and translations instead of this</font>
+
+::: {.callout-note appearance="minimal"}
+- What's the fifth letter in the word _evaluation_?
+- What's the last word in the sentence "London is the capital of Great Britain"?
+
+- Which word doesn't belong the same category as the rest: _fear, love, sadness, optimism, pizza_?
+- Do all these words belong to the same category: _hand, arm, leg, head, finger_?
+
+- Which word is longer: _democracy_ or _pasta_?
+- Which word comes first in alphabetical order: _cat_ or _cactus_?
+:::
+
+[^like]: not translations, just examples of the _type_ of tasks included
+
+::: footer
+Introduction - Samples
+:::
+
+::: {.notes}
+:::
+
+
+## Sample tasks: UP-Titles {.smaller visibility="uncounted"}
+<font color="red">TODO: actual examples and translations instead of this</font>
+
+Pick the correct title for the article: 
+
+::: {layout-ncol=2}
+:::: {.callout-note appearance="minimal"}
+A rare celestial phenomenon will be visible across North America in **X** weeks on Wednesday. 
+Dubbed the "Night of the Red Comet," this event occurs only once every **XXX** years when a comet with a distinct red hue crosses the northern sky.
+Astronomers and stargazers alike are gearing up for what is expected to be a spectacular view on Wednesday night. Cities in the comet's path are organizing viewing parties, and local observatories are extending their hours to accommodate the expected influx of enthusiasts. Experts recommend finding a dark spot away from city lights to get the best view of this extraordinary astronomical event.
+::::
+
+:::: {}
+- Once-in-**XXX**-years comet passing around North America
+- Annual Meteor Shower to Peak Wednesday Night
+- Northern Lights Expected to Dazzle Stargazers in **X** weeks
+- SuperMoon to Appear Larger and Brighter Than Usual
+::::
+
+:::
+
+
+::: footer
+Introduction - Samples
+:::
+
+::: {.notes}
+:::
 
 
 
@@ -1729,7 +1663,7 @@ I generated the stories with GPT-4 and Gemini Pro.
 - Project Gutenberg is very likely to be in LLMs' training data (contamination)
 - Downloading ebooks — licensing issues
 - OCR / whisper — spellchecking would have been hard
-- my own stories — resource-intensive
+- our own stories — resource-intensive
 :::
 <!-- What about memorization? -->
 
@@ -1789,6 +1723,36 @@ Annotation and Human Evaluation
 :::
 
 
+## LMES – Numeral Agreement {visibility="uncounted"}
+
+::::{.notcenter}
+**Solution:** keep the capitalized numeral in the template!  
+  <!-- ("What's the **FIRST** letter in the word `{word}`?")  -->
+<!-- - When generating tasks from the template: -->
+<!--   1. Find the capitalized word in the template  -->
+<!--   2. Parse+disambiguate it as numeral  -->
+<!--   3. Inflect the target integer to match the parsed numeral -->
+::::
+
+::: {.notcenter .callout-note appearance="minimal"}
+**Template**: `What's the FIRST letter in the word '{word}'?`  
+**Numeral**: `5`  
+**Word**: `cactus`
+::::
+
+::: {.notcenter}
+1. `FIRST` → first^ORD^ → target: ordinal 
+2. `5` → five → _fifth_^ORD^
+3. ⇒ "What's the **fifth** letter in the word 'cactus'?"
+:::
+
+
+::: footer
+Tasks - LMentry-static-UA - N-in-M
+:::
+
+::: {.notes}
+:::
 
 
 ## LMES — ukr\_numbers {visibility="uncounted"}
@@ -1811,6 +1775,125 @@ Tasks - LMentry-static-UA - N-in-M
 
 ::: {.notes}
 - I'll spare you the details
+:::
+
+## Example story I: "Inflection" {visibility="uncounted"}
+
+<font color="red">TODO: use a Ukrainian example or delete </font>
+
+::: {.callout-note appearance="minimal"}
+I have a dog, Fido, and a [parrot]{.fragment .highlight-current-blue fragment-index=1}, Ollie. We were all [friends]{.fragment .highlight-current-red  fragment-index=1}
+until last week, when Fido [ate]{} my steak.
+But I wasn't angry for long: he, like most [**→\_\_\_\_\_←**]{}, loves meat.
+I think the light from the Moon makes [him]{.fragment .highlight-current-dp fragment-index=1} a bit of a werewolf[.]{.fragment .shrink fragment-index=2}
+
+::::{layout-ncol=4 layout-nrow=2}
+[a) dogs]{.rn rn-type=box rn-color=green rn-animate=false rn-index=4}
+
+[b) [parrot]{.fragment .highlight-current-blue   fragment-index=1   .rn rn-type=crossed-off rn-color=red rn-animate=false rn-index=2}]{}
+
+[c) [friends]{.fragment .highlight-current-red   fragment-index=1   .rn rn-type=crossed-off rn-color=orange rn-animate=false rn-index=3 }]{}
+
+[d) [him]{.fragment .highlight-current-dp fragment-index=1 .rn rn-type=crossed-off rn-color=red rn-animate=false rn-index=1}]{}
+
+[a) dogs]{.fragment fragment-index=3}
+
+[b) parrot[**s**]{.fragment .highlight-blue fragment-index=3}]{.fragment fragment-index=3}
+
+[c) friends]{.fragment fragment-index=3}
+
+[d) [**him**]{.fragment .strike fragment-index=3}]{.fragment fragment-index=3}
+::::
+:::
+
+::::{.incremental .newsmaller .notcenter}
+- Grammar limits which words are usable as options. 
+<!-- _Like most_ → noun, plural. -->
+  - "Like most X" implies X is a noun (~~him~~), a plural one (~~parrot~~).
+<!-- "Like most" implies it's a noun (~~him~~), a plural one (~~parrot~~). -->
+- Therefore it's necessary to:
+	1. **inflect** the words to fit the grammar (parrot → parrots)
+	2. remove the ones where this is impossible (_him_ will never be a plural noun;  _das Buch_ will never be feminine — but _der Lehrer_ might).
+::::
+
+
+
+::: footer
+[]{.imp}
+Theory - Two stories
+:::
+
+::: {.notes}
+:::
+
+## Example story II: "Disambiguation"{.smaller visibility="uncounted"}
+<!-- How do we inflect and/or filter? -->
+
+<font color="red">TODO: use a Ukrainian example or delete</font>
+
+:::{.notcenter .column-page}
+:::: {.callout-note appearance="minimal" }
+[In meiner Tasche habe ich ein Stift und einen Schlüsselring mit Schlüssel. Ich darf den Schlüsselring nicht verlieren, sonst verliere ich auch alle meine]{.rn rn-color=black}
+**Schlüssel**.
+<!-- **→\_Schlüssel\_←** . -->
+
+
+:::::{layout-ncol=4, layout-nrow=2}
+[a) Tasche]{}
+
+[b) Stift]{}
+
+[c) Schlüsselring]{}
+
+[d) Schlüssel]{}
+
+
+[a) Tasche[**n**]{.fragment .highlight-blue fragment-index=1}]{}
+
+[b) Stift[**e**]{.fragment .highlight-blue fragment-index=1}]{}
+
+[c) Schlüsselring[**e**]{.fragment .highlight-blue fragment-index=1}]{}
+
+[d) Schlüssel-[**$\varnothing$**]{.fragment .highlight-blue fragment-index=1}]{}
+:::::
+::::
+
+::: {.notcenter}
+- Assume only the word **Schlüssel** can be analyzed. 
+- Should the options be inflected to singular or plural?
+  - Both the singular and plural of Schlüssel is _Schlüssel_!
+
+- Different words 
+<!-- — parts of speech (POS), synonyms, same lemma but different grammatical features ... —  -->
+can be indistinguishable without the context.
+- An incorrect **disambiguation** before replacement or inflection may lead to wrong sentences, where words don't **agree** with each other (_\*alle meine Stift_)[^ungram].
+<!-- It's not known if it's singular or plural. -->
+<!-- - Both the singular and plural of Schlüssel are _Schlüssel_! -->
+::: 
+
+[^ungram]: `*` denotes ungrammatical (wrong) sentences 
+
+:::
+
+::: footer
+[]{.imp}
+Theory - Two stories
+:::
+
+::: {.notes}
+:::
+
+
+
+## UA-CBT – Templates{.smaller visibility="uncounted"}
+
+![](./images/tasks/prompt.png)
+
+- Iteratively improved but no formal testing was done
+- (for **d** see prev. slide)
+
+::: footer
+Tasks - UA-CBT
 :::
 
 
@@ -1856,6 +1939,34 @@ is based on cosine distance between binary vectors from article tags
 
 ::: footer
 Tasks - UP-Titles
+:::
+
+::: {.notes}
+:::
+
+## Baselines {.smaller visibility="uncounted"}
+::: {.notcenter}
+- UA-CBT (random baseline: **16.6%**)
+  <!-- - **16.6%** random baseline (6 options) -->
+  - Most frequent baseline (option most frequently found in the story): **57%**
+  - Human baseline: **94%**
+
+- UP-Titles (**10%**):
+<!-- - Random baseline is **10%** -->
+  - Human baselines: 
+	- **88%** for unmasked
+	- [**84%** for masked]{.rn} (harder than unmasked)
+- LMentry-static-UA
+  <!-- - Random baselines calculated as elsewhere, $1/num\_options$  -->
+  - LMES-LOW / LMES-WIS: 
+	- variable number of options (words/letters), so average used
+	- $1/mean(num\_options)$: `[cat, magic]` → $1/\frac{3+5}{2} = 25\%$
+
+
+:::
+
+::: footer
+Tasks - Baselines
 :::
 
 ::: {.notes}
@@ -1928,6 +2039,27 @@ Annotation and Human Evaluation
 
 ::: {.notes}
 :::
+
+## Limitations {.smaller visibility="uncounted"}
+- Not being able to evaluate Gemini Pro  is the single biggest limitation of this Thesis
+  - very promising Ukrainian-language abilities
+  - better picture of contamination based on GPT-4/Gemini–generated stories
+- Few models (and model classes) evaluated, few mid-size open models
+- Evaluation didn't take into account instruction finetuning
+<!-- - The _Sherlock_ model is better than vanilla Mistral — is it because of the language or of the _other_ datasets it's been fine-tuned on?  -->
+- No formal testing of contamination
+
+:::{.notcenter}
+:::
+
+::: footer
+Experiments
+:::
+
+::: {.notes}
+- Two models with Ukrainian finetuning,
+:::
+
 
 # Test slide {.smaller visibility="uncounted"}
 But I wasn't angry for long: after all, [he's]{.rn rn-type=box rn-color=purple} just
