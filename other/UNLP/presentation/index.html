@@ -634,7 +634,7 @@ Fig.&nbsp;1: Ukrainian (<font color="red"><strong>red</strong></font>) as “lan
 <section class="slide level2">
 <h2>Eval-UA-tion Essentials</h2>
 <div class="notcenter">
-<p><strong>Eval-UA-tion</strong> is a set of 3 benchmark tasks (9 datasets, each with 1,000+ instances) for evaluating Large Language Models (LLMs). <!-- All except UP-Titles use material unlikely to be in LLMs' training sets.  --></p>
+<p><strong>Eval-UA-tion</strong> is a set of 3 benchmark tasks (9 benchmark datasets, 1,000+ instances each) for evaluating Large Language Models (LLMs). <!-- All except UP-Titles use material unlikely to be in LLMs' training sets.  --></p>
 </div>
 <div class="cell" data-reveal="true" data-layout-align="default">
 <div class="cell-output-display">
@@ -659,6 +659,9 @@ Fig.&nbsp;1: Ukrainian (<font color="red"><strong>red</strong></font>) as “lan
 <p></p></figure><p></p>
 </div>
 </div>
+</div>
+<div class="newsmaller">
+<p>Details and code on GitHub: <a href="https://github.com/pchr8/eval-UA-tion" class="uri">https://github.com/pchr8/eval-UA-tion</a></p>
 </div>
 <div class="footer">
 <p>Tasks - Eval-UA-tion overview</p>
@@ -722,7 +725,7 @@ Fig.&nbsp;1: Ukrainian (<font color="red"><strong>red</strong></font>) as “lan
 <div class="callout-body">
 <div class="callout-content">
 <p>[…] Мисливець, не маючи можливості захищатися, був розірваний на шматки розлюченими тваринами. Невдовзі <span class="fragment highlight-current-blue" data-fragment-index="1">Змія</span> померла від своїх тяжких ран. Звірі поховали наставницю в пустелі, – і на її честь були влаштовані пишні похорони. <span class="fragment highlight-current-red" data-fragment-index="1">Лихвар</span>, почувши про історію зі смертю <!-- [**→\_\_\_\_\_←**]{},  --> <span class="fragment highlight-current-dp" data-fragment-index="1"><strong>→_<u>Мисливця</u>_←</strong></span>, розлютився. […]</p>
-<div class="quarto-layout-panel" data-layout-nrow="2" data-layout-ncol="6">
+<div class="quarto-layout-panel" data-layout-ncol="6" data-layout-nrow="2">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 16.7%;justify-content: flex-start;">
 <p><span class="rn" data-rn-type="crossed-off" data-rn-color="red" data-rn-animate="false" data-rn-index="1">a) <span class="fragment highlight-current-red" data-fragment-index="1">Лихвар</span></span></p>
@@ -777,7 +780,7 @@ Fig.&nbsp;1: Ukrainian (<font color="red"><strong>red</strong></font>) as “lan
 </ul>
 </div>
 <div class="footer">
-<p><span class="imp"></span> Theory - Two stories</p>
+<p><span class="imp"></span> Tasks - UA-CBT</p>
 </div>
 <aside class="notes">
 
@@ -812,15 +815,23 @@ Fig.&nbsp;1: Ukrainian (<font color="red"><strong>red</strong></font>) as “lan
 <li><em>знайшов Мисливц<span class="fragment highlight-blue" data-fragment-index="2"><strong>я</strong></span> (знахідний)</em></li>
 <li><em>смерть Мисливц<span class="fragment highlight-blue" data-fragment-index="2"><strong>я</strong></span> (родовий)</em></li>
 </ul></li>
-<li>If you <strong>disambiguate</strong> this incorrectly, errors will happen if you replace it with words which aren’t equal in both cases:
-<ul>
-<li><em>історія зі смертю Змі<span class="fragment highlight-blue" data-fragment-index="2"><strong>ї</strong></span></em></li>
-<li><em>*історія зі смертю Змі<span class="fragment highlight-blue" data-fragment-index="2"><strong>ю</strong></span></em></li>
-</ul></li>
+<li>If you <strong>disambiguate</strong> this incorrectly, errors will happen if you replace it with words which aren’t equal in both cases:</li>
 </ul>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><em>знайшов Змі<span class="fragment highlight-blue" data-fragment-index="2"><strong>ю</strong></span></em><br>
+<em>смерть Змі<span class="fragment highlight-blue" data-fragment-index="2"><strong>ї</strong></span></em></p>
+</div><div class="column" style="width:20%;">
+<!-- ⇒ -->
+</div><div class="column" style="width:40%;">
+<p><em>історія зі смертю Змі<span class="fragment highlight-red" data-fragment-index="2"><strong>ї</strong></span></em><br>
+<em>*історія зі смертю Змі<span class="fragment highlight-red" data-fragment-index="2"><strong>ю</strong></span></em></p>
 </div>
+</div>
+</div>
+<p>(Not just case, but lemma and even part of speech: <em>корів, три, …</em>)</p>
 <div class="footer">
-<p><span class="imp"></span> Theory - Two stories</p>
+<p><span class="imp"></span> Tasks - UA-CBT</p>
 </div>
 <aside class="notes">
 
@@ -1340,6 +1351,7 @@ Fig.&nbsp;1: Ukrainian (<font color="red"><strong>red</strong></font>) as “lan
 <section>
 <section class="title-slide slide level1 center">
 <h1>3. UP-Titles</h1>
+<p>(Ukrainska Pravda–Titles)</p>
 <!-- (Ukrainian Children's Book Test) -->
 <!-- ::: {layout="[[-1,1,1,1,-1]]"} -->
 <!-- ![](./images/logos/l2.png){.nostretch width="200px"} -->
@@ -1586,7 +1598,7 @@ Fig.&nbsp;1: Ukrainian (<font color="red"><strong>red</strong></font>) as “lan
 </ul></li>
 <li>The bot available on GitHub<sup>1</sup>.</li>
 </ul></li>
-<li>Thanks to: Serhii Hamotskyi, Oleksii K., Viacheslav Kravchenko, Daria Kravets, Anna-Izabella Levbarg, Lina Mykhailenko, Mariia Tkachenko, @arturius453</li>
+<li>Thanks to: Oleksii K., Viacheslav Kravchenko, Daria Kravets, Lina Mykhailenko, Mariia Tkachenko, @arturius453</li>
 </ul>
 </div>
 </div>
@@ -1732,7 +1744,7 @@ Fig.&nbsp;1: Ukrainian (<font color="red"><strong>red</strong></font>) as “lan
 </div>
 </div>
 </section>
-<section class="slide level2 smaller">
+<section class="slide level2">
 <h2>Conclusions and Future Work</h2>
 <ul>
 <li>Three tasks where created, different in their content, focus, and programming approaches <!-- - (issues created by Ukrainian morphology being the only constant) --> <!-- - More labeled datasets _will_ be helpful for Ukrainian NLP. --></li>
@@ -1740,12 +1752,7 @@ Fig.&nbsp;1: Ukrainian (<font color="red"><strong>red</strong></font>) as “lan
 <li>Future work
 <ul>
 <li>Evaluate more models (and especially Gemini Pro); use instruction finetuning</li>
-<li>Formally investigate memorization/contamination issues</li>
-<li>Use the LMES metadata to investigate
-<ul>
-<li>robustness</li>
-<li>impact of word/sentence lengths, number of common letters, word frequencies etc.</li>
-</ul></li>
+<li>Formally investigate memorization/contamination issues <!-- - Use the LMES metadata to investigate  --> <!--  - robustness  --> <!--  - impact of word/sentence lengths, number of common letters, word frequencies etc. --></li>
 </ul></li>
 </ul>
 <div class="footer">
@@ -1784,9 +1791,10 @@ Fig.&nbsp;1: Ukrainian (<font color="red"><strong>red</strong></font>) as “lan
 <div class="csl-left-margin">5. </div><div class="csl-right-inline">Kreutzer J, Caswell I, Wang L, et al (2022) Quality at a glance: <span>An</span> audit of web-crawled multilingual datasets. Transactions of the Association for Computational Linguistics 10:50–72. <a href="https://doi.org/10.1162/tacl_a_00447">https://doi.org/10.1162/tacl_a_00447</a></div>
 </div>
 </div>
+<!-- # Thank you! <br> Any questions? {.smaller} -->
 </section></section>
 <section class="title-slide slide level1 smaller center">
-<h1>Thank you! <br> Any questions?</h1>
+<h1>Thank you!</h1>
 
 </section>
 
@@ -2598,7 +2606,7 @@ def _make_agree_with_number(parse: Parse, n: int) -> Parse:
 <div class="callout-body">
 <div class="callout-content">
 <p>I have a dog, Fido, and a <span class="fragment highlight-current-blue" data-fragment-index="1">parrot</span>, Ollie. We were all <span class="fragment highlight-current-red" data-fragment-index="1">friends</span> until last week, when Fido <span>ate</span> my steak. But I wasn’t angry for long: he, like most <span><strong>→_____←</strong></span>, loves meat. I think the light from the Moon makes <span class="fragment highlight-current-dp" data-fragment-index="1">him</span> a bit of a werewolf<span class="fragment shrink" data-fragment-index="2">.</span></p>
-<div class="quarto-layout-panel" data-layout-nrow="2" data-layout-ncol="4">
+<div class="quarto-layout-panel" data-layout-ncol="4" data-layout-nrow="2">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: flex-start;">
 <p><span class="rn" data-rn-type="box" data-rn-color="green" data-rn-animate="false" data-rn-index="4">a) dogs</span></p>
@@ -2670,7 +2678,7 @@ def _make_agree_with_number(parse: Parse, n: int) -> Parse:
 <div class="callout-body">
 <div class="callout-content">
 <p><span class="rn" data-rn-color="black">In meiner Tasche habe ich ein Stift und einen Schlüsselring mit Schlüssel. Ich darf den Schlüsselring nicht verlieren, sonst verliere ich auch alle meine</span> <strong>Schlüssel</strong>. <!-- **→\_Schlüssel\_←** . --></p>
-<div class="quarto-layout-panel" data-layout-nrow="2" data-layout-ncol="4,">
+<div class="quarto-layout-panel" data-layout-ncol="4," data-layout-nrow="2">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: flex-start;">
 <p><span>a) Tasche</span></p>

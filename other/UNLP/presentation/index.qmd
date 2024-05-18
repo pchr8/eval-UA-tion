@@ -261,7 +261,7 @@ It can be transformed into _використовуватимуться_<sup>use-
 
 ## Eval-UA-tion Essentials
 ::: {.notcenter}
-**Eval-UA-tion** is a set of 3 benchmark tasks (9 datasets, each with 1,000+ instances) for evaluating Large Language Models (LLMs).
+**Eval-UA-tion** is a set of 3 benchmark tasks (9 benchmark datasets, 1,000+ instances each) for evaluating Large Language Models (LLMs). 
 <!-- All except UP-Titles use material unlikely to be in LLMs' training sets.  -->
 
 :::
@@ -280,6 +280,10 @@ mindmap
       masked
       unmasked
 ```
+
+::: {.newsmaller}
+Details and code on GitHub: <https://github.com/pchr8/eval-UA-tion>
+:::
 
 ::: footer
 Tasks - Eval-UA-tion overview
@@ -383,7 +387,7 @@ Tasks - UA-CBT
 
 ::: footer
 []{.imp}
-Theory - Two stories
+Tasks - UA-CBT
 :::
 
 ::: {.notes}
@@ -410,16 +414,34 @@ Theory - Two stories
   - _знайшов Мисливц[**я**]{.fragment .highlight-blue fragment-index=2} (знахідний)_
   - _смерть Мисливц[**я**]{.fragment .highlight-blue fragment-index=2} (родовий)_
 - If you **disambiguate** this incorrectly, errors will happen if you replace it with words which aren't equal in both cases:
-  - _історія зі смертю Змі[**ї**]{.fragment .highlight-blue fragment-index=2}_
-  - _\*історія зі смертю Змі[**ю**]{.fragment .highlight-blue fragment-index=2}_
+
+::: {.columns}
+::: {.column width="40%"}
+
+ _знайшов Змі[**ю**]{.fragment .highlight-blue fragment-index=2}_  
+ _смерть Змі[**ї**]{.fragment .highlight-blue fragment-index=2}_  
+:::
+::: {.column width="20%"}
+
+<!-- ⇒ -->
+:::
+
+::: {.column width="40%"}
+ _історія зі смертю Змі[**ї**]{.fragment .highlight-red fragment-index=2}_  
+ _\*історія зі смертю Змі[**ю**]{.fragment .highlight-red fragment-index=2}_
+:::
+
+:::
 
 ::::
+
+(Not just case, but lemma and even part of speech: _корів, три, ..._)
 
 
 
 ::: footer
 []{.imp}
-Theory - Two stories
+Tasks - UA-CBT
 :::
 
 ::: {.notes}
@@ -889,6 +911,8 @@ Tasks - LMentry-static-UA - Baselines
 
 # 3. UP-Titles
 
+(Ukrainska Pravda–Titles)
+
 <!-- (Ukrainian Children's Book Test) -->
 
 <!-- ::: {layout="[[-1,1,1,1,-1]]"} -->
@@ -1029,7 +1053,7 @@ Tasks - UP-Titles
 	- random food emoji after each answer
 	- showing the number of remaining instances
   - The bot available on GitHub[^bot].
-- Thanks to: Serhii Hamotskyi, Oleksii K., Viacheslav Kravchenko, Daria Kravets, Anna-Izabella Levbarg, Lina Mykhailenko, Mariia Tkachenko, \@arturius453
+- Thanks to: Oleksii K., Viacheslav Kravchenko, Daria Kravets, Lina Mykhailenko, Mariia Tkachenko, \@arturius453
 :::
 :::
 
@@ -1125,7 +1149,7 @@ Experiments
 
 
 
-## Conclusions and Future Work {.smaller}
+## Conclusions and Future Work 
 - Three tasks where created, different in their content, focus, and programming approaches
 <!-- - (issues created by Ukrainian morphology being the only constant) -->
 <!-- - More labeled datasets _will_ be helpful for Ukrainian NLP. -->
@@ -1133,9 +1157,9 @@ Experiments
 - Future work
   - Evaluate more models (and especially Gemini Pro); use instruction finetuning
   - Formally investigate memorization/contamination issues
-  - Use the LMES metadata to investigate 
-	  - robustness 
-	  - impact of word/sentence lengths, number of common letters, word frequencies etc.
+  <!-- - Use the LMES metadata to investigate  -->
+	 <!--  - robustness  -->
+	 <!--  - impact of word/sentence lengths, number of common letters, word frequencies etc. -->
 
 
 ::: footer
@@ -1152,7 +1176,8 @@ Conclusion
 :::
 
 
-# Thank you! <br> Any questions? {.smaller}
+<!-- # Thank you! <br> Any questions? {.smaller} -->
+# Thank you! {.smaller}
 
 
 # {visibility="uncounted"}
