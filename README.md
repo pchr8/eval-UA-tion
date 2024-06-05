@@ -31,7 +31,7 @@ It was initially my Master's Thesis (see [/other/MA](/other/MA)) and was accepte
 
 ## Thanks and acknowledgements
 These awesome people helped proofread the stories, annotate the datasets and establish human baselines (in alphabetical order):
-- Serhii Hamotskyi
+<!-- - Serhii Hamotskyi -->
 - Oleksii K.
 - Viacheslav Kravchenko
 - Daria Kravets
