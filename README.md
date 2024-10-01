@@ -41,6 +41,32 @@ These awesome people helped proofread the stories, annotate the datasets and est
 - Mariia Tkachenko
 - @arturius453
 
+Special thanks to Anna-Izabella Levbarg ([anilev6](https://github.com/anilev6)), who wrote the [anilev6/HumanResponseBot](https://github.com/anilev6/HumanResponseBot) Telegram bot used for all human baselines and basically made them happen. 
 
-Anna-Izabella Levbarg wrote the [anilev6/HumanResponseBot](https://github.com/anilev6/HumanResponseBot) Telegram bot used for all human baselines. 
+
+## Citing
+ACL Anthology: [Eval-UA-tion 1.0: Benchmark for Evaluating Ukrainian (Large) Language Models - ACL Anthology](https://aclanthology.org/2024.unlp-1.13/)
+
+```bib
+@inproceedings{hamotskyi-etal-2024-eval,
+    title = "Eval-{UA}-tion 1.0: Benchmark for Evaluating {U}krainian (Large) Language Models",
+    author = {Hamotskyi, Serhii  and
+      Levbarg, Anna-Izabella  and
+      H{\"a}nig, Christian},
+    editor = "Romanyshyn, Mariana  and
+      Romanyshyn, Nataliia  and
+      Hlybovets, Andrii  and
+      Ignatenko, Oleksii",
+    booktitle = "Proceedings of the Third Ukrainian Natural Language Processing Workshop (UNLP) @ LREC-COLING 2024",
+    month = may,
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.unlp-1.13",
+    pages = "109--119",
+    abstract = "In this paper, we introduce Eval-UA-tion, a set of novel Ukrainian-language datasets aimed at evaluating the performance of language models on the Ukrainian language. The tasks include UA-CBT (inspired by the Children{'}s Book Test, a fill-in-the-gaps type task aimed at gauging the extent to which a story narrative is understood), UP-Titles (where the online newspaper \textit{Ukrainska Pravda}{`}s articles have to be matched to the correct title among 10 similar ones), and LMentry-static-UA/LMES (inspired by the LMentry benchmark, a set of tasks simple to solve for humans but hard for LMs, such as {`}which of these words is longer{'} and {`}what is the fifth word of this sentence{'}). With the exception of UP-Titles, the tasks are built in a way to minimize contamination and use material unlikely to be present in the training sets of language models, and include a split for few-shot model prompting use that minimizes contamination. For each task human and random baselines are provided.",
+}
+```
+
+
 
