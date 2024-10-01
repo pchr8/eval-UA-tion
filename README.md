@@ -17,7 +17,7 @@ It was initially my Master's Thesis (see [/other/MA](/other/MA)) and was accepte
 - Benchmark for evaluating LLMs in the Ukrainian language
 - 3 novel tasks (9 datasets in total).
 - All with human baselines, most contamination-safe (for now...) 
-- See presentation (<https://serhii.net/F/MA/presentation/#/3/1>) for more.
+- See presentation (<https://serhii.net/F/MA/presentation/#/3/1> / </other/MA/presentation>) for more.
 - **TODO** UNLP video and presentation will be added here when completed.
 
 ## This repository 
